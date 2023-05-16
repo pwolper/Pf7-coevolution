@@ -3,7 +3,7 @@
 
 * Tasks
 - [-] Initialize PF-coevolution as a Git-repository
-- [ ] Download vcf data Plasmodium
+- [-] Download vcf data Plasmodium
 - [ ] Set up ein for reading Kevins Jupyter notebook.
 
 * HbS-associated variants in /P. falciparum/
