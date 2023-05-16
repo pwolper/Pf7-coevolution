@@ -2,13 +2,13 @@
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 
 * Tasks
-- [-] Initialize PF-coevolution as a Git-repository
-- [-] Download vcf data Plasmodium
-- [ ] Set up ein for reading Kevins Jupyter notebook.
+- [ ] Filter SNPs to vcf for further analysis
+- [ ] Continue with binary vcfs? Need to index first?
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al:
 - three loci (2 on, chromosome 2 and one on 1)
+
 * Reading list
 ** Plasmodium Genomics
 - Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
@@ -24,7 +24,7 @@ Described in Band et al:
 
 * Links
 ** PopGen CLuster - p.wolper home
-[[/ssh:p.wolper@10.152.154.1:~/]]
+[[/sshx:p.wolper@10.152.154.1:~/]]
 
 ** Kevin Korfmann Kenya Workshop GitHub
 https://kevinkorfmann.github.io/workshop-kenya/session_1.html
