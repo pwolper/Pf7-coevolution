@@ -1,0 +1,10 @@
+## Ignore files
+
+# Large datafiles
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+
+# caches
+*.log
+tmp/

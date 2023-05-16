@@ -1,0 +1,34 @@
+#+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
+#+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
+
+* Tasks
+- [ ] Initialize PF-coevolution as a Git-repository
+- [ ] Download vcf data Plasmodium
+- [ ] Set up ein for reading Kevins Jupyter notebook.
+
+* HbS-associated variants in /P. falciparum/
+Described in Band et al:
+- three loci (2 on, chromosome 2 and one on 1)
+* Reading list
+** Plasmodium Genomics
+- Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
+
+** Human-parasite interactions
+- Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
+- Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory ([[cite:&raberg-2023-human-pathog]])
+
+** Coevolution Theory
+- Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology ([[cite:&brown-2011-plant-paras-coevol]])
+- Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics ([[cite:&tellier-2021-theor-host]])
+- Maerkle, 2021: Genomic approaches to study antagonistic coevolution in host and parasites ([[cite:&maerkle-2021-novel-genom]])
+
+* Links
+** PopGen CLuster - p.wolper home
+[[/ssh:p.wolper@10.152.154.1:~/]]
+
+** Kevin Korfmann Kenya Workshop GitHub
+https://kevinkorfmann.github.io/workshop-kenya/session_1.html
+
+
+* Troubleshooting
+https://emacs.stackexchange.com/questions/7673/how-do-i-make-trampeshell-use-my-environment-customized-in-the-remote-bash-p/7685#7685
