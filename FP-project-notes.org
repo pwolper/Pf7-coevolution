@@ -1,13 +1,26 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
+#+STARTUP: showstars
 
 * Tasks
 - [ ] Filter SNPs to vcf for further analysis
-- [ ] Continue with binary vcfs? Need to index first?
+- [ ] Choose multiple populations for the analysis
+- [ ] Calculate TajD for regions and genome.
+
+* SNP filtering with bcf tools.
+#+begin_src bash
+bcftools view \
+    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && QVSLOD>0.6 '\
+    --output-type z\
+    --output-file  Pf3D7_02_v3.SNP.vcf \
+    Pf3D7_02_v3.pf7.vcf.gz
+
+bcftools index -t Pf3D7_02_v3.SNP.vcf
+#+end_src
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al:
-- three loci (2 on, chromosome 2 and one on 1)
+- three loci (2 on, chromosome 2 and one on 11)
 
 * Reading list
 ** Plasmodium Genomics
