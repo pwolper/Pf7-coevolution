@@ -13,6 +13,8 @@
 # IMPORTANT! memory request is multiplied by the number of requested CPU cores specified with the -pe.
 # Thus, you should divide the overall memory consumption of your job by the number of parallel threads.
 
+#$-j yes
+
 #$-q praktikum
 #$-N vcf-snp-stats
 
@@ -24,7 +26,7 @@ output=$HOME/FP-coevolution/output
 echo STARTED on $(date)
 
 ## bcftools
-bcftools stats $vcf_dir/Pf3D7_02_v3.SNP.vcf.gz > $output/Pf3D7_02_v3.SNP.stats
+bcftools stats $vcf_dir/Pf3D7_02_v3.qSNP.vcf.gz > $output/vcf.stats/Pf3D7_02_v3.qSNP.stats
 
 echo FINISHED writing output file on $(date)
 
