@@ -5,6 +5,7 @@
 * Tasks
 - [ ] Filter SNPs to vcf for further analysis
 - [ ] Choose multiple populations for the analysis
+- [X] set up R environment for conda and use with emacs
 - [ ] Calculate TajD for regions and genome.
 
 * SNP filtering with bcf tools.
