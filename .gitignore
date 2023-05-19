@@ -4,7 +4,9 @@
 *.vcf
 *.vcf.gz
 *.vcf.gz.tbi
+*.gff
 
 # caches
 *.log
 tmp/
+*.R_history
