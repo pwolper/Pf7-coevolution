@@ -8,7 +8,17 @@
 - [X] set up R environment for conda and use with emacs
 - [ ] Calculate TajD for regions and genome.
 
-* SNP filtering with bcf tools.
+* HbS-associated variants in /P. falciparum/
+Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
+
+- The chr2: *631,190 T>A variant*, which lies in PfACS8, was associated with HbS
+- the chr2: *814,288 C>T variant*, which lies in Pf3D7_0220300,
+- the chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
+
+*Do these loci show signs of balancing selection indicating coevolution with the host?*
+
+* Code examples
+** SNP filtering with bcf tools.
 #+begin_src bash
 bcftools view \
     --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && QVSLOD>0.6 '\
@@ -19,13 +29,10 @@ bcftools view \
 bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
-* HbS-associated variants in /P. falciparum/
-Described in Band et al:
-- three loci (2 on, chromosome 2 and one on 11)
-
 * Reading list
 ** Plasmodium Genomics
 - Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
+- [[cite:&amambua-ngwa-2019-major-subpop]]
 
 ** Human-parasite interactions
 - Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
