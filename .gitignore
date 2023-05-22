@@ -9,4 +9,5 @@
 # caches
 *.log
 tmp/
-*.R_history
+*.Rhistory
+*.RData
