@@ -1,0 +1,281 @@
+STARTED on Sun 21 May 2023 08:05:18 PM CEST
+Loading required package: ff
+Loading required package: bit
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Attaching package ff
+- getOption("fftempdir")=="/localscratch/tmp/141643.1.all.q/RtmpICoRwb/ff"
+
+- getOption("ffextension")=="ff"
+
+- getOption("ffdrop")==TRUE
+
+- getOption("fffinonexit")==TRUE
+
+- getOption("ffpagesize")==65536
+
+- getOption("ffcaching")=="mmnoflush"  -- consider "ffeachflush" if your system stalls on large writes
+
+- getOption("ffbatchbytes")==16777216 -- consider a different value for tuning your system
+
+- getOption("ffmaxbytes")==536870912 -- consider a different value for tuning your system
+
+
+Attaching package: ‘ff’
+
+The following objects are masked from ‘package:utils’:
+
+    write.csv, write.csv2
+
+The following objects are masked from ‘package:base’:
+
+    is.factor, is.ordered
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+✖ dplyr::symdiff() masks bit::symdiff()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: here
+here() starts at /data/home/students/p.wolper/FP-coevolution
+'data.frame':	515 obs. of  2 variables:
+ $ id     : chr  "PC0167-C" "PC0169-C" "PC0170-C" "PC0172-C" ...
+ $ Country: chr  "Kenya" "Kenya" "Kenya" "Kenya" ...
+
+GFF information ...
+vcff::open : file opened, contains 20864 samples
+[1] "Available ContigIdentifiers (parameter tid):"
+[1] "Pf3D7_02_v3"
+|            :            |            :            | 100 %
+|====================================================
+
+Concatenate regions 
+|            :            |            :            | 100 %
+|====================================================
+                 n.sites n.biallelic.sites n.gaps n.unknowns n.valid.sites
+500000 - 1000000  500001               353      0      36367             0
+                 n.polyallelic.sites trans.transv.ratio
+500000 - 1000000                   0                NaN
+|            :            |            :            | 100 %
+|====================================================|            :            |            :            | 100 %
+|====================================================                  Tajima.D n.segregating.sites Rozas.R_2   Fu.Li.F   Fu.Li.D
+500000 - 1000000 -2.749604                 195        NA -7.086107 -9.680085
+                 Fu.F_S Fay.Wu.H Zeng.E Strobeck.S
+500000 - 1000000     NA      NaN    NaN         NA
+|            :            |            :            | 100 %
+|====================================|            :            |            :            | 100 %
+|====================================             pop 1       pop 2
+  [1,] -1.14716849         NaN
+  [2,] -0.81869280         NaN
+  [3,]          NA          NA
+  [4,]          NA          NA
+  [5,]          NA          NA
+  [6,]          NA          NA
+  [7,]          NA          NA
+  [8,]          NA          NA
+  [9,]          NA          NA
+ [10,]          NA          NA
+ [11,]          NA          NA
+ [12,]         NaN -1.07873259
+ [13,] -1.16505167 -1.43774527
+ [14,] -1.66200859 -1.43774527
+ [15,] -1.66200859 -1.43774527
+ [16,] -1.66200859 -1.07873259
+ [17,] -1.38092390         NaN
+ [18,] -1.22988551 -1.07873259
+ [19,] -1.64336362 -1.43774527
+ [20,] -1.64336362 -1.43774527
+ [21,] -1.81154721 -1.43774527
+ [22,] -1.75384848 -1.07873259
+ [23,] -1.38092390         NaN
+ [24,] -1.38092390         NaN
+ [25,] -0.84504130         NaN
+ [26,]         NaN         NaN
+ [27,]          NA          NA
+ [28,]          NA          NA
+ [29,]          NA          NA
+ [30,]          NA          NA
+ [31,]          NA          NA
+ [32,] -0.87150769         NaN
+ [33,] -0.87150769         NaN
+ [34,] -0.87150769         NaN
+ [35,] -0.87150769         NaN
+ [36,]          NA          NA
+ [37,]          NA          NA
+ [38,] -1.36680208         NaN
+ [39,] -1.36680208         NaN
+ [40,] -1.36680208         NaN
+ [41,] -1.50796344         NaN
+ [42,] -0.81869280         NaN
+ [43,] -0.81869280         NaN
+ [44,] -1.14716849         NaN
+ [45,] -0.87150769         NaN
+ [46,] -0.87150769         NaN
+ [47,] -1.16505167 -1.07873259
+ [48,] -0.84504130 -1.07873259
+ [49,] -0.84504130 -1.07873259
+ [50,] -0.84504130 -1.07873259
+ [51,]         NaN         NaN
+ [52,] -1.32506565         NaN
+ [53,] -1.32506565         NaN
+ [54,] -1.49662996         NaN
+ [55,] -1.49662996         NaN
+ [56,] -0.87150769         NaN
+ [57,] -0.87150769         NaN
+ [58,]          NA          NA
+ [59,]          NA          NA
+ [60,]          NA          NA
+ [61,]          NA          NA
+ [62,]          NA          NA
+ [63,]          NA          NA
+ [64,]          NA          NA
+ [65,] -1.95430765 -1.66998456
+ [66,] -2.29760862 -2.01127787
+ [67,] -2.44059261 -2.17721302
+ [68,] -2.41646049 -2.24109228
+ [69,] -2.40150603 -2.10181172
+ [70,] -2.43788409 -2.10181172
+ [71,] -2.47075634 -2.01127787
+ [72,] -2.50359519 -1.90019056
+ [73,] -2.44277879 -1.75988904
+ [74,] -2.18680786 -1.07873259
+ [75,] -1.35274316         NaN
+ [76,] -1.16505167         NaN
+ [77,]          NA          NA
+ [78,]         NaN         NaN
+ [79,] -1.18301488         NaN
+ [80,] -1.39504572         NaN
+ [81,] -1.39504572         NaN
+ [82,] -2.09353558 -1.66998456
+ [83,] -2.14042899 -1.83812044
+ [84,] -2.21556784 -1.83812044
+ [85,] -2.30224562 -1.96716960
+ [86,] -2.18713337 -1.96716960
+ [87,] -2.05984810 -1.83812044
+ [88,] -1.88818697 -1.83812044
+ [89,] -1.58189781 -1.66998456
+ [90,]          NA          NA
+ [91,]          NA          NA
+ [92,]          NA          NA
+ [93,]          NA          NA
+ [94,] -1.64166227 -1.43774527
+ [95,] -2.39853192 -1.96716960
+ [96,] -2.46290708 -2.15420259
+ [97,] -2.46290708 -2.15420259
+ [98,] -2.38480871 -1.96716960
+ [99,] -1.85864929 -1.43774527
+[100,] -2.08124524         NaN
+[101,] -2.08124524         NaN
+[102,] -2.16991400         NaN
+[103,] -2.17105264         NaN
+[104,] -1.75392094         NaN
+[105,] -1.75392094         NaN
+[106,] -1.46136731         NaN
+[107,]          NA          NA
+[108,]          NA          NA
+[109,]          NA          NA
+[110,]          NA          NA
+[111,]          NA          NA
+[112,]          NA          NA
+[113,]          NA          NA
+[114,]          NA          NA
+[115,]          NA          NA
+[116,]          NA          NA
+[117,]          NA          NA
+[118,]          NA          NA
+[119,]          NA          NA
+[120,]          NA          NA
+[121,]          NA          NA
+[122,]          NA          NA
+[123,] -1.70702903 -0.02315195
+[124,] -1.78707509 -0.02315195
+[125,] -1.85718254 -0.02315195
+[126,] -2.18880522 -0.41325582
+[127,] -2.20511738 -1.07873259
+[128,] -2.16944647 -1.07873259
+[129,] -2.13024221 -1.07873259
+[130,] -1.54333127         NaN
+[131,]          NA          NA
+[132,]  0.05133826 -0.71756257
+[133,] -0.88851582 -0.71756257
+[134,] -0.88851582 -0.71756257
+[135,] -0.88851582 -0.71756257
+[136,] -1.16505167         NaN
+[137,]          NA          NA
+[138,]          NA          NA
+[139,]          NA          NA
+[140,]          NA          NA
+[141,]          NA          NA
+[142,]          NA          NA
+[143,]          NA          NA
+[144,]          NA          NA
+[145,]          NA          NA
+[146,]          NA          NA
+[147,]          NA          NA
+[148,]          NA          NA
+[149,]          NA          NA
+[150,]          NA          NA
+[151,]          NA          NA
+[152,]          NA          NA
+[153,]          NA          NA
+[154,]          NA          NA
+[155,]          NA          NA
+[156,]          NA          NA
+[157,]          NA          NA
+[158,]          NA          NA
+[159,]          NA          NA
+[160,]          NA          NA
+[161,]          NA          NA
+[162,]          NA          NA
+[163,]          NA          NA
+[164,]          NA          NA
+[165,]          NA          NA
+[166,]          NA          NA
+[167,]          NA          NA
+[168,]          NA          NA
+[169,]          NA          NA
+[170,]          NA          NA
+[171,]          NA          NA
+[172,]          NA          NA
+[173,]          NA          NA
+[174,]          NA          NA
+[175,]          NA          NA
+[176,]          NA          NA
+[177,]          NA          NA
+[178,]          NA          NA
+[179,]          NA          NA
+[180,]          NA          NA
+[181,]          NA          NA
+[182,]          NA          NA
+[183,]          NA          NA
+[184,]          NA          NA
+[185,]          NA          NA
+[186,]          NA          NA
+[187,]          NA          NA
+[188,]          NA          NA
+[189,]          NA          NA
+[190,]          NA          NA
+[191,]          NA          NA
+[192,]          NA          NA
+[193,]          NA          NA
+[194,]          NA          NA
+[195,]          NA          NA
+[196,]          NA          NA
+[197,]          NA          NA
+Error in strsplit(x, " ")[[1]][[c(1, 3)]] : 
+  attempt to select more than one element in vectorIndex
+Calls: sapply -> lapply -> FUN
+Execution halted
+FINISHED writing output file on Sun 21 May 2023 08:08:42 PM CEST
+FINISHED task onSun 21 May 2023 08:08:42 PM CEST

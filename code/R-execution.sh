@@ -16,7 +16,13 @@
 #$-j yes
 
 #$-q all.q
-#$-N vcf-snp
+#$-N TajD-calc
 
 source ~/.bashrc
+conda activate R.env
 
+echo STARTED on $(date)
+Rscript ./TajD-stats.R
+
+echo FINISHED writing output file on $(date)
+echo FINISHED task on$(date)
