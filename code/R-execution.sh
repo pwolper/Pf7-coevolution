@@ -16,13 +16,13 @@
 #$-j yes
 
 #$-q all.q
-#$-N TajD-calc
+#$-N TajD-calc.whole-chr2
 
 source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ./TajD-stats.R
+Rscript ./TajD-stats-whole-chr2.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on$(date)
