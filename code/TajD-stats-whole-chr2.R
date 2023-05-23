@@ -1,4 +1,4 @@
-## Calculating Tajima's D for Pf7 geomic regions using PopGenome
+## Calculating Tajima's D for Pf7 chr2 using PopGenome
 library(PopGenome)
 library(tidyverse)
 
@@ -17,10 +17,10 @@ populations <- split(Pf7_populations$id, Pf7_populations$Country)
 
 
 # Reading in the vcf data
-Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/Pf3D7_02_v3.SNP.Pfsa12_region.vcf.gz"),
+Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/Pf3D7_02_v3.SNP.vcf.gz"),
                         numcols = 10000, samplenames=Pf7_populations$id,
                         tid='Pf3D7_02_v3',
-                        frompos=500000,topos=1000000,
+                        frompos=1,topos=1000000,
                         include.unknown = TRUE,
                         gffpath=here("data/Pf7/gff/Pfalciparum_replace_Pf3D7_MIT_v3_with_Pf_M76611.gff"))
 
@@ -38,11 +38,13 @@ get.neutrality(Pf7.chr2.vcf.neutrality)[[1]]
 slide.Pf7.chr2.vcf <- sliding.window.transform(Pf7.chr2.vcf,10000,2500, type=2)
 slide.Pf7.chr2.vcf <- neutrality.stats(slide.Pf7.chr2.vcf)
 
-slide.Pf7.chr2.vcf@Tajima.D
 
 TajD <- slide.Pf7.chr2.vcf@Tajima.D
+colnames(TajD) <- populations
 
-pos <- seq(from=500000, to=1000000, by=2500) + 5000
+TajD
+
+pos <- seq(from=1 , to=1000000, by=2500) + 5000
 
 ## genome.pos <- sapply(slide.Pf7.chr2.vcf@region.names, function(x){
 ##   split <- strsplit(x," ")[[1]][[c(1,3)]]
@@ -51,6 +53,6 @@ pos <- seq(from=500000, to=1000000, by=2500) + 5000
 ## })
 
 ## TajD.chr2 <- cbind(TajD, genome.pos)
-TajD.chr2 <- data.frame(TajD = TajD, position = head(pos,-4))
+TajD.chr2 <- data.frame(TajD = TajD, position = head(pos,-3))
 
-write.table(TajD.chr2, file = here("output/Pf7_Kenya_Gambia_incl.unknown.txt"), sep = "\t", row.names = FALSE )
+write.table(TajD.chr2, file = here("output/Pf7_Kenya_Gambia_whole_chr2_incl.unknown.txt"), sep = "\t", row.names = FALSE )
