@@ -9,6 +9,7 @@
 - [-] Calculate TajD
   - What region size around the locis?
   - Chr 11; Pfsa3
+  - Use neutral poymorphisms instead.
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -19,9 +20,13 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
 * Pf7 populations
+[[cite:&rich-2000-popul-struc]]
+[[cite:&nderu-2019-genet-diver]]
 
 * Code examples
 ** SNP filtering with bcf tools.
+Filtering for Quality control pass (?), bialleic snps...
+
 #+begin_src bash
 bcftools view \
     --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
