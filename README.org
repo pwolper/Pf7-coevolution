@@ -19,10 +19,6 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
-* Pf7 populations
-[[cite:&rich-2000-popul-struc]]
-[[cite:&nderu-2019-genet-diver]]
-
 * Code examples
 ** SNP filtering with bcf tools.
 Filtering for Quality control pass (?), bialleic snps...
@@ -38,9 +34,14 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
 * Reading list
+** Pf7 populations
+- [[cite:&rich-2000-popul-struc]]; Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum
+- [[cite:&nderu-2019-genet-diver]]; Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas
+- [[cite:&amambua-ngwa-2019-major-subpop]]; Amambua-Ngwa et al., 2019: Major subpopulations of P. falciparum in sub-Saharan Africa
+- [[cite:&meyer-2002-review]]; Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages
+
 ** Plasmodium Genomics
 - Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
-- [[cite:&amambua-ngwa-2019-major-subpop]]
 
 ** Human-parasite interactions
 - Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
