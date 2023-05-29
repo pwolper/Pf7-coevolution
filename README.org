@@ -3,10 +3,12 @@
 #+STARTUP: showstars
 
 * Tasks
-- [ ] Filter SNPs to vcf for further analysis
-- [ ] Choose multiple populations for the analysis
-- [X] set up R environment for conda and use with emacs
-- [ ] Calculate TajD for regions and genome.
+- [ ] Chr 11: Filter SNPs to vcf for further analysis
+- [ ] Choose multiple populations for the analysis (Kenya and Gambia, but more?)
+  - read more Malaria population genetics.
+- [-] Calculate TajD
+  - What region size around the locis?
+  - Chr 11; Pfsa3
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -22,7 +24,7 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 ** SNP filtering with bcf tools.
 #+begin_src bash
 bcftools view \
-    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && QVSLOD>0.6 '\
+    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
     --output-type z\
     --output-file  Pf3D7_02_v3.SNP.vcf \
     Pf3D7_02_v3.pf7.vcf.gz
