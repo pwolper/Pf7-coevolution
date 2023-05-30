@@ -3,10 +3,13 @@
 #+STARTUP: showstars
 
 * Tasks
-- [ ] Filter SNPs to vcf for further analysis
-- [ ] Choose multiple populations for the analysis
-- [X] set up R environment for conda and use with emacs
-- [ ] Calculate TajD for regions and genome.
+- [ ] Chr 11: Filter SNPs to vcf for further analysis
+- [ ] Choose multiple populations for the analysis (Kenya and Gambia, but more?)
+  - read more Malaria population genetics, additional populations. Vivax as well?
+- [-] Calculate TajD
+  - What region size around the locis?
+  - Chr 11; Pfsa3
+  - Use neutral poymorphisms.
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -23,9 +26,11 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
 
 ** SNP filtering with bcf tools.
+Filtering for Quality control pass (?), bialleic snps...
+
 #+begin_src bash
 bcftools view \
-    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && QVSLOD>0.6 '\
+    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
     --output-type z\
     --output-file  Pf3D7_02_v3.SNP.vcf \
     Pf3D7_02_v3.pf7.vcf.gz
@@ -34,9 +39,14 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
 * Reading list
+** Pf7 populations
+- [[cite:&rich-2000-popul-struc]]; Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum
+- [[cite:&nderu-2019-genet-diver]]; Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas
+- [[cite:&amambua-ngwa-2019-major-subpop]]; Amambua-Ngwa et al., 2019: Major subpopulations of P. falciparum in sub-Saharan Africa
+- [[cite:&meyer-2002-review]]; Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages
+
 ** Plasmodium Genomics
 - Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
-- [[cite:&amambua-ngwa-2019-major-subpop]]
 
 ** Human-parasite interactions
 - Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
