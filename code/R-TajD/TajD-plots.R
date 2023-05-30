@@ -5,10 +5,10 @@ library(here)
 TajD.chr2 <- read.csv(file = here("output/TajD/data/Pf7_Kenya_2014_Taj.D_pos500000-1000000.txt"), sep = "\t")
 str(TajD.chr2)
 
-TajD.chr2.Pfsa12-region.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7_Kenya_Gambia_incl.unknowns.txt"), sep = "\t")
+TajD.chr2.Pfsa12-region.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2.Pfsa12-region_Kenya_Gambia.txt"), sep = "\t")
 str(TajD.chr2.Pfsa12-region.Kenya_Gambia)
 
-TajD.chr2.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7_Kenya_Gambia_whole_chr2_incl.unknown.txt"), sep = "\t")
+TajD.chr2.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2_Kenya_Gambia.txt"), sep = "\t")
 str(TajD.chr2.Kenya_Gambia)
 
 ## Formatting data for plotting
