@@ -16,9 +16,12 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
+
 * Pf7 populations
 
-* Code examples
+* Data
+vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
+
 ** SNP filtering with bcf tools.
 #+begin_src bash
 bcftools view \
