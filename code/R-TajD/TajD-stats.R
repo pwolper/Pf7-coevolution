@@ -17,7 +17,7 @@ populations <- split(Pf7_populations$id, Pf7_populations$Country)
 
 
 # Reading in the vcf data
-Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/Pf3D7_02_v3.SNP.Pfsa12_region.vcf.gz"),
+Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/chr2/Pf3D7_02_v3.SNP.Pfsa12_region.vcf.gz"),
                         numcols = 10000, samplenames=Pf7_populations$id,
                         tid='Pf3D7_02_v3',
                         frompos=500000,topos=1000000,
