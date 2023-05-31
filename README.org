@@ -5,20 +5,13 @@
 * Tasks
 - [ ] Chr 11: Filter SNPs to vcf for further analysis
 - [ ] Choose multiple populations for the analysis (Kenya and Gambia, but more?)
-<<<<<<< HEAD
   - read more Malaria population genetics.
-- [-] Calculate TajD
-  - What region size around the locis?
-  - Chr 11; Pfsa3
-  - Use neutral poymorphisms instead.
-=======
   - see Reading List/Pf7 populations, additional populations. Vivax as well?
 - [-] Calculate TajD
   - What region size around the locis? More resolved than 500kb?
   - Chr 11; Pfsa3
-  - Use neutral poymorphisms with PopGenome.
+  - Use neutral poymorphisms instead.
 - [ ] Other statistics or analysis?
->>>>>>> 39fc7eee4948ec61d684387c14a9f6aa64648d90
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -28,9 +21,6 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
-<<<<<<< HEAD
-* Code examples
-=======
 
 * Pf7 populations
 ** Kisumu, Kenya
@@ -51,7 +41,6 @@ https://www.malariagen.net/apps/pf7/countries/GM
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
->>>>>>> 39fc7eee4948ec61d684387c14a9f6aa64648d90
 ** SNP filtering with bcf tools.
 Filtering for Quality control pass (?), bialleic snps...
 
@@ -73,11 +62,8 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 - [[cite:&meyer-2002-review]]; Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages
 
 ** Plasmodium Genomics
-<<<<<<< HEAD
 - Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
-=======
 - [[cite:&benavente-2021-distin-genet]]; Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika
->>>>>>> 39fc7eee4948ec61d684387c14a9f6aa64648d90
 
 ** Human-parasite interactions
 - Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
@@ -98,6 +84,3 @@ https://www.malariagen.net/apps/pf7/
 ** Kevin Korfmann Kenya Workshop GitHub
 https://kevinkorfmann.github.io/workshop-kenya/session_1.html
 
-
-* Troubleshooting
-https://emacs.stackexchange.com/questions/7673/how-do-i-make-trampeshell-use-my-environment-customized-in-the-remote-bash-p/7685#7685
