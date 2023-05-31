@@ -10,8 +10,10 @@
 - [-] Calculate TajD
   - What region size around the locis? More resolved than 500kb?
   - Chr 11; Pfsa3
-  - Use neutral poymorphisms instead.
-- [ ] Other statistics or analysis?
+- [ ] Nucleotide diversity
+  - Sliding window around the loci? or whole genome?
+  - Using synonymous polymorphisms?
+- [ ] F_st population differentitaion between chooses populations
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -27,7 +29,7 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 https://www.malariagen.net/apps/pf7/countries/KE
 - 285 samples from the Year = 2010-2014 & QC.pass = "True" at the ocations Kilifi and Kisumu.
 
-Should we take additional locations, Kilifi? Over what time frame? Can we validate the demography range of a population? Possible panmictic neutral models?
+Add locations for Kilifi? Over what time frame? Can we validate the demography range of a population? Possible panmictic neutral models?
 
 ** Upper River Gambia
 https://www.malariagen.net/apps/pf7/countries/GM
@@ -62,23 +64,22 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 - [[cite:&meyer-2002-review]]; Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages
 
 ** Plasmodium Genomics
-- Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika ([[cite:&benavente-2021-distin-genet]])
 - [[cite:&benavente-2021-distin-genet]]; Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika
 
 ** Human-parasite interactions
-- Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype ([[cite:&band-2021-malar-protec]])
-- Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory ([[cite:&raberg-2023-human-pathog]])
+- [[cite:&band-2021-malar-protec]]; Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype
+- [[cite:&raberg-2023-human-pathog]]; Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory
 
 ** Coevolution Theory
-- Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology ([[cite:&brown-2011-plant-paras-coevol]])
-- Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics ([[cite:&tellier-2021-theor-host]])
-- Maerkle, 2021: Genomic approaches to study antagonistic coevolution in host and parasites ([[cite:&maerkle-2021-novel-genom]])
+- [[cite:&brown-2011-plant-paras-coevol]]; Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology
+- [[cite:&tellier-2021-theor-host]]; Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics
+- [[cite:&maerkle-2021-novel-genom]]; Maerkle, 2021: Genomic approaches to study antagonistic coevolution in host and parasites
 
 * Links
 ** Pf7 Data Viewer
 https://www.malariagen.net/apps/pf7/
 
-** PopGen CLuster - p.wolper home
+** PopGen Cluster - p.wolper home
 [[/sshx:p.wolper@10.152.154.1:~/]]
 
 ** Kevin Korfmann Kenya Workshop GitHub
