@@ -4,8 +4,8 @@
 
 * Tasks
 - [ ] Chr 11: Filter SNPs to vcf for further analysis
-- [ ] Choose multiple populations for the analysis (Kenya and Gambia, but more?)
-  - read more Malaria population genetics.
+- [ ] Selection of populations
+  - Kenya, Ganbia
   - see Reading List/Pf7 populations, additional populations. Vivax as well?
 - [-] Calculate TajD
   - What region size around the locis? More resolved than 500kb?
@@ -16,16 +16,16 @@
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
 
-- Pfsa1: chr2: *631,190 T>A variant*, which lies in PfACS8, was associated with HbS
+- Pfsa1: chr2: *631,190 T>A variant*, which lies in ACS8, was associated with HbS
 - Pfsa2: chr2: *814,288 C>T variant*, which lies in Pf3D7_0220300,
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
 
 * Pf7 populations
-** Kisumu, Kenya
+** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
-- 63 samples from the Year = 2014 & QC.pass = "True"
+- 285 samples from the Year = 2010-2014 & QC.pass = "True" at the ocations Kilifi and Kisumu.
 
 Should we take additional locations, Kilifi? Over what time frame? Can we validate the demography range of a population? Possible panmictic neutral models?
 
