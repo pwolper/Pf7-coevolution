@@ -1,5 +1,0 @@
-STARTED on Wed 31 May 2023 07:58:27 AM CEST
-[E::hts_open_format] Failed to open file "/data/home/students/p.wolper/FP-coevolution/data/Pf7/vcf/Pf3D7_02_v3.qSNP.vcf.gz" : No such file or directory
-Failed to read from /data/home/students/p.wolper/FP-coevolution/data/Pf7/vcf/Pf3D7_02_v3.qSNP.vcf.gz: No such file or directory
-FINISHED writing output file on Wed 31 May 2023 07:58:27 AM CEST
-FINISHED task onWed 31 May 2023 07:58:27 AM CEST
