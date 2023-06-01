@@ -13,7 +13,7 @@ Pf7_populations <- read.csv(here("data/Pf7/sample_ids/Pf7_multi_samples.txt"), s
 str(Pf7_populations)
 
 populations <- split(Pf7_populations$id, Pf7_populations$Country)
-
+str(populations)
 
 
 # Reading in the vcf data
@@ -28,6 +28,7 @@ get.sum.data(Pf7.chr2.vcf)
 
 # Set Populations
 Pf7.chr2.vcf <- set.populations(Pf7.chr2.vcf, populations, diploid = FALSE)
+Pf7.chr2.vcf@populations
 
 # Neutrality stats
 Pf7.chr2.vcf.neutrality <- neutrality.stats(Pf7.chr2.vcf, FAST=TRUE)
@@ -38,9 +39,14 @@ get.neutrality(Pf7.chr2.vcf.neutrality)[[1]]
 slide.Pf7.chr2.vcf <- sliding.window.transform(Pf7.chr2.vcf,10000,2500, type=2)
 slide.Pf7.chr2.vcf <- neutrality.stats(slide.Pf7.chr2.vcf)
 
+slide.Pf7.chr2.vcf@region.names
+
+print("Calculating Tajima's D...")
 slide.Pf7.chr2.vcf@Tajima.D
 
+
 TajD <- slide.Pf7.chr2.vcf@Tajima.D
+colnames(TajD) <- names(populations)
 
 pos <- seq(from=500000, to=1000000, by=2500) + 5000
 
@@ -53,4 +59,4 @@ pos <- seq(from=500000, to=1000000, by=2500) + 5000
 ## TajD.chr2 <- cbind(TajD, genome.pos)
 TajD.chr2 <- data.frame(TajD = TajD, position = head(pos,-4))
 
-write.table(TajD.chr2, file = here("output/Pf7_Kenya_Gambia_incl.unknown.txt"), sep = "\t", row.names = FALSE )
+write.table(TajD.chr2, file = here("output/Pf7.chr2.TajD_DRC_Gambia_Kenya.txt"), sep = "\t", row.names = FALSE )
