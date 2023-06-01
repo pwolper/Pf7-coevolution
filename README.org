@@ -1,7 +1,7 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 #+STARTUP: showstars
-
+ test
 * Tasks
 - [ ] Chr 11: Filter SNPs to vcf for further analysis
 - [ ] Selection of populations
@@ -29,7 +29,6 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 https://www.malariagen.net/apps/pf7/countries/KE
 - 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
 
-
 ** Upper River Gambia
 https://www.malariagen.net/apps/pf7/countries/GM
  - 452 samples from Upper River and the years 2013-2017
@@ -54,7 +53,8 @@ bcftools view \
 
 bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
-
+** P.vivax data?
+https://wellcomeopenresearch.org/articles/7-136/v1
 * Reading list
 Citations and PDF files can be found in the /~/biblio/ directory.
 ** Pf7 populations
