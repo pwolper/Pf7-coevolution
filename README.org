@@ -5,7 +5,7 @@
 * Tasks
 - [ ] Chr 11: Filter SNPs to vcf for further analysis
 - [ ] Selection of populations
-  - Kenya, Ganbia
+  - Kenya, Ganbia, DRC
   - see Reading List/Pf7 populations, additional populations. Vivax as well?
 - [-] Calculate TajD
   - What region size around the locis? More resolved than 500kb?
@@ -27,9 +27,8 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 * Pf7 populations
 ** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
-- 285 samples from the Year = 2010-2014 & QC.pass = "True" at the ocations Kilifi and Kisumu.
+- 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
 
-Add locations for Kilifi? Over what time frame? Can we validate the demography range of a population? Possible panmictic neutral models?
 
 ** Upper River Gambia
 https://www.malariagen.net/apps/pf7/countries/GM
