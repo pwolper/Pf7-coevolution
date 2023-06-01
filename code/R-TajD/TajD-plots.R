@@ -23,6 +23,7 @@ format_Popgenome_TajD <- function(TajD, populations){
 }
 
 DRC_GM_KE <- format_Popgenome_TajD(TajD.chr2, c("DRC", "Gambia", "Kenya"))
+DRC_GM_KE %>% str()
 
 # Kenya_Gambia <- format_Popgenome_TajD(TajD.chr2.Kenya_Gambia, c("Kenya", "Gambia"))
 
