@@ -2,14 +2,14 @@ library(tidyverse)
 library(here)
 
 ## Reading in data
-TajD.chr2 <- read.csv(file = here("output/TajD/data/Pf7.chr2.TajD_DRC_Gambia_Kenya.txt"), sep = "\t")
+TajD.chr2 <- read.csv(file = here("output/TajD/data/Pf7.chr2.full.TajD_DRC_Gambia_Kenya.txt"), sep = "\t")
 str(TajD.chr2)
 
-TajD.chr2.Pfsa12-region.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2.Pfsa12-region_Kenya_Gambia.txt"), sep = "\t")
-str(TajD.chr2.Pfsa12-region.Kenya_Gambia)
+## TajD.chr2.Pfsa12-region.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2.Pfsa12-region_Kenya_Gambia.txt"), sep = "\t")
+## str(TajD.chr2.Pfsa12-region.Kenya_Gambia)
 
-TajD.chr2.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2_Kenya_Gambia.txt"), sep = "\t")
-str(TajD.chr2.Kenya_Gambia)
+## TajD.chr2.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2_Kenya_Gambia.txt"), sep = "\t")
+## str(TajD.chr2.Kenya_Gambia)
 
 ## Formatting data for plotting
 format_Popgenome_TajD <- function(TajD, populations){
@@ -24,7 +24,7 @@ format_Popgenome_TajD <- function(TajD, populations){
 
 DRC_GM_KE <- format_Popgenome_TajD(TajD.chr2, c("DRC", "Gambia", "Kenya"))
 
-Kenya_Gambia <- format_Popgenome_TajD(TajD.chr2.Kenya_Gambia, c("Kenya", "Gambia"))
+# Kenya_Gambia <- format_Popgenome_TajD(TajD.chr2.Kenya_Gambia, c("Kenya", "Gambia"))
 
 # Loci of interest
 Pfsa1 <- 631190/1000000
@@ -49,4 +49,4 @@ plot_TajD <- function(TajD_formatted, fileName){
          width = 14, height = 7)
 }
 
-plot_TajD(DRC_GM_KE, "Pf7.chr2.TajD_DRC_Gambia_Kenya.png")
+plot_TajD(DRC_GM_KE, "Pf7.chr2.full.TajD_DRC_Gambia_Kenya.png")
