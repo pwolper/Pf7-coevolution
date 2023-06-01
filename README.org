@@ -56,6 +56,7 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
 * Reading list
+Citations and PDF files can be found in the /~/biblio/ directory.
 ** Pf7 populations
 - [[cite:&rich-2000-popul-struc]]; Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum
 - [[cite:&nderu-2019-genet-diver]]; Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas
