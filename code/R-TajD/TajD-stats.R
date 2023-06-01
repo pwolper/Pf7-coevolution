@@ -48,15 +48,17 @@ slide.Pf7.chr2.vcf@Tajima.D
 TajD <- slide.Pf7.chr2.vcf@Tajima.D
 colnames(TajD) <- names(populations)
 
-pos <- seq(from=500000, to=1000000, by=2500) + 5000
 
-## genome.pos <- sapply(slide.Pf7.chr2.vcf@region.names, function(x){
-##   split <- strsplit(x," ")[[1]][[c(1,3)]]
-##   val <- mean(as.numeric(split))
-##   return(val)
-## })
+# Extracting genomic positions
+#pos <- seq(from=1, to=1000000, by=2500) + 5000
 
-## TajD.chr2 <- cbind(TajD, genome.pos)
-TajD.chr2 <- data.frame(TajD = TajD, position = head(pos,-4))
+pos <- unname(sapply(slide.Pf7.chr2.vcf@region.names, function(x){
+  split <- strsplit(x," ")[[1]]
+  vals <- as.numeric(split[c(1,3)])
+  val <- mean(vals, na.rm = TRUE)
+  return(val)
+}))
+
+TajD.chr2 <- data.frame(TajD = TajD, position = pos)
 
 write.table(TajD.chr2, file = here("output/TajD/data/Pf7.chr2.full.TajD_DRC_Gambia_Kenya.txt"), sep = "\t", row.names = FALSE )
