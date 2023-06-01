@@ -17,10 +17,10 @@ str(populations)
 
 
 # Reading in the vcf data
-Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/chr2/Pf3D7_02_v3.SNP.Pfsa12_region.vcf.gz"),
+Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/chr2/Pf3D7_02_v3.SNP.vcf.gz"),
                         numcols = 10000, samplenames=Pf7_populations$id,
                         tid='Pf3D7_02_v3',
-                        frompos=500000,topos=1000000,
+                        frompos=1,topos=1000000,
                         include.unknown = TRUE,
                         gffpath=here("data/Pf7/gff/Pfalciparum_replace_Pf3D7_MIT_v3_with_Pf_M76611.gff"))
 
@@ -59,4 +59,4 @@ pos <- seq(from=500000, to=1000000, by=2500) + 5000
 ## TajD.chr2 <- cbind(TajD, genome.pos)
 TajD.chr2 <- data.frame(TajD = TajD, position = head(pos,-4))
 
-write.table(TajD.chr2, file = here("output/Pf7.chr2.TajD_DRC_Gambia_Kenya.txt"), sep = "\t", row.names = FALSE )
+write.table(TajD.chr2, file = here("output/TajD/data/Pf7.chr2.full.TajD_DRC_Gambia_Kenya.txt"), sep = "\t", row.names = FALSE )
