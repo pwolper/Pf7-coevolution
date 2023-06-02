@@ -1,0 +1,70 @@
+STARTED on Fri 02 Jun 2023 12:09:33 PM CEST
+Loading required package: ff
+Loading required package: bit
+
+Attaching package: ‘bit’
+
+The following object is masked from ‘package:base’:
+
+    xor
+
+Attaching package ff
+- getOption("fftempdir")=="/localscratch/tmp/141899.1.all.q/RtmpfrJxCd/ff"
+
+- getOption("ffextension")=="ff"
+
+- getOption("ffdrop")==TRUE
+
+- getOption("fffinonexit")==TRUE
+
+- getOption("ffpagesize")==65536
+
+- getOption("ffcaching")=="mmnoflush"  -- consider "ffeachflush" if your system stalls on large writes
+
+- getOption("ffbatchbytes")==16777216 -- consider a different value for tuning your system
+
+- getOption("ffmaxbytes")==536870912 -- consider a different value for tuning your system
+
+
+Attaching package: ‘ff’
+
+The following objects are masked from ‘package:utils’:
+
+    write.csv, write.csv2
+
+The following objects are masked from ‘package:base’:
+
+    is.factor, is.ordered
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+✖ dplyr::symdiff() masks bit::symdiff()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: here
+here() starts at /data/home/students/p.wolper/FP-coevolution
+'data.frame':	1257 obs. of  3 variables:
+ $ id     : chr  "PC0167-C" "PC0169-C" "PC0170-C" "PC0172-C" ...
+ $ Country: chr  "Kenya" "Kenya" "Kenya" "Kenya" ...
+ $ year   : int  2014 2014 2014 2014 2014 2014 2014 2014 2014 2014 ...
+[1] "Kenya"  "Gambia" "DRC"   
+[1] 2014 2010 2011 2012 2013 2015 2016 2017
+
+GFF information ...
+Caught exception inside whop_tabix::open('/data/home/students/p.wolper/FP-coevolution/data/Pf7/vcf/chr11/Pf3D7_11_v3.SNP.vcf.gz'):
+	'whop_tabix::open : index load failed!'
+return FALSE from whoptabix_open
+vcff::open : could not open tabix-index!
+VCF_open : Could not open file '/data/home/students/p.wolper/FP-coevolution/data/Pf7/vcf/chr11/Pf3D7_11_v3.SNP.vcf.gz' as tabix-indexed!
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'object' in selecting a method for function 'get.sum.data': object 'Pf7.chr2.vcf' not found
+Calls: read_Pf7_vcf -> print -> get.sum.data -> .handleSimpleError -> h
+Execution halted
+FINISHED writing output file on Fri 02 Jun 2023 12:09:36 PM CEST
+FINISHED task on Fri 02 Jun 2023 12:09:36 PM CEST
