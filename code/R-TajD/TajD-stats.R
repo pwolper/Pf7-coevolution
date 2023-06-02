@@ -7,59 +7,50 @@ if(!require(here)){
     library(here)
 }
 
+## Set variables here.
+filename <- "Pf3D7_11_v3.SNP.vcf.gz"
+data_dir <- "chr11" #vcf subfolder contaning the vcf data
+output_filename <- "Pf7.chr2.DRC_GM_KE"
 
 ## Reading in the Sample data
-Pf7_populations <- read.csv(here("data/Pf7/sample_ids/Pf7_multi_samples.txt"), sep = "\t")
-str(Pf7_populations)
+Pf7_samples <- read.csv(here("data/Pf7/sample_ids/Pf7_multi_samples.txt"), sep = "\t")
+str(Pf7_samples); unique(Pf7_samples$Country); unique(Pf7_samples$year)
 
-populations <- split(Pf7_populations$id, Pf7_populations$Country)
-str(populations)
+## read vcf file
+source(here("code/read_Pf7_vcf.R"))
+vcf <- read_Pf7_vcf(data_dir,filename,start=1,end=3000000)
 
-
-# Reading in the vcf data
-Pf7.chr2.vcf <- readVCF(here("data/Pf7/vcf/chr2/Pf3D7_02_v3.SNP.vcf.gz"),
-                        numcols = 10000, samplenames=Pf7_populations$id,
-                        tid='Pf3D7_02_v3',
-                        frompos=1,topos=1000000,
-                        include.unknown = TRUE,
-                        gffpath=here("data/Pf7/gff/Pfalciparum_replace_Pf3D7_MIT_v3_with_Pf_M76611.gff"))
-
-get.sum.data(Pf7.chr2.vcf)
-
-# Set Populations
-Pf7.chr2.vcf <- set.populations(Pf7.chr2.vcf, populations, diploid = FALSE)
-print(Pf7.chr2.vcf@populations)
+## Set Populations
+source(here("code/set_populations.R"))
+vcf <- set_populations(Pf7.vcf, Pf7_samples, population = Pf7_samples$Country)
 
 # Neutrality stats
-Pf7.chr2.vcf.neutrality <- neutrality.stats(Pf7.chr2.vcf, FAST=TRUE)
-
-get.neutrality(Pf7.chr2.vcf.neutrality)[[1]]
+vcf.neutrality <- neutrality.stats(Pf7.vcf, FAST=TRUE)
+get.neutrality(vcf.neutrality)[[1]]
 
 # Sliding window with 10 Kb windows
+sliding.vcf <- sliding.window.transform(Pf7.vcf,10000,2500, type=2)
+sliding.vcf <- neutrality.stats(slide.vcf)
 
-slide.Pf7.chr2.vcf <- sliding.window.transform(Pf7.chr2.vcf,10000,2500, type=2)
-slide.Pf7.chr2.vcf <- neutrality.stats(slide.Pf7.chr2.vcf)
-
-slide.Pf7.chr2.vcf@region.names
+slide.vcf@region.names
 
 print("Calculating Tajima's D...")
-slide.Pf7.chr2.vcf@Tajima.D
+slide.vcf@Tajima.D
 
-
-TajD <- slide.Pf7.chr2.vcf@Tajima.D
+TajD <- slide.vcf@Tajima.D
 colnames(TajD) <- names(populations)
 
 
 # Extracting genomic positions
-#pos <- seq(from=1, to=1000000, by=2500) + 5000
-
-pos <- unname(sapply(slide.Pf7.chr2.vcf@region.names, function(x){
+pos <- unname(sapply(slide.vcf@region.names, function(x){
   split <- strsplit(x," ")[[1]]
   vals <- as.numeric(split[c(1,3)])
   val <- mean(vals, na.rm = TRUE)
   return(val)
 }))
 
-TajD.chr2 <- data.frame(TajD = TajD, position = pos)
+vcf.TajD <- data.frame(TajD = TajD, position = pos)
 
-write.table(TajD.chr2, file = here("output/TajD/data/Pf7.chr2.full.TajD_DRC_Gambia_Kenya.txt"), sep = "\t", row.names = FALSE )
+write.table(vcf.TajD,
+            file = here("output/TajD/data",str(output_filename,".txt")),
+            sep = "\t", row.names = FALSE )
