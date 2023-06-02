@@ -1,9 +1,12 @@
 library(tidyverse)
 library(here)
 
+TajD.data <-
+
 ## Reading in data
-TajD.chr2 <- read.csv(file = here("output/TajD/data/Pf7.chr2.full.TajD_DRC_Gambia_Kenya.txt"), sep = "\t")
-str(TajD.chr2)
+TajD <- read.csv(file = here("output/TajD/data/",TajD.data),
+                 sep = "\t")
+str(TajD)
 
 ## TajD.chr2.Pfsa12-region.Kenya_Gambia <- read.csv(file = here("output/TajD/data/Pf7.chr2.Pfsa12-region_Kenya_Gambia.txt"), sep = "\t")
 ## str(TajD.chr2.Pfsa12-region.Kenya_Gambia)
