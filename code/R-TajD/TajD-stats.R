@@ -18,7 +18,7 @@ str(Pf7_samples); unique(Pf7_samples$Country); unique(Pf7_samples$year)
 
 ## read vcf file
 source(here("code/read_Pf7_vcf.R"))
-vcf <- read_Pf7_vcf(data_dir,filename,start=1,end=3000000)
+vcf <- read_Pf7_vcf(data_dir,filename,start=1,end=2040000)
 
 ## Set Populations
 source(here("code/set_populations.R"))
