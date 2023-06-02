@@ -28,7 +28,7 @@ get.sum.data(Pf7.chr2.vcf)
 
 # Set Populations
 Pf7.chr2.vcf <- set.populations(Pf7.chr2.vcf, populations, diploid = FALSE)
-Pf7.chr2.vcf@populations
+print(Pf7.chr2.vcf@populations)
 
 # Neutrality stats
 Pf7.chr2.vcf.neutrality <- neutrality.stats(Pf7.chr2.vcf, FAST=TRUE)
@@ -36,6 +36,7 @@ Pf7.chr2.vcf.neutrality <- neutrality.stats(Pf7.chr2.vcf, FAST=TRUE)
 get.neutrality(Pf7.chr2.vcf.neutrality)[[1]]
 
 # Sliding window with 10 Kb windows
+
 slide.Pf7.chr2.vcf <- sliding.window.transform(Pf7.chr2.vcf,10000,2500, type=2)
 slide.Pf7.chr2.vcf <- neutrality.stats(slide.Pf7.chr2.vcf)
 
