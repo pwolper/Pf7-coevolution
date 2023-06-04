@@ -16,7 +16,7 @@
 #$-j yes
 
 #$-q all.q
-#$-N TajD-calc
+#$-N TajD-chr2
 
 source ~/.bashrc
 conda activate R.env

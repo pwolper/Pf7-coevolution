@@ -32,7 +32,7 @@ bcftools view \
 
 echo FINISHED writing output file on $(date)
 
-bcftools index $vcf_dir/Pf3D7_11_v3.SNP.vcf.gz
+bcftools index -t $vcf_dir/Pf3D7_11_v3.SNP.vcf.gz
 
 echo FINISHED indexing on $(date)
 echo FINISHED task on$(date)
