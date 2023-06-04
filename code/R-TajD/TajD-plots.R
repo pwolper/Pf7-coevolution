@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-TajD.data <-
+TajD.data <- "Pf7.chr11.DRC_GM_KE_MM.txt"
 
 ## Reading in data
 TajD <- read.csv(file = here("output/TajD/data/",TajD.data),
@@ -25,18 +25,19 @@ format_Popgenome_TajD <- function(TajD, populations){
   return(cbind(positions, df))
 }
 
-DRC_GM_KE <- format_Popgenome_TajD(TajD.chr2, c("DRC", "Gambia", "Kenya"))
-DRC_GM_KE %>% str()
+DRC_GM_KE_MM <- format_Popgenome_TajD(TajD, c("DRC", "Gambia", "Kenya","Myanmar"))
+DRC_GM_KE_MM %>% str()
 
 # Kenya_Gambia <- format_Popgenome_TajD(TajD.chr2.Kenya_Gambia, c("Kenya", "Gambia"))
 
 # Loci of interest
 Pfsa1 <- 631190/1000000
 Pfsa2 <- 814288/1000000
+Pfsa3 <- 1058035/1000000
 
 # Plotting Taj-D function
 
-plot_TajD <- function(TajD_formatted, fileName){
+plot_TajD_chr2 <- function(TajD_formatted, fileName){
   TajD.plot <- ggplot(data = subset(TajD_formatted,!is.na(TajD)), aes(x=positions/1000000, y = TajD)) +
     geom_line(aes(color = population)) +
     geom_vline(xintercept = Pfsa1) +
@@ -53,4 +54,19 @@ plot_TajD <- function(TajD_formatted, fileName){
          width = 14, height = 7)
 }
 
-plot_TajD(DRC_GM_KE, "Pf7.chr2.full.TajD_DRC_Gambia_Kenya.png")
+plot_TajD_chr11 <- function(TajD_formatted, fileName){
+  TajD.plot <- ggplot(data = subset(TajD_formatted,!is.na(TajD)), aes(x=positions/1000000, y = TajD)) +
+    geom_line(aes(color = population)) +
+    geom_vline(xintercept = Pfsa3) +
+    geom_text(aes(x=Pfsa3, label="Pfsa3", y=1), angle=90, vjust = 1.2) +
+    theme_light() +
+    labs(title = "Tajima's D calculated in a genomic region of Chr 11 of P. falciparum",
+         subtitle = "Sliding window of 10 Kb in length",
+         x = "Genomic position in Mb")
+
+  ggsave(TajD.plot, file = here("output/TajD/png/",fileName),
+         device = "png", dpi = 300,
+         width = 14, height = 7)
+}
+
+plot_TajD_chr11(DRC_GM_KE_MM[DRC_GM_KE_MM$population != "Myanmar",], "Pf7.chr11.full.TajD_DRC_GM_KE.png")

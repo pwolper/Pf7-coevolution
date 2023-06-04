@@ -32,16 +32,19 @@ Pf7_samples_Kenya %>% summary()
 Pf7_samples_Gambia <- Pf7_samples[Pf7_samples$Country == "Gambia" &
                                              Pf7_samples$QC.pass == "True" &
                                              Pf7_samples$Admin.level.1 == "Upper River",]
-Pf7_samples_Gambia_UpperRiver %>% str()
-Pf7_samples_Gambia_UpperRiver %>% summary()
+Pf7_samples_Gambia %>% str()
+Pf7_samples_Gambia %>% summary()
 
 Pf7_samples_DRC <- Pf7_samples[Pf7_samples$Country == "Democratic Republic of the Congo" &
                                Pf7_samples$QC.pass == "True",]
 Pf7_samples_DRC %>% str()
 Pf7_samples_DRC %>% summary()
 
-Pf7_samples_Malawi <- Pf7_samples[]
-
+Pf7_samples_Myanmar <- Pf7_samples[Pf7_samples$Country == "Myanmar" &
+                                   Pf7_samples$QC.pass == "True" &
+                                   Pf7_samples$Admin.level.1 == "Kayin",]
+Pf7_samples_Myanmar %>% str()
+Pf7_samples_Myanmar %>% summary()
 
 samples_as_dataframe <- function(samples,Name){
   df <- data.frame(id = samples$Sample,
@@ -51,10 +54,11 @@ samples_as_dataframe <- function(samples,Name){
 }
 
 Kenya <- samples_as_dataframe(Pf7_samples_Kenya,"Kenya")
-Gambia <- samples_as_dataframe(Pf7_samples_Gambia_UpperRiver,"Gambia")
+Gambia <- samples_as_dataframe(Pf7_samples_Gambia,"Gambia")
 DRC <- samples_as_dataframe(Pf7_samples_DRC, "DRC")
+Myanmar <- samples_as_dataframe(Pf7_samples_Myanmar, "Myanmar")
 
-Pf7_multi_samples <- rbind(Kenya, Gambia, DRC)
+Pf7_multi_samples <- rbind(Kenya, Gambia, DRC, Myanmar)
 Pf7_multi_samples %>% str()
 Pf7_multi_samples %>% summary()
 
