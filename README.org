@@ -3,7 +3,7 @@
 #+STARTUP: showstars
 * Tasks
 - [ ] Selection of populations
-  - Kenya, Ganbia, DRC
+  - Kenya, Gambia, DRC
   - see Reading List/Pf7 populations, additional populations. Vivax as well?
 - [-] Calculate TajD
   - What region size around the locis? More resolved than 500kb?
@@ -14,6 +14,7 @@
   - Using synonymous polymorphisms?
 - [ ] F_st population differentitaion between chooses populations
 - [ ] Code: switch scripts to be called more as functions. (bcftools, downloading into data.)
+  - [ ] sliding window function.
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -28,10 +29,11 @@ Signatures of balancing selection:
 - negative-frequency dependent selection
 - ...
 
+What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
+
 Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
-
 
 * Pf7 populations
 ** Kenya
