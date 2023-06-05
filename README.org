@@ -19,7 +19,7 @@
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
 
-- Pfsa1: chr2: *631,190 T>A variant*, which lies in ACS8, was associated with HbS
+- Pfsa1: chr2: *631,190 T>A variant*, which lies in ACS8, was associated with HbS. PfACS8 (628,091-632,681)
 - Pfsa2: chr2: *814,288 C>T variant*, which lies in Pf3D7_0220300,
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
