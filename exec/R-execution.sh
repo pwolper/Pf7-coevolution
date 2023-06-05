@@ -22,7 +22,7 @@ source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ../code/R-TajD/TajD-stats.R
+Rscript ../code/PopGenome/TajD-chr.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on $(date)
