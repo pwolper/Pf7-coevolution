@@ -50,7 +50,7 @@ source(here("code/PopGenome/functions/calc_TajD_sliding_window.R"))
 vcf.TajD <- calc_TajD_sliding_window(vcf, width, jump, output_txt)
 
 ## Plotting Taj'D across chromosomal regions.
-source(here("code/PopGenome/functions/plotting.R"))
+source(here("code/PopGenome/functions/TajD-plots.R"))
 vcf.TajD.formatted <- format_Popgenome_TajD(vcf.TajD)
 
 plot_TajD_chr2(vcf.TajD.formatted, output_png)
