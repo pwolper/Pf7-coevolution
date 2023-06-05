@@ -3,7 +3,7 @@
 ## dir: vcf/dir; file: file.vcf.gz; start: frompos; end: topos
 library(PopGenome)
 
-read_Pf7_vcf <- function(dir,file,tid,start,end){
+read_Pf7_vcf <- function(dir,file,tid,Pf7_samples,start,end){
   Pf7.vcf <- readVCF(here("data/Pf7/vcf",dir,file),
                      numcols = 10000, samplenames=Pf7_samples$id,
                      tid=tid,
