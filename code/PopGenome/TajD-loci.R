@@ -26,7 +26,8 @@ output_txt <- paste0(output_filename,".txt")
 output_png <- paste0(output_filename,".png")
 
 
-#### Start of script
+#### Start of script ####
+
 ## Important: Uncomment the relative plotting functiong (chr2, chr11 or region)
 
 ## Reading in the Sample data
@@ -49,9 +50,19 @@ print(get.neutrality(vcf.neutrality)[[1]])
 source(here("code/PopGenome/functions/calc_TajD_sliding_window.R"))
 vcf.TajD <- calc_TajD_sliding_window(vcf, width, jump, output_txt)
 
+
+### Start here if Tajima's D has already been calculated
+## Reading in data
+TajD.data <- "Pf7.chr2.Pfsa1.DRC_GM_KE_MM.txt"
+vcf.TajD <- read.csv(file = here("output/TajD/data/",TajD.data),
+                 sep = "\t")
+str(vcf.TajD)
+
 ## Plotting Taj'D across chromosomal regions.
 source(here("code/PopGenome/functions/TajD-plots.R"))
+
 vcf.TajD.formatted <- format_Popgenome_TajD(vcf.TajD)
 
+plot_TajD_Pfsa1_region(vcf.TajD.formatted,output_png)
 ## plot_TajD_chr2(vcf.TajD.formatted, output_png)
 ## plot_TajD_chr11(vcf.TajD.formatted, ouput_png)
