@@ -9,18 +9,21 @@ library(here)
 filename <- "Pf3D7_11_v3.SNP.vcf.gz"
 data_dir <- "chr11" #vcf subfolder contaning the vcf data
 chr_tid <- "Pf3D7_11_v3"
+chr_start <- 1
+chr_end <- 2040000
 
 output_filename <- "Pf7.chr11.S.DRC_GM_KE_MM"
 
 output_txt <- paste0(output_filename,".txt")
 output_png <- paste0(output_filename,".png")
 
+#### CODE STARTS HERE ####
 ## Read Sample data
 Pf7_samples <- read.csv(here("data/Pf7/sample_ids/Pf7_multi_samples.txt"), sep = "\t")
 
 ## Reading in the vcf data
 source(here("code/PopGenome/functions/read_Pf7_vcf.R"))
-vcf <- read_Pf7_vcf(dir = data_dir, file = filename, chr_tid, Pf7_samples, 1, 2040000)
+vcf <- read_Pf7_vcf(dir = data_dir, file = filename, chr_tid, Pf7_samples, chr_start, chr_end)
 
 ## Set Populations
 source(here("code/PopGenome/functions/set_populations.R"))
