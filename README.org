@@ -1,7 +1,9 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 #+STARTUP: showstars
-* Tasks
+#+SETUPFILE: ~/.doom.d/latex.setup
+
+* Tasks :noexport:
 - [ ] Selection of populations
   - Kenya, Gambia, DRC
   - see Reading List/Pf7 populations, additional populations. Vivax as well?
@@ -25,15 +27,34 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 
 *Do these loci show signs of balancing selection indicating coevolution with the host?*
 
+* Tajima's D [1]
+[[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
+
+* Tajima's D [2]
+[[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
+
+* Signatures of Balancing Selection
 Signatures of balancing selection:
 - negative-frequency dependent selection
-- ...
 
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
 Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
+
+* Ideas for analysis
+- Coalescent methods for demogaphic/multiple merger (MMC) methods
+ [[cite:&korfmann-2023-simul-infer]]
+
+- Time series of genomic data (ABS) (ask  Meline )
+- SMC? other coalescent methods.
+
+Think about the biological question we want to ask!!
+
+* Questions
+- What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
+- Can we compare /P.falciparum/ to /P.vivax.
 
 * Pf7 populations
 ** Kenya
