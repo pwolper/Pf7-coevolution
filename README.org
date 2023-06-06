@@ -1,17 +1,9 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
-#+latex_class: beamer
-#+latex_class_options: [bigger]
-#+OPTIONS: H:2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+latex_header: \mode<beamer>{\usetheme{Madrid}}
-#+latex_header_extra:
-#+description:
-#+latex_engraved_theme:
-#+latex_compiler: pdflatex
 #+date: \today
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 #+STARTUP: showstars
-
+#+SETUPFILE: report/beamer.setup
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
 - [ ] Selection of populations
@@ -25,8 +17,8 @@
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
-- Do things like recombination with multiple mergers lead to effects of genetic burden, such as Muller's ratchet or clonal interference?
 - Can we compare /P.falciparum/ to /P.vivax?
+- Do things like recombination with multiple mergers lead to effects of genetic burden, such as Muller's ratchet or clonal interference?
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
 * Ideas for analysis
@@ -79,7 +71,10 @@ https://www.malariagen.net/apps/pf7/countries/GM
  - 452 samples from Upper River and the years 2013-2017
 
 ** Democratic Republic of Congo
-- 520 samples, 2012-2016, QC.pass = True
+ - 520 samples, 2012-2016, QC.pass = True
+
+** Tanzania
+- 589 samples (2010-2014), QC.pass = True
 
 ** Other candidates
 - Myanmar, Kayin (631 samples, 2016-2017)
