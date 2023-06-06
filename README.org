@@ -1,8 +1,16 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
+#+latex_class: beamer
+#+latex_class_options: [bigger]
+#+OPTIONS: H:2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
+#+latex_header_extra:
+#+description:
+#+latex_engraved_theme:
+#+latex_compiler: pdflatex
+#+date: \today
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 #+STARTUP: showstars
-#+SETUPFILE: ~/.doom.d/latex.setup
-#+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
 
 * Tasks :noexport:
