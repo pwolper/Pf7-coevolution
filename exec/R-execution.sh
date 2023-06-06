@@ -16,13 +16,13 @@
 #$-j yes
 
 #$-q all.q
-#$-N S-chr11
+#$-N PCA
 
 source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ../code/PopGenome/S-chr.R
+Rscript ../code/PopGenome/pca-analysis.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on $(date)

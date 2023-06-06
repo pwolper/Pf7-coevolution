@@ -16,14 +16,14 @@
 #-j yes
 
 #$-q all.q
-#$-N tabix
+#$-N snp.bcftools
 
 source ~/.bashrc
 
 echo STARTED on $(date)
 
 ## bcftools
-source ../code/qsub-bcftools/bcftools_indexing.sh
+source ../code/qsub-bcftools/bcftools_SNP.sh
 
 echo FINISHED indexing on $(date)
 
