@@ -18,10 +18,12 @@
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
 - Can we compare /P.falciparum/ to /P.vivax?
-- Do things like recombination with multiple mergers lead to effects of genetic burden, such as Muller's ratchet or clonal interference?
+- Do things like recombination with multiple mergers affect selection and how?
+- What about genetic burden, such as Muller's ratchet or clonal interference?
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
 * Ideas for analysis
+- PCA analysis to show the clustering of samples by location or year. Choose some good samples for further analysis. Should the SNPs be filtered for LD to remove correlations?
 - Coalescent methods for demogaphic/multiple merger (MMC) methods
  [[cite:&korfmann-2023-simul-infer]]
 - SMC? other coalescent methods. Quantifying recombination?
@@ -46,7 +48,7 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
 * Results?
-** Tajima's D seems to be slightly positive.
+** Tajima's D peaks?
 Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
