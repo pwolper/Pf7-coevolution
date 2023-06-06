@@ -2,21 +2,33 @@
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
 #+STARTUP: showstars
 #+SETUPFILE: ~/.doom.d/latex.setup
+#+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
+
 
 * Tasks :noexport:
 - [ ] Selection of populations
   - Kenya, Gambia, DRC
-  - see Reading List/Pf7 populations, additional populations. Vivax as well?
+  - Myanmar (Asia seems to cluster farther away)
 - [-] Calculate TajD
-  - What region size around the locis? More resolved than 500kb?
-  - Code Taj-D.R into functions for easy runs.
-  - Chr 11; Pfsa3
-- [ ] Nucleotide diversity
-  - Sliding window around the loci? or whole genome?
+- [ ] Segregating sites on chr11 and chr2
   - Using synonymous polymorphisms?
-- [ ] F_st population differentitaion between chooses populations
-- [ ] Code: switch scripts to be called more as functions. (bcftools, downloading into data.)
-  - [ ] sliding window function.
+- [ ] Population differentiation. Genomic PCA plot
+  - Maybe with F_st population differentitaion between chooses populations
+
+* Questions
+- What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
+- Do things like recombination with multiple mergers lead to effects of genetic burden, such as Muller's ratchet or clonal interference?
+- Can we compare /P.falciparum/ to /P.vivax?
+- What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
+
+* Ideas for analysis
+- Coalescent methods for demogaphic/multiple merger (MMC) methods
+ [[cite:&korfmann-2023-simul-infer]]
+- SMC? other coalescent methods. Quantifying recombination?
+- Test for balancing selection?
+- Time series of genomic data (ABS) (ask  Meline)
+
+Think about the biological question we want to ask!!
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -25,7 +37,7 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 - Pfsa2: chr2: *814,288 C>T variant*, which lies in Pf3D7_0220300,
 - Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
 
-*Do these loci show signs of balancing selection indicating coevolution with the host?*
+*Do these loci show signs of balancing selection indicating coevolution with the host?* What could be the molecular mechanisms and virulence related functions?
 
 * Tajima's D [1]
 [[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
@@ -33,7 +45,13 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 * Tajima's D [2]
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
-* Signatures of Balancing Selection
+* Results?
+** Tajima's D seems to be slightly positive.
+Nucelotide diversity:
+- virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
+  - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
+
+* Signatures of Balancing Selection?
 Signatures of balancing selection:
 - negative-frequency dependent selection
 
@@ -42,19 +60,6 @@ What is the gene ontology of genes under balancing selection? How can we show co
 Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
-
-* Ideas for analysis
-- Coalescent methods for demogaphic/multiple merger (MMC) methods
- [[cite:&korfmann-2023-simul-infer]]
-
-- Time series of genomic data (ABS) (ask  Meline )
-- SMC? other coalescent methods.
-
-Think about the biological question we want to ask!!
-
-* Questions
-- What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
-- Can we compare /P.falciparum/ to /P.vivax.
 
 * Pf7 populations
 ** Kenya
