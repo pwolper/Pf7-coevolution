@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 % Created 2023-06-06 Di 10:42
+=======
+% Created 2023-06-06 Di 11:07
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -40,7 +44,11 @@
 \usepackage{enumitem}
 \setlist[itemize]{noitemsep, topsep=0pt}
 \setlist{itemsep=-2pt} % or
+<<<<<<< HEAD
 \addbibresource{~/biblio/pop-gen.bib}
+=======
+\addbibresource{./biblio/README.bib}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \author{Philip L. Wolper}
 \date{\today}
 \title{Project Notes for Research Internship in the Lab of Aurelien Tellier\\\medskip
@@ -57,8 +65,34 @@
 \maketitle
 
 
+<<<<<<< HEAD
 \section{HbS-associated variants in \emph{P. falciparum}}
 \label{sec:org7d99933}
+=======
+\section{Questions}
+\label{sec:org385462e}
+\begin{itemize}
+\item What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
+\item Do things like recombination with multiple mergers lead to effects of genetic burden, such as Muller's ratchet or clonal interference?
+\item Can we compare \emph{P.falciparum} to /P.vivax?
+\item What signatures do the \emph{Pfsa} loci show, when accounting for their demography? What about compared to genes under positive selection?
+\end{itemize}
+
+\section{Ideas for analysis}
+\label{sec:org9c3313a}
+\begin{itemize}
+\item Coalescent methods for demogaphic/multiple merger (MMC) methods
+\cite{korfmann-2023-simul-infer}
+\item SMC? other coalescent methods. Quantifying recombination?
+\item Test for balancing selection?
+\item Time series of genomic data (ABS) (ask  Meline)
+\end{itemize}
+
+Think about the biological question we want to ask!!
+
+\section{HbS-associated variants in \emph{P. falciparum}}
+\label{sec:orgfdb52d1}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 Described in Band et al are three loci \emph{Pfsa1, 2} and /3/3 (P.falciparum sickle-associated)
 
 \begin{itemize}
@@ -67,24 +101,41 @@ Described in Band et al are three loci \emph{Pfsa1, 2} and /3/3 (P.falciparum si
 \item Pfsa3: chr11: \textbf{1,058,035 T>A variant}, which lies in Pf3D7\_1127000,
 \end{itemize}
 
+<<<<<<< HEAD
 \textbf{Do these loci show signs of balancing selection indicating coevolution with the host?}
 
 \section{Tajima's D [1]}
 \label{sec:org5204a2b}
+=======
+\textbf{Do these loci show signs of balancing selection indicating coevolution with the host?} What could be the molecular mechanisms and virulence related functions?
+
+\section{Tajima's D [1]}
+\label{sec:org183f418}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{center}
 \includegraphics[width=.9\linewidth]{./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png}
 \end{center}
 
 \section{Tajima's D [2]}
+<<<<<<< HEAD
 \label{sec:org841cb6f}
+=======
+\label{sec:orgc2decba}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{center}
 \includegraphics[width=.9\linewidth]{./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png}
 \end{center}
 
 \section{Results?}
+<<<<<<< HEAD
 \label{sec:org49330f4}
 \subsection{Tajima's D seems to be slightly positive.}
 \label{sec:org224d229}
+=======
+\label{sec:org45d3d53}
+\subsection{Tajima's D seems to be slightly positive.}
+\label{sec:org1fd1620}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 Nucelotide diversity:
 \begin{itemize}
 \item virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance (\cite{rich-2000-popul-struc}).
@@ -93,8 +144,13 @@ Nucelotide diversity:
 \end{itemize}
 \end{itemize}
 
+<<<<<<< HEAD
 \section{Signatures of Balancing Selection}
 \label{sec:orgd5735c2}
+=======
+\section{Signatures of Balancing Selection?}
+\label{sec:orgb42e4da}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 Signatures of balancing selection:
 \begin{itemize}
 \item negative-frequency dependent selection
@@ -110,6 +166,7 @@ Nucelotide diversity:
 \end{itemize}
 \end{itemize}
 
+<<<<<<< HEAD
 \section{Ideas for analysis}
 \label{sec:orge4f9684}
 \begin{itemize}
@@ -133,26 +190,44 @@ Think about the biological question we want to ask!!
 \label{sec:orgf1379e4}
 \subsection{Kenya}
 \label{sec:org1888425}
+=======
+\section{Pf7 populations}
+\label{sec:org2a47976}
+\subsection{Kenya}
+\label{sec:org99d87bc}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \url{https://www.malariagen.net/apps/pf7/countries/KE}
 \begin{itemize}
 \item 285 samples from the Year = 2010-2014 \& QC.pass = ``True'' at the locations Kilifi and Kisumu.
 \end{itemize}
 
 \subsection{Upper River Gambia}
+<<<<<<< HEAD
 \label{sec:org7007c7e}
+=======
+\label{sec:orgcde26b5}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \url{https://www.malariagen.net/apps/pf7/countries/GM}
 \begin{itemize}
 \item 452 samples from Upper River and the years 2013-2017
 \end{itemize}
 
 \subsection{Democratic Republic of Congo}
+<<<<<<< HEAD
 \label{sec:orgbe92b72}
+=======
+\label{sec:orgf4f4067}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item 520 samples, 2012-2016, QC.pass = True
 \end{itemize}
 
 \subsection{Other candidates}
+<<<<<<< HEAD
 \label{sec:org839d17e}
+=======
+\label{sec:org776838f}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item Myanmar, Kayin (631 samples, 2016-2017)
 \item Malawi, Chikawa (231 samples, 2011)
@@ -161,11 +236,19 @@ Think about the biological question we want to ask!!
 Vivax data set from similar locations?
 
 \section{Data}
+<<<<<<< HEAD
 \label{sec:orgc2084c4}
 vcf files downloaded from: ``\url{ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7\_vcf/}''
 
 \subsection{SNP filtering with bcf tools.}
 \label{sec:org3493bee}
+=======
+\label{sec:orgdf9091d}
+vcf files downloaded from: ``\url{ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7\_vcf/}''
+
+\subsection{SNP filtering with bcf tools.}
+\label{sec:orga3336f3}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 Filtering for Quality control pass (?), bialleic snps\ldots{}
 
 \begin{verbatim}
@@ -179,6 +262,7 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 \end{verbatim}
 
 \subsection{P.vivax data?}
+<<<<<<< HEAD
 \label{sec:org558637c}
 \url{https://wellcomeopenresearch.org/articles/7-136/v1}
 
@@ -187,6 +271,16 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 Citations and PDF files can be found in the \emph{\textasciitilde{}/biblio} directory.
 \subsection{Pf7 populations}
 \label{sec:orgd5cbd97}
+=======
+\label{sec:org992a538}
+\url{https://wellcomeopenresearch.org/articles/7-136/v1}
+
+\section{Reading list}
+\label{sec:org8d0bed9}
+Citations and PDF files can be found in the \emph{\textasciitilde{}/biblio} directory.
+\subsection{Pf7 populations}
+\label{sec:org7cc5de0}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item \cite{rich-2000-popul-struc}; Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum
 \item \cite{nderu-2019-genet-diver}; Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas
@@ -195,20 +289,32 @@ Citations and PDF files can be found in the \emph{\textasciitilde{}/biblio} dire
 \end{itemize}
 
 \subsection{Plasmodium Genomics}
+<<<<<<< HEAD
 \label{sec:orgf3857a6}
+=======
+\label{sec:org620d310}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item \cite{benavente-2021-distin-genet}; Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika
 \end{itemize}
 
 \subsection{Human-parasite interactions}
+<<<<<<< HEAD
 \label{sec:org0de348b}
+=======
+\label{sec:org45099fe}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item \cite{band-2021-malar-protec}; Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype
 \item \cite{raberg-2023-human-pathog}; Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory
 \end{itemize}
 
 \subsection{Coevolution Theory}
+<<<<<<< HEAD
 \label{sec:org7037a4c}
+=======
+\label{sec:org9cc0997}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \begin{itemize}
 \item \cite{brown-2011-plant-paras-coevol}; Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology
 \item \cite{tellier-2021-theor-host}; Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics
@@ -216,6 +322,7 @@ Citations and PDF files can be found in the \emph{\textasciitilde{}/biblio} dire
 \end{itemize}
 
 \section{Links}
+<<<<<<< HEAD
 \label{sec:org6da40e4}
 \subsection{Pf7 Data Viewer}
 \label{sec:orge2ae74a}
@@ -227,5 +334,18 @@ Citations and PDF files can be found in the \emph{\textasciitilde{}/biblio} dire
 
 \subsection{Kevin Korfmann Kenya Workshop GitHub}
 \label{sec:org7c0bec0}
+=======
+\label{sec:org145450a}
+\subsection{Pf7 Data Viewer}
+\label{sec:orgf166341}
+\url{https://www.malariagen.net/apps/pf7/}
+
+\subsection{PopGen Cluster - p.wolper home}
+\label{sec:orgacbe780}
+\url{file://sshx:p.wolper@10.152.154.1:\~/}
+
+\subsection{Kevin Korfmann Kenya Workshop GitHub}
+\label{sec:orgacdc2d8}
+>>>>>>> 393740ecfd85d2a449e55ffb90a4cb3943ddb07e
 \url{https://kevinkorfmann.github.io/workshop-kenya/session\_1.html}
 \end{document}

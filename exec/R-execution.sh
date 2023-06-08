@@ -4,7 +4,7 @@
 # This option tells gridware to change to the current directory before executing the job
 # (default is the home of the user).
 
-#$-pe serial 1
+#$-pe serial 8
 # Specify this option only for multithreaded jobs that use more than one cpu core.
 # IMPORTANT! Don't use more than 4 cores to keep free space for other students!
 
@@ -15,8 +15,8 @@
 
 #$-j yes
 
-#$-q all.q
-#$-N PCA
+#$-q bigmem@node09.pgen.wzw.tum.de
+#$-N PCA.par
 
 source ~/.bashrc
 conda activate R.env
