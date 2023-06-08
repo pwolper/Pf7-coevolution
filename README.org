@@ -48,14 +48,17 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 ** P.falciparum chr 2
 [[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
 
+* Tajima's D
 ** P.falciparum chr 11
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
-* \Theta _W and \Theta _pi
+*  $\theta$ and $\pi$
 
 * Discussion
 ** Tajima's D peaks?
-Nucelotide diversity:
+How can we interpret the values of D_Taj?
+
+- Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
 
@@ -65,11 +68,7 @@ Signatures of balancing selection:
 
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
-Nucelotide diversity:
-- virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
-  - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
-
-* Pf7 populations
+* Pf7 populations :noexport:
 ** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
 - 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
