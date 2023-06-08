@@ -11,7 +11,7 @@
 - [-] Calculate TajD
 - [-] Segregating sites on chr11 and chr2
   - Using synonymous polymorphisms?
-- [ ] /Theta _W and /Theta _pi
+- [ ] \Theta _W and \Theta _pi
 - [ ] Population differentiation. Genomic PCA plot
   - Maybe with F_st population differentitaion between chooses populations
 
@@ -44,24 +44,22 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 ** Results
 - D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)
 
-* Tajima's D [1]
-** Results
-- D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)
-
+* Tajima's D
+** P.falciparum chr 2
 [[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
 
-* Tajima's D [2]
+** P.falciparum chr 11
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
-* /Theta _W and /Theta _pi
+* \Theta _W and \Theta _pi
 
-* Results?
+* Discussion
 ** Tajima's D peaks?
 Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
   - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
 
-* Signatures of Balancing Selection?
+** Signatures of Balancing Selection?
 Signatures of balancing selection:
 - negative-frequency dependent selection
 
