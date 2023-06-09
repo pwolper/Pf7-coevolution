@@ -42,9 +42,9 @@ Pf7.pca.scores
 ## Extracting eigenvalues
 eig.total <- sum(Pf7.pca$eig)
 
-write.table(here("output/pca/Pf7.pca.eigenvalues.txt"), eig.total , sep = "\t")
-write.table(here("output/pca/Pf7.pca.scores.txt"), Pf7.pca.scores, sep = "\t")
-write.table(here("output/pca/Pf7.pca.loadings.txt"), Pf7.pca$loadings, sep = "\t")
+write.table(eig.total, here("output/pca/Pf7.pca.eigenvalues.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(Pf7.pca.scores, here("output/pca/Pf7.pca.scores.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(Pf7.pca$loadings, here("output/pca/Pf7.pca.loadings.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
 
 ## Plotting the pca
 Pf7.plot12 <- ggplot(Pf7.pca.scores, aes(PC1,PC2)) + geom_point()
