@@ -11,9 +11,12 @@
 - [-] Calculate TajD
 - [-] Segregating sites on chr11 and chr2
   - Using synonymous polymorphisms?
-- [ ] \Theta _W and \Theta _pi
+- [-] \Theta _W and \Theta _pi
+- [ ] PopGen stats discussion
 - [ ] Population differentiation. Genomic PCA plot
   - Maybe with F_st population differentitaion between chooses populations
+- [ ] Plot the SFS.
+  - Which software to use?
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
