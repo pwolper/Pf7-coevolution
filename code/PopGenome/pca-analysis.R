@@ -42,7 +42,7 @@ Pf7.pca.scores
 ## Extracting eigenvalues
 eig.total <- sum(Pf7.pca$eig)
 
-write.table(eig.total, here("output/pca/Pf7.pca.eigenvalues.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(Pf7.pca$eig, here("output/pca/Pf7.pca.eigenvalues.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(Pf7.pca.scores, here("output/pca/Pf7.pca.scores.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
 write.table(Pf7.pca$loadings, here("output/pca/Pf7.pca.loadings.txt"), sep = "\t", quote = FALSE, row.names = FALSE)
 
