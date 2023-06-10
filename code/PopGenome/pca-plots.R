@@ -10,7 +10,7 @@ pca.loading <- read.csv(here("output/pca/Pf7.pca.loadings.txt"), sep = "\t")
 
 
 ## Plotting the pca
-Pf7.plot12 <- ggplot(Pf7.pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country, shape = Year))
+Pf7.plot12 <- ggplot(pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country, shape = Year))
 
 
 ggsave(Pf7.plot12, file = here("output/pca/","Pf7.chr2.pca.png"),
