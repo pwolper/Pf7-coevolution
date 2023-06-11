@@ -14,6 +14,6 @@ str(pca.scores)
 Pf7.plot12 <- ggplot(pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country))
 
 
-ggsave(Pf7.plot12, file = here("output/pca/","Pf7.chr2.pca.png"),
+ggsave(Pf7.plot12, file = here("output/pca/","Pf7.chr2.pca.african.png"),
          device = "png", dpi = 300,
          width = 7, height = 7)
