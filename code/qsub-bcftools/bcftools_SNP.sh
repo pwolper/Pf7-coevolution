@@ -9,10 +9,10 @@ echo STARTED on $(date)
 ## bcftools
 bcftools view \
     --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
-    --samples-file $samples_dir/Pf7_african_samples.txt \
+    --samples-file $samples_dir/Pf7_african_samples_ids.txt \
     --output-type z\
     --output-file  $vcf_dir/Pf3D7_02_v3.afr_samples.SNP.vcf.gz \
-    $vcf_dir/Pf3D7_02_v3.samples.SNP.vcf.gz
+    $vcf_dir/Pf3D7_02_v3.pf7.vcf.gz
 
 echo FINISHED writing output file on $(date)
 
