@@ -1,36 +1,41 @@
 library(tidyverse)
 library(here)
 
-## TajD.data <- "Pf7.chr2.DRC_GM_KE_MM.txt"
+## stats.file <- "Pf7.chr2.stats.DRC_GM_KE_MM.txt"
 
 ## ## Reading in data
-## TajD <- read.csv(file = here("output/TajD/data/",TajD.data),
+## stats <- read.csv(file = here("output/",stats.file),
 ##                  sep = "\t")
-## str(TajD)
+## str(stats)
 
 
 ## Formatting data for plotting
-format_Popgenome_TajD <- function(vcf.TajD){
+format_Popgenome_stats <- function(stats, output_filename){
   # TajD: Popgenome array output; populations: vector of population identifiers.
-  positions <- vcf.TajD$position
-  vcf.TajD <- subset(vcf.TajD, select = -c(position))
-  colnames(vcf.TajD) <- sapply(strsplit(colnames(vcf.TajD),'\\.'),function(x) x[[2]])
-  TajD_total <- unname(unlist(vcf.TajD))
-  df <- data.frame(population = rep(colnames(vcf.TajD), each = nrow(vcf.TajD)),
-                   TajD = TajD_total)
-  return(cbind(positions, df))
+  positions <- stats$position
+  stats <- subset(stats, select = -c(position))
+
+  pop <- unique(sapply(strsplit(colnames(stats),'\\.'),function(x) x[[2]]))
+
+  list <- lapply(setNames(pop,pop), function(x) stats[, grep(x, colnames(stats))])
+
+  for(i in 1:length(list)){
+  colnames(list[[i]]) <- sapply(strsplit(colnames(list[[i]]),'\\.'),function(x) x[[1]])
+  list[[i]]$population <- rep(names(list[i]), times =  nrow(list[[1]]))}
+  str(list)
+
+  df.stats <- bind_rows(list)
+  df.stats <- cbind(df.stats, positions)
+
+  write.table(df.stats,
+              file = here("output/",output_filename),
+              sep = "\t", row.names = FALSE)
+
+  cat("\n", paste("Output file written to: \n",here("output",output_filename)))
+
+  return(df.stats)
 }
 
-format_Popgenome_S <- function(vcf.S){
-  # TajD: Popgenome array output; populations: vector of population identifiers.
-  positions <- vcf.S$position
-  vcf.S <- subset(vcf.S, select = -c(position))
-  colnames(vcf.S) <- sapply(strsplit(colnames(vcf.S),'\\.'),function(x) x[[2]])
-  S_total <- unname(unlist(vcf.S))
-  df <- data.frame(population = rep(colnames(vcf.S), each = nrow(vcf.S)),
-                   S = S_total)
-  return(cbind(positions, df))
-}
 ## DRC_GM_KE_MM <- format_Popgenome_TajD(TajD)
 ## DRC_GM_KE_MM %>% str()
 

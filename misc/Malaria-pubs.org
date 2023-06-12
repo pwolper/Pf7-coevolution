@@ -1,0 +1,18 @@
+#+title: Malaria Pubs
+
+Hi Aurelien,
+
+the Malaria Consortium provides a list with papers. Which can be found at:
+https://www.malariagen.net/publications
+
+Regarding the Tajimas D at least what I found for the vector are negative values:
+https://www.nature.com/articles/nature24995
+
+I didn't check all the papers from the website but some still have some Tajimas D estimates, e.g. for antigen regions:
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009801
+
+or some other genes (here very negative):
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4966634/
+
+Otherwise, they seem to describe more population differentiation stats in their overview papers:
+https://wellcomeopenresearch.org/articles/6-42

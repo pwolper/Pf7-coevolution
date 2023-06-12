@@ -1,0 +1,1847 @@
+id	Country	year	location
+PC0167-C	Kenya	2014	Kisumu
+PC0169-C	Kenya	2014	Kisumu
+PC0170-C	Kenya	2014	Kisumu
+PC0172-C	Kenya	2014	Kisumu
+PC0173-C	Kenya	2014	Kisumu
+PC0174-C	Kenya	2014	Kisumu
+PC0178-C	Kenya	2014	Kisumu
+PC0180-C	Kenya	2014	Kisumu
+PC0183-C	Kenya	2014	Kisumu
+PC0184-C	Kenya	2014	Kisumu
+PC0186-C	Kenya	2014	Kisumu
+PC0187-C	Kenya	2014	Kisumu
+PC0188-C	Kenya	2014	Kisumu
+PC0189-C	Kenya	2014	Kisumu
+PC0191-C	Kenya	2014	Kisumu
+PC0193-C	Kenya	2014	Kisumu
+PC0197-C	Kenya	2014	Kisumu
+PC0198-C	Kenya	2014	Kisumu
+PC0199-C	Kenya	2014	Kisumu
+PC0200-C	Kenya	2014	Kisumu
+PC0201-C	Kenya	2014	Kisumu
+PC0202-C	Kenya	2014	Kisumu
+PC0206-C	Kenya	2014	Kisumu
+PC0208-C	Kenya	2014	Kisumu
+PC0209-C	Kenya	2014	Kisumu
+PC0213-C	Kenya	2014	Kisumu
+PC0220-C	Kenya	2014	Kisumu
+PC0229-C	Kenya	2014	Kisumu
+PC0231-C	Kenya	2014	Kisumu
+PC0232-C	Kenya	2014	Kisumu
+PC0233-C	Kenya	2014	Kisumu
+PC0236-C	Kenya	2014	Kisumu
+PC0245-C	Kenya	2014	Kisumu
+PC0246-C	Kenya	2014	Kisumu
+PC0252-C	Kenya	2014	Kisumu
+PC0254-C	Kenya	2014	Kisumu
+PC0255-C	Kenya	2014	Kisumu
+PC0256-C	Kenya	2014	Kisumu
+PC0257-C	Kenya	2014	Kisumu
+PC0258-C	Kenya	2014	Kisumu
+PC0259-C	Kenya	2014	Kisumu
+PC0262-C	Kenya	2014	Kisumu
+PC0263-C	Kenya	2014	Kisumu
+PC0265-C	Kenya	2014	Kisumu
+PC0268-C	Kenya	2014	Kisumu
+PC0269-C	Kenya	2014	Kisumu
+PC0273-C	Kenya	2014	Kisumu
+PC0276-C	Kenya	2014	Kisumu
+PC0277-C	Kenya	2014	Kisumu
+PC0278-C	Kenya	2014	Kisumu
+PC0282-C	Kenya	2014	Kisumu
+PC0287-C	Kenya	2014	Kisumu
+PC0288-C	Kenya	2014	Kisumu
+PC0293-C	Kenya	2014	Kisumu
+PC0295-C	Kenya	2014	Kisumu
+PC0296-C	Kenya	2014	Kisumu
+PC0301-C	Kenya	2014	Kisumu
+PC0302-C	Kenya	2014	Kisumu
+PC0305-C	Kenya	2014	Kisumu
+PC0311-C	Kenya	2014	Kisumu
+PC0314-C	Kenya	2014	Kisumu
+PC0337-C	Kenya	2014	Kisumu
+PC0352-C	Kenya	2014	Kisumu
+PC4008-C	Kenya	2014	Kilifi
+PC4009-C	Kenya	2014	Kilifi
+PC4010-C	Kenya	2014	Kilifi
+PC4011-C	Kenya	2014	Kilifi
+PC4013-C	Kenya	2014	Kilifi
+SPT43145	Kenya	2010	Kilifi
+SPT43146	Kenya	2010	Kilifi
+SPT43147	Kenya	2010	Kilifi
+SPT43148	Kenya	2010	Kilifi
+SPT43149	Kenya	2010	Kilifi
+SPT43150	Kenya	2010	Kilifi
+SPT43151	Kenya	2010	Kilifi
+SPT43152	Kenya	2010	Kilifi
+SPT43153	Kenya	2010	Kilifi
+SPT43154	Kenya	2010	Kilifi
+SPT43155	Kenya	2010	Kilifi
+SPT43156	Kenya	2010	Kilifi
+SPT43157	Kenya	2010	Kilifi
+SPT43158	Kenya	2010	Kilifi
+SPT43159	Kenya	2010	Kilifi
+SPT43160	Kenya	2010	Kilifi
+SPT43161	Kenya	2010	Kilifi
+SPT43162	Kenya	2010	Kilifi
+SPT43163	Kenya	2010	Kilifi
+SPT43164	Kenya	2010	Kilifi
+SPT43165	Kenya	2010	Kilifi
+SPT43166	Kenya	2010	Kilifi
+SPT43167	Kenya	2010	Kilifi
+SPT43168	Kenya	2010	Kilifi
+SPT43169	Kenya	2010	Kilifi
+SPT43170	Kenya	2010	Kilifi
+SPT43171	Kenya	2010	Kilifi
+SPT43172	Kenya	2010	Kilifi
+SPT43175	Kenya	2010	Kilifi
+SPT43176	Kenya	2010	Kilifi
+SPT43177	Kenya	2010	Kilifi
+SPT43178	Kenya	2010	Kilifi
+SPT43179	Kenya	2010	Kilifi
+SPT43180	Kenya	2010	Kilifi
+SPT43183	Kenya	2010	Kilifi
+SPT43184	Kenya	2010	Kilifi
+SPT43185	Kenya	2010	Kilifi
+SPT43186	Kenya	2010	Kilifi
+SPT43187	Kenya	2010	Kilifi
+SPT43188	Kenya	2010	Kilifi
+SPT43191	Kenya	2010	Kilifi
+SPT43192	Kenya	2010	Kilifi
+SPT43193	Kenya	2010	Kilifi
+SPT43194	Kenya	2010	Kilifi
+SPT43195	Kenya	2010	Kilifi
+SPT43196	Kenya	2010	Kilifi
+SPT43197	Kenya	2010	Kilifi
+SPT43198	Kenya	2010	Kilifi
+SPT43199	Kenya	2010	Kilifi
+SPT43200	Kenya	2010	Kilifi
+SPT43201	Kenya	2010	Kilifi
+SPT43202	Kenya	2010	Kilifi
+SPT43203	Kenya	2010	Kilifi
+SPT43204	Kenya	2010	Kilifi
+SPT43205	Kenya	2010	Kilifi
+SPT43206	Kenya	2010	Kilifi
+SPT43208	Kenya	2010	Kilifi
+SPT43209	Kenya	2010	Kilifi
+SPT43210	Kenya	2010	Kilifi
+SPT43211	Kenya	2010	Kilifi
+SPT43212	Kenya	2010	Kilifi
+SPT43213	Kenya	2010	Kilifi
+SPT43214	Kenya	2010	Kilifi
+SPT43215	Kenya	2010	Kilifi
+SPT43216	Kenya	2010	Kilifi
+SPT43217	Kenya	2010	Kilifi
+SPT43218	Kenya	2010	Kilifi
+SPT43219	Kenya	2010	Kilifi
+SPT43220	Kenya	2010	Kilifi
+SPT43222	Kenya	2010	Kilifi
+SPT43223	Kenya	2010	Kilifi
+SPT43224	Kenya	2010	Kilifi
+SPT43225	Kenya	2010	Kilifi
+SPT43226	Kenya	2010	Kilifi
+SPT43227	Kenya	2010	Kilifi
+SPT43228	Kenya	2010	Kilifi
+SPT43229	Kenya	2010	Kilifi
+SPT43230	Kenya	2010	Kilifi
+SPT43231	Kenya	2010	Kilifi
+SPT43232	Kenya	2011	Kilifi
+SPT43233	Kenya	2011	Kilifi
+SPT43234	Kenya	2011	Kilifi
+SPT43235	Kenya	2011	Kilifi
+SPT43236	Kenya	2011	Kilifi
+SPT43237	Kenya	2011	Kilifi
+SPT43238	Kenya	2011	Kilifi
+SPT43239	Kenya	2011	Kilifi
+SPT43240	Kenya	2011	Kilifi
+SPT43241	Kenya	2011	Kilifi
+SPT43242	Kenya	2011	Kilifi
+SPT43243	Kenya	2011	Kilifi
+SPT43244	Kenya	2011	Kilifi
+SPT43246	Kenya	2011	Kilifi
+SPT43247	Kenya	2011	Kilifi
+SPT43248	Kenya	2011	Kilifi
+SPT43249	Kenya	2011	Kilifi
+SPT43250	Kenya	2011	Kilifi
+SPT43251	Kenya	2011	Kilifi
+SPT43252	Kenya	2011	Kilifi
+SPT43253	Kenya	2011	Kilifi
+SPT43254	Kenya	2011	Kilifi
+SPT43255	Kenya	2011	Kilifi
+SPT43256	Kenya	2011	Kilifi
+SPT43257	Kenya	2011	Kilifi
+SPT43258	Kenya	2011	Kilifi
+SPT43259	Kenya	2011	Kilifi
+SPT43260	Kenya	2011	Kilifi
+SPT43261	Kenya	2011	Kilifi
+SPT43262	Kenya	2011	Kilifi
+SPT43263	Kenya	2011	Kilifi
+SPT43264	Kenya	2011	Kilifi
+SPT43265	Kenya	2011	Kilifi
+SPT43266	Kenya	2011	Kilifi
+SPT43267	Kenya	2011	Kilifi
+SPT43268	Kenya	2011	Kilifi
+SPT43269	Kenya	2011	Kilifi
+SPT43270	Kenya	2011	Kilifi
+SPT43271	Kenya	2011	Kilifi
+SPT43272	Kenya	2011	Kilifi
+SPT43273	Kenya	2011	Kilifi
+SPT43274	Kenya	2011	Kilifi
+SPT43275	Kenya	2011	Kilifi
+SPT43276	Kenya	2011	Kilifi
+SPT43277	Kenya	2011	Kilifi
+SPT43279	Kenya	2011	Kilifi
+SPT43280	Kenya	2011	Kilifi
+SPT43281	Kenya	2011	Kilifi
+SPT43282	Kenya	2011	Kilifi
+SPT43283	Kenya	2011	Kilifi
+SPT43284	Kenya	2011	Kilifi
+SPT43285	Kenya	2011	Kilifi
+SPT43286	Kenya	2011	Kilifi
+SPT43287	Kenya	2011	Kilifi
+SPT43288	Kenya	2011	Kilifi
+SPT43289	Kenya	2011	Kilifi
+SPT43290	Kenya	2011	Kilifi
+SPT43291	Kenya	2011	Kilifi
+SPT43292	Kenya	2011	Kilifi
+SPT43293	Kenya	2011	Kilifi
+SPT43294	Kenya	2012	Kilifi
+SPT43295	Kenya	2012	Kilifi
+SPT43296	Kenya	2012	Kilifi
+SPT43297	Kenya	2012	Kilifi
+SPT43298	Kenya	2012	Kilifi
+SPT43299	Kenya	2012	Kilifi
+SPT43300	Kenya	2012	Kilifi
+SPT43301	Kenya	2012	Kilifi
+SPT43302	Kenya	2012	Kilifi
+SPT43303	Kenya	2012	Kilifi
+SPT43304	Kenya	2012	Kilifi
+SPT43305	Kenya	2012	Kilifi
+SPT43306	Kenya	2012	Kilifi
+SPT43307	Kenya	2012	Kilifi
+SPT43308	Kenya	2012	Kilifi
+SPT43310	Kenya	2012	Kilifi
+SPT43311	Kenya	2012	Kilifi
+SPT43312	Kenya	2012	Kilifi
+SPT43313	Kenya	2012	Kilifi
+SPT43314	Kenya	2012	Kilifi
+SPT43315	Kenya	2012	Kilifi
+SPT43316	Kenya	2012	Kilifi
+SPT43317	Kenya	2012	Kilifi
+SPT43318	Kenya	2012	Kilifi
+SPT43319	Kenya	2012	Kilifi
+SPT43320	Kenya	2012	Kilifi
+SPT43321	Kenya	2012	Kilifi
+SPT43322	Kenya	2012	Kilifi
+SPT43323	Kenya	2012	Kilifi
+SPT43324	Kenya	2012	Kilifi
+SPT43325	Kenya	2012	Kilifi
+SPT43326	Kenya	2012	Kilifi
+SPT43328	Kenya	2012	Kilifi
+SPT43329	Kenya	2012	Kilifi
+SPT43330	Kenya	2012	Kilifi
+SPT43331	Kenya	2012	Kilifi
+SPT43333	Kenya	2012	Kilifi
+SPT43334	Kenya	2012	Kilifi
+SPT43335	Kenya	2012	Kilifi
+SPT43336	Kenya	2012	Kilifi
+SPT43337	Kenya	2012	Kilifi
+SPT43338	Kenya	2012	Kilifi
+SPT43339	Kenya	2012	Kilifi
+SPT43340	Kenya	2012	Kilifi
+SPT43341	Kenya	2012	Kilifi
+SPT43342	Kenya	2012	Kilifi
+SPT43343	Kenya	2012	Kilifi
+SPT43344	Kenya	2012	Kilifi
+SPT43345	Kenya	2012	Kilifi
+SPT43346	Kenya	2012	Kilifi
+SPT43347	Kenya	2012	Kilifi
+SPT43348	Kenya	2012	Kilifi
+SPT43349	Kenya	2012	Kilifi
+SPT43350	Kenya	2012	Kilifi
+SPT43351	Kenya	2012	Kilifi
+SPT43352	Kenya	2012	Kilifi
+SPT43355	Kenya	2012	Kilifi
+SPT43356	Kenya	2012	Kilifi
+SPT43357	Kenya	2012	Kilifi
+SPT43358	Kenya	2012	Kilifi
+SPT43359	Kenya	2012	Kilifi
+SPT43360	Kenya	2012	Kilifi
+SPT43361	Kenya	2012	Kilifi
+SPT43362	Kenya	2012	Kilifi
+SPT43363	Kenya	2012	Kilifi
+SPT43364	Kenya	2012	Kilifi
+SPT43365	Kenya	2012	Kilifi
+SPT43366	Kenya	2012	Kilifi
+SPT43367	Kenya	2012	Kilifi
+SPT43368	Kenya	2012	Kilifi
+SPT43369	Kenya	2012	Kilifi
+SPT43370	Kenya	2012	Kilifi
+SPT43371	Kenya	2012	Kilifi
+SPT43372	Kenya	2012	Kilifi
+SPT43373	Kenya	2012	Kilifi
+SPT43374	Kenya	2012	Kilifi
+SPT43375	Kenya	2012	Kilifi
+SPT43376	Kenya	2012	Kilifi
+PA0370-C	Gambia	2014	Upper River
+PA0371-C	Gambia	2014	Upper River
+PA0372-C	Gambia	2014	Upper River
+PA0373-C	Gambia	2014	Upper River
+PA0374-C	Gambia	2014	Upper River
+PA0375-C	Gambia	2014	Upper River
+PA0376-C	Gambia	2014	Upper River
+PA0377-C	Gambia	2014	Upper River
+PA0378-C	Gambia	2014	Upper River
+PA0379-C	Gambia	2014	Upper River
+PA0382-C	Gambia	2014	Upper River
+PA0383-C	Gambia	2014	Upper River
+PA0384-C	Gambia	2014	Upper River
+PA0387-C	Gambia	2014	Upper River
+PA0388-C	Gambia	2014	Upper River
+PA0389-C	Gambia	2014	Upper River
+PA0391-C	Gambia	2014	Upper River
+PA0392-C	Gambia	2014	Upper River
+PA0393-C	Gambia	2014	Upper River
+PA0394-C	Gambia	2014	Upper River
+PA0395-C	Gambia	2014	Upper River
+PA0396-C	Gambia	2014	Upper River
+PA0397-C	Gambia	2014	Upper River
+PA0398-C	Gambia	2014	Upper River
+PA0399-C	Gambia	2014	Upper River
+PA0400-C	Gambia	2014	Upper River
+PA0401-C	Gambia	2014	Upper River
+PA0402-C	Gambia	2014	Upper River
+PA0403-C	Gambia	2014	Upper River
+PA0404-C	Gambia	2014	Upper River
+PA0405-C	Gambia	2014	Upper River
+PA0406-C	Gambia	2014	Upper River
+PA0407-C	Gambia	2014	Upper River
+PA0409-C	Gambia	2014	Upper River
+PA0411-C	Gambia	2014	Upper River
+PA0413-C	Gambia	2014	Upper River
+PA0414-C	Gambia	2014	Upper River
+PA0417-C	Gambia	2014	Upper River
+PA0419-C	Gambia	2014	Upper River
+PA0423-C	Gambia	2014	Upper River
+PA0424-C	Gambia	2014	Upper River
+PA0425-C	Gambia	2014	Upper River
+PA0431-C	Gambia	2014	Upper River
+PA0506-C	Gambia	2014	Upper River
+PA0507-C	Gambia	2014	Upper River
+PA0508-C	Gambia	2014	Upper River
+PA0513-C	Gambia	2014	Upper River
+PA0514-C	Gambia	2014	Upper River
+PA0516-C	Gambia	2014	Upper River
+PA0520-C	Gambia	2014	Upper River
+PA0521-C	Gambia	2014	Upper River
+PA0522-C	Gambia	2014	Upper River
+PA0523-C	Gambia	2014	Upper River
+PA0524-C	Gambia	2014	Upper River
+PA0525-C	Gambia	2014	Upper River
+PA0532-C	Gambia	2014	Upper River
+PA0534-C	Gambia	2013	Upper River
+PA0537-C	Gambia	2013	Upper River
+PA0540-C	Gambia	2013	Upper River
+PA0541-C	Gambia	2013	Upper River
+PA0542-C	Gambia	2013	Upper River
+PA0544-C	Gambia	2013	Upper River
+PA0550-C	Gambia	2013	Upper River
+PA0551-C	Gambia	2013	Upper River
+PA0554-C	Gambia	2013	Upper River
+PA0558-C	Gambia	2013	Upper River
+PA0561-C	Gambia	2013	Upper River
+PA0562-C	Gambia	2013	Upper River
+PA0563-C	Gambia	2013	Upper River
+PA0564-C	Gambia	2013	Upper River
+PA0572-C	Gambia	2013	Upper River
+PA0575-C	Gambia	2014	Upper River
+PA0576-C	Gambia	2013	Upper River
+PA0577-C	Gambia	2013	Upper River
+PA0586-C	Gambia	2014	Upper River
+PA0597-C	Gambia	2013	Upper River
+PA0599-C	Gambia	2013	Upper River
+PA0604-C	Gambia	2013	Upper River
+PA0611-C	Gambia	2013	Upper River
+PA0617-C	Gambia	2014	Upper River
+PA0618-C	Gambia	2014	Upper River
+PA0619-C	Gambia	2014	Upper River
+PA0620-C	Gambia	2014	Upper River
+PA0621-C	Gambia	2014	Upper River
+PA0622-C	Gambia	2014	Upper River
+PA0623-C	Gambia	2014	Upper River
+PA0625-C	Gambia	2014	Upper River
+PA0626-C	Gambia	2014	Upper River
+PA0627-C	Gambia	2014	Upper River
+PA0628-C	Gambia	2014	Upper River
+PA0629-C	Gambia	2014	Upper River
+PA0630-C	Gambia	2014	Upper River
+PA0631-C	Gambia	2014	Upper River
+PA0633-C	Gambia	2014	Upper River
+PA0634-C	Gambia	2014	Upper River
+PA0636-C	Gambia	2014	Upper River
+PA0637-C	Gambia	2014	Upper River
+PA0638-C	Gambia	2014	Upper River
+PA0639-C	Gambia	2014	Upper River
+PA0641-C	Gambia	2014	Upper River
+PA0642-C	Gambia	2014	Upper River
+PA0643-C	Gambia	2014	Upper River
+PA0645-C	Gambia	2014	Upper River
+PA0649-C	Gambia	2014	Upper River
+PA0654-C	Gambia	2014	Upper River
+PA0655-C	Gambia	2014	Upper River
+PA0677-CW	Gambia	2014	Upper River
+PA0699-CW	Gambia	2014	Upper River
+PA0809-CW	Gambia	2014	Upper River
+PA0895-CW	Gambia	2014	Upper River
+PA0899-CW	Gambia	2014	Upper River
+PA0900-CW	Gambia	2014	Upper River
+PA0916-CW	Gambia	2014	Upper River
+PA1029-CW	Gambia	2015	Upper River
+PA1038-CW	Gambia	2015	Upper River
+PA1048-CW	Gambia	2014	Upper River
+PA1050-CW	Gambia	2014	Upper River
+PA1051-CW	Gambia	2014	Upper River
+PA1052-CW	Gambia	2014	Upper River
+PA1061-CW	Gambia	2015	Upper River
+PA1062-CW	Gambia	2015	Upper River
+PA1313-Cw	Gambia	2015	Upper River
+PA1315-Cw	Gambia	2015	Upper River
+PA1316-Cw	Gambia	2015	Upper River
+PA1317-Cw	Gambia	2015	Upper River
+PA1318-Cw	Gambia	2015	Upper River
+PA1319-Cw	Gambia	2015	Upper River
+PA1320-Cw	Gambia	2015	Upper River
+PA1321-Cw	Gambia	2015	Upper River
+PA1323-Cw	Gambia	2015	Upper River
+PA1324-Cw	Gambia	2015	Upper River
+PA1326-Cw	Gambia	2015	Upper River
+PA1328-Cw	Gambia	2015	Upper River
+PA1330-Cw	Gambia	2015	Upper River
+PA1331-Cw	Gambia	2015	Upper River
+PA1332-Cw	Gambia	2015	Upper River
+PA1333-Cw	Gambia	2015	Upper River
+PA1336-Cw	Gambia	2015	Upper River
+PA1337-Cw	Gambia	2015	Upper River
+PA1338-Cw	Gambia	2015	Upper River
+PA1339-Cw	Gambia	2015	Upper River
+PA1340-Cw	Gambia	2015	Upper River
+PA1349-Cw	Gambia	2016	Upper River
+PA1362-Cw	Gambia	2016	Upper River
+PA1369-Cw	Gambia	2016	Upper River
+PA1376-Cw	Gambia	2015	Upper River
+PA1391-Cw	Gambia	2015	Upper River
+PA1406-Cw	Gambia	2015	Upper River
+PA1411-Cw	Gambia	2015	Upper River
+PA1426-Cw	Gambia	2015	Upper River
+PA1437-Cw	Gambia	2015	Upper River
+PA1446-Cw	Gambia	2015	Upper River
+PA1447-Cw	Gambia	2015	Upper River
+PA1448-Cw	Gambia	2015	Upper River
+PA1450-Cw	Gambia	2015	Upper River
+PA1452-Cw	Gambia	2015	Upper River
+PA1453-Cw	Gambia	2015	Upper River
+PA1456-Cw	Gambia	2015	Upper River
+SPT21659	Gambia	2016	Upper River
+SPT21661	Gambia	2016	Upper River
+SPT21667	Gambia	2016	Upper River
+SPT21668	Gambia	2016	Upper River
+SPT21675	Gambia	2016	Upper River
+SPT21677	Gambia	2016	Upper River
+SPT21685	Gambia	2016	Upper River
+SPT21686	Gambia	2016	Upper River
+SPT21690	Gambia	2016	Upper River
+SPT21691	Gambia	2016	Upper River
+SPT21692	Gambia	2016	Upper River
+SPT21705	Gambia	2016	Upper River
+SPT21707	Gambia	2016	Upper River
+SPT21708	Gambia	2016	Upper River
+SPT21710	Gambia	2016	Upper River
+SPT21712	Gambia	2016	Upper River
+SPT21713	Gambia	2016	Upper River
+SPT21714	Gambia	2016	Upper River
+SPT21715	Gambia	2016	Upper River
+SPT21716	Gambia	2016	Upper River
+SPT21717	Gambia	2016	Upper River
+SPT21719	Gambia	2016	Upper River
+SPT21721	Gambia	2016	Upper River
+SPT21722	Gambia	2016	Upper River
+SPT21723	Gambia	2016	Upper River
+SPT21724	Gambia	2016	Upper River
+SPT21725	Gambia	2016	Upper River
+SPT21726	Gambia	2016	Upper River
+SPT21727	Gambia	2016	Upper River
+SPT21730	Gambia	2016	Upper River
+SPT21731	Gambia	2016	Upper River
+SPT21732	Gambia	2016	Upper River
+SPT21734	Gambia	2016	Upper River
+SPT21735	Gambia	2016	Upper River
+SPT21737	Gambia	2016	Upper River
+SPT21738	Gambia	2016	Upper River
+SPT21739	Gambia	2016	Upper River
+SPT21740	Gambia	2016	Upper River
+SPT21741	Gambia	2016	Upper River
+SPT21742	Gambia	2016	Upper River
+SPT21743	Gambia	2016	Upper River
+SPT21744	Gambia	2016	Upper River
+SPT21750	Gambia	2016	Upper River
+SPT21751	Gambia	2016	Upper River
+SPT21756	Gambia	2016	Upper River
+SPT21759	Gambia	2016	Upper River
+SPT21765	Gambia	2016	Upper River
+SPT21769	Gambia	2016	Upper River
+SPT21773	Gambia	2016	Upper River
+SPT21774	Gambia	2016	Upper River
+SPT21778	Gambia	2016	Upper River
+SPT21785	Gambia	2016	Upper River
+SPT21786	Gambia	2016	Upper River
+SPT21788	Gambia	2016	Upper River
+SPT21789	Gambia	2016	Upper River
+SPT21793	Gambia	2016	Upper River
+SPT21796	Gambia	2016	Upper River
+SPT21797	Gambia	2016	Upper River
+SPT21804	Gambia	2017	Upper River
+SPT21805	Gambia	2017	Upper River
+SPT21807	Gambia	2017	Upper River
+SPT21808	Gambia	2017	Upper River
+SPT21813	Gambia	2017	Upper River
+SPT21817	Gambia	2017	Upper River
+SPT21818	Gambia	2017	Upper River
+SPT21824	Gambia	2017	Upper River
+SPT21831	Gambia	2017	Upper River
+SPT21833	Gambia	2017	Upper River
+SPT21835	Gambia	2017	Upper River
+SPT21836	Gambia	2017	Upper River
+SPT21837	Gambia	2017	Upper River
+SPT21838	Gambia	2017	Upper River
+SPT21839	Gambia	2017	Upper River
+SPT21840	Gambia	2017	Upper River
+SPT21841	Gambia	2017	Upper River
+SPT21844	Gambia	2017	Upper River
+SPT21846	Gambia	2017	Upper River
+SPT21863	Gambia	2017	Upper River
+SPT21866	Gambia	2017	Upper River
+SPT21872	Gambia	2017	Upper River
+SPT21873	Gambia	2017	Upper River
+SPT21874	Gambia	2017	Upper River
+SPT21875	Gambia	2017	Upper River
+SPT21876	Gambia	2017	Upper River
+SPT21877	Gambia	2017	Upper River
+SPT21878	Gambia	2017	Upper River
+SPT21880	Gambia	2017	Upper River
+SPT21883	Gambia	2017	Upper River
+SPT21884	Gambia	2017	Upper River
+SPT21885	Gambia	2017	Upper River
+SPT21887	Gambia	2017	Upper River
+SPT21899	Gambia	2017	Upper River
+SPT21906	Gambia	2017	Upper River
+SPT21909	Gambia	2017	Upper River
+SPT21910	Gambia	2017	Upper River
+SPT21913	Gambia	2017	Upper River
+SPT21914	Gambia	2017	Upper River
+SPT21915	Gambia	2017	Upper River
+SPT21916	Gambia	2017	Upper River
+SPT21919	Gambia	2017	Upper River
+SPT21923	Gambia	2017	Upper River
+SPT21924	Gambia	2017	Upper River
+SPT21927	Gambia	2017	Upper River
+SPT21946	Gambia	2017	Upper River
+SPT21948	Gambia	2017	Upper River
+SPT21953	Gambia	2017	Upper River
+SPT21954	Gambia	2017	Upper River
+SPT21955	Gambia	2017	Upper River
+SPT21965	Gambia	2016	Upper River
+SPT21966	Gambia	2016	Upper River
+SPT21967	Gambia	2016	Upper River
+SPT35302	Gambia	2014	Upper River
+SPT35303	Gambia	2014	Upper River
+SPT35304	Gambia	2014	Upper River
+SPT35306	Gambia	2014	Upper River
+SPT35308	Gambia	2014	Upper River
+SPT35309	Gambia	2014	Upper River
+SPT35310	Gambia	2014	Upper River
+SPT35313	Gambia	2014	Upper River
+SPT35315	Gambia	2014	Upper River
+SPT35316	Gambia	2014	Upper River
+SPT35317	Gambia	2014	Upper River
+SPT35318	Gambia	2014	Upper River
+SPT35320	Gambia	2014	Upper River
+SPT35321	Gambia	2014	Upper River
+SPT35322	Gambia	2014	Upper River
+SPT35323	Gambia	2014	Upper River
+SPT35324	Gambia	2014	Upper River
+SPT35325	Gambia	2014	Upper River
+SPT35328	Gambia	2014	Upper River
+SPT35330	Gambia	2014	Upper River
+SPT35331	Gambia	2014	Upper River
+SPT35332	Gambia	2014	Upper River
+SPT35333	Gambia	2014	Upper River
+SPT35334	Gambia	2014	Upper River
+SPT35336	Gambia	2014	Upper River
+SPT35337	Gambia	2014	Upper River
+SPT35338	Gambia	2014	Upper River
+SPT35339	Gambia	2014	Upper River
+SPT35340	Gambia	2014	Upper River
+SPT35341	Gambia	2014	Upper River
+SPT35342	Gambia	2014	Upper River
+SPT35344	Gambia	2014	Upper River
+SPT35346	Gambia	2014	Upper River
+SPT35347	Gambia	2014	Upper River
+SPT35348	Gambia	2014	Upper River
+SPT35349	Gambia	2014	Upper River
+SPT35351	Gambia	2014	Upper River
+SPT35352	Gambia	2014	Upper River
+SPT35354	Gambia	2014	Upper River
+SPT35355	Gambia	2014	Upper River
+SPT35356	Gambia	2014	Upper River
+SPT35357	Gambia	2014	Upper River
+SPT35360	Gambia	2014	Upper River
+SPT35361	Gambia	2014	Upper River
+SPT35362	Gambia	2014	Upper River
+SPT35363	Gambia	2014	Upper River
+SPT35364	Gambia	2014	Upper River
+SPT35365	Gambia	2014	Upper River
+SPT35366	Gambia	2014	Upper River
+SPT35368	Gambia	2014	Upper River
+SPT35369	Gambia	2014	Upper River
+SPT35370	Gambia	2014	Upper River
+SPT35372	Gambia	2014	Upper River
+SPT35373	Gambia	2014	Upper River
+SPT35374	Gambia	2014	Upper River
+SPT35377	Gambia	2014	Upper River
+SPT35378	Gambia	2014	Upper River
+SPT35379	Gambia	2014	Upper River
+SPT35382	Gambia	2014	Upper River
+SPT35384	Gambia	2014	Upper River
+SPT35389	Gambia	2014	Upper River
+SPT35390	Gambia	2014	Upper River
+SPT35405	Gambia	2014	Upper River
+SPT35407	Gambia	2014	Upper River
+SPT35410	Gambia	2014	Upper River
+SPT35412	Gambia	2014	Upper River
+SPT35414	Gambia	2014	Upper River
+SPT35417	Gambia	2014	Upper River
+SPT35418	Gambia	2014	Upper River
+SPT35419	Gambia	2014	Upper River
+SPT35420	Gambia	2014	Upper River
+SPT35423	Gambia	2014	Upper River
+SPT35424	Gambia	2014	Upper River
+SPT35425	Gambia	2014	Upper River
+SPT35427	Gambia	2014	Upper River
+SPT35430	Gambia	2014	Upper River
+SPT35431	Gambia	2014	Upper River
+SPT35435	Gambia	2014	Upper River
+SPT35436	Gambia	2014	Upper River
+SPT35437	Gambia	2014	Upper River
+SPT35440	Gambia	2014	Upper River
+SPT35443	Gambia	2014	Upper River
+SPT35444	Gambia	2014	Upper River
+SPT35446	Gambia	2014	Upper River
+SPT35447	Gambia	2014	Upper River
+SPT35448	Gambia	2014	Upper River
+SPT35449	Gambia	2014	Upper River
+SPT35450	Gambia	2014	Upper River
+SPT35453	Gambia	2014	Upper River
+SPT35458	Gambia	2014	Upper River
+SPT35459	Gambia	2014	Upper River
+SPT35461	Gambia	2014	Upper River
+SPT35462	Gambia	2014	Upper River
+SPT35463	Gambia	2014	Upper River
+SPT35467	Gambia	2014	Upper River
+SPT35468	Gambia	2014	Upper River
+SPT35469	Gambia	2014	Upper River
+SPT35470	Gambia	2014	Upper River
+SPT35471	Gambia	2014	Upper River
+SPT35472	Gambia	2014	Upper River
+SPT35474	Gambia	2014	Upper River
+SPT35475	Gambia	2014	Upper River
+SPT35476	Gambia	2014	Upper River
+SPT35485	Gambia	2014	Upper River
+SPT35487	Gambia	2014	Upper River
+SPT35499	Gambia	2014	Upper River
+SPT35500	Gambia	2014	Upper River
+SPT35501	Gambia	2014	Upper River
+SPT35502	Gambia	2014	Upper River
+SPT35503	Gambia	2014	Upper River
+SPT35506	Gambia	2014	Upper River
+SPT35508	Gambia	2014	Upper River
+SPT35509	Gambia	2014	Upper River
+SPT35510	Gambia	2014	Upper River
+SPT35511	Gambia	2014	Upper River
+SPT35514	Gambia	2014	Upper River
+SPT35515	Gambia	2014	Upper River
+SPT35516	Gambia	2014	Upper River
+SPT35517	Gambia	2014	Upper River
+SPT35518	Gambia	2014	Upper River
+SPT35519	Gambia	2014	Upper River
+SPT35520	Gambia	2014	Upper River
+SPT35521	Gambia	2014	Upper River
+SPT35522	Gambia	2014	Upper River
+SPT35523	Gambia	2014	Upper River
+SPT35524	Gambia	2014	Upper River
+SPT35525	Gambia	2014	Upper River
+SPT35526	Gambia	2014	Upper River
+SPT35529	Gambia	2014	Upper River
+SPT35532	Gambia	2014	Upper River
+SPT35537	Gambia	2014	Upper River
+SPT35538	Gambia	2014	Upper River
+SPT35540	Gambia	2014	Upper River
+SPT35541	Gambia	2014	Upper River
+SPT35543	Gambia	2014	Upper River
+SPT35544	Gambia	2014	Upper River
+SPT35546	Gambia	2014	Upper River
+SPT35547	Gambia	2014	Upper River
+SPT35551	Gambia	2014	Upper River
+SPT35552	Gambia	2014	Upper River
+SPT35553	Gambia	2014	Upper River
+SPT35556	Gambia	2013	Upper River
+SPT35557	Gambia	2013	Upper River
+SPT35561	Gambia	2013	Upper River
+SPT35563	Gambia	2013	Upper River
+SPT35564	Gambia	2013	Upper River
+SPT35566	Gambia	2013	Upper River
+SPT35567	Gambia	2013	Upper River
+SPT35571	Gambia	2013	Upper River
+SPT35573	Gambia	2013	Upper River
+SPT35575	Gambia	2013	Upper River
+SPT35576	Gambia	2013	Upper River
+SPT35577	Gambia	2013	Upper River
+SPT35580	Gambia	2013	Upper River
+SPT35581	Gambia	2013	Upper River
+SPT35583	Gambia	2013	Upper River
+SPT35584	Gambia	2013	Upper River
+SPT35585	Gambia	2013	Upper River
+SPT35587	Gambia	2013	Upper River
+SPT35588	Gambia	2013	Upper River
+SPT35589	Gambia	2013	Upper River
+SPT35590	Gambia	2013	Upper River
+SPT35592	Gambia	2013	Upper River
+SPT35673	Gambia	2013	Upper River
+SPT35681	Gambia	2013	Upper River
+SPT35752	Gambia	2013	Upper River
+SPT35766	Gambia	2013	Upper River
+SPT35780	Gambia	2013	Upper River
+SPT35835	Gambia	2015	Upper River
+SPT35850	Gambia	2015	Upper River
+SPT35876	Gambia	2015	Upper River
+SPT35877	Gambia	2015	Upper River
+SPT35879	Gambia	2015	Upper River
+SPT35880	Gambia	2015	Upper River
+SPT35883	Gambia	2015	Upper River
+SPT35888	Gambia	2015	Upper River
+SPT35896	Gambia	2015	Upper River
+SPT35902	Gambia	2015	Upper River
+SPT35904	Gambia	2015	Upper River
+SPT35922	Gambia	2015	Upper River
+SPT35923	Gambia	2015	Upper River
+SPT35924	Gambia	2015	Upper River
+SPT35933	Gambia	2015	Upper River
+QG0007-C	DRC	2012	Kinshasa
+QG0008-C	DRC	2012	Kinshasa
+QG0009-C	DRC	2012	Kinshasa
+QG0010-C	DRC	2012	Kinshasa
+QG0011-C	DRC	2012	Kinshasa
+QG0012-C	DRC	2012	Kinshasa
+QG0013-C	DRC	2012	Kinshasa
+QG0014-C	DRC	2012	Kinshasa
+QG0015-C	DRC	2012	Kinshasa
+QG0016-C	DRC	2012	Kinshasa
+QG0017-C	DRC	2012	Kinshasa
+QG0018-C	DRC	2012	Kinshasa
+QG0019-C	DRC	2012	Kinshasa
+QG0020-C	DRC	2012	Kinshasa
+QG0021-C	DRC	2012	Kinshasa
+QG0022-C	DRC	2012	Kinshasa
+QG0023-C	DRC	2012	Kinshasa
+QG0024-C	DRC	2012	Kinshasa
+QG0025-C	DRC	2012	Kinshasa
+QG0026-C	DRC	2012	Kinshasa
+QG0027-C	DRC	2012	Kinshasa
+QG0028-C	DRC	2012	Kinshasa
+QG0029-C	DRC	2012	Kinshasa
+QG0030-C	DRC	2012	Kinshasa
+QG0031-C	DRC	2012	Kinshasa
+QG0032-C	DRC	2012	Kinshasa
+QG0033-C	DRC	2012	Kinshasa
+QG0034-C	DRC	2012	Kinshasa
+QG0035-C	DRC	2012	Kinshasa
+QG0036-C	DRC	2012	Kinshasa
+QG0037-C	DRC	2012	Kinshasa
+QG0038-C	DRC	2012	Kinshasa
+QG0039-C	DRC	2012	Kinshasa
+QG0040-C	DRC	2012	Kinshasa
+QG0041-C	DRC	2012	Kinshasa
+QG0042-C	DRC	2012	Kinshasa
+QG0043-C	DRC	2012	Kinshasa
+QG0044-C	DRC	2012	Kinshasa
+QG0045-C	DRC	2012	Kinshasa
+QG0046-C	DRC	2012	Kinshasa
+QG0047-C	DRC	2012	Kinshasa
+QG0048-C	DRC	2012	Kinshasa
+QG0049-C	DRC	2012	Kinshasa
+QG0050-C	DRC	2012	Kinshasa
+QG0051-C	DRC	2012	Kinshasa
+QG0052-C	DRC	2012	Kinshasa
+QG0053-C	DRC	2012	Kinshasa
+QG0054-C	DRC	2012	Kinshasa
+QG0055-C	DRC	2012	Kinshasa
+QG0056-C	DRC	2012	Kinshasa
+QG0057-C	DRC	2012	Kinshasa
+QG0058-C	DRC	2012	Kinshasa
+QG0059-C	DRC	2012	Kinshasa
+QG0060-C	DRC	2012	Kinshasa
+QG0061-C	DRC	2012	Kinshasa
+QG0062-C	DRC	2012	Kinshasa
+QG0063-C	DRC	2012	Kinshasa
+QG0064-C	DRC	2012	Kinshasa
+QG0065-C	DRC	2012	Kinshasa
+QG0066-C	DRC	2012	Kinshasa
+QG0067-C	DRC	2012	Kinshasa
+QG0068-C	DRC	2012	Kinshasa
+QG0069-C	DRC	2012	Kinshasa
+QG0070-C	DRC	2012	Kinshasa
+QG0071-C	DRC	2012	Kinshasa
+QG0072-C	DRC	2012	Kinshasa
+QG0073-C	DRC	2012	Kinshasa
+QG0074-C	DRC	2012	Kinshasa
+QG0075-C	DRC	2012	Kinshasa
+QG0076-C	DRC	2012	Kinshasa
+QG0077-C	DRC	2012	Kinshasa
+QG0078-C	DRC	2012	Kinshasa
+QG0080-C	DRC	2012	Kinshasa
+QG0081-C	DRC	2012	Kinshasa
+QG0082-C	DRC	2012	Kinshasa
+QG0083-C	DRC	2012	Kinshasa
+QG0084-C	DRC	2012	Kinshasa
+QG0085-C	DRC	2012	Kinshasa
+QG0086-C	DRC	2012	Kinshasa
+QG0087-C	DRC	2012	Kinshasa
+QG0088-C	DRC	2012	Kinshasa
+QG0089-C	DRC	2012	Kinshasa
+QG0090-C	DRC	2012	Kinshasa
+QG0091-C	DRC	2012	Kinshasa
+QG0092-C	DRC	2012	Kinshasa
+QG0093-C	DRC	2012	Kinshasa
+QG0094-C	DRC	2012	Kinshasa
+QG0095-C	DRC	2012	Kinshasa
+QG0096-C	DRC	2012	Kinshasa
+QG0097-C	DRC	2012	Kinshasa
+QG0098-C	DRC	2012	Kinshasa
+QG0099-C	DRC	2012	Kinshasa
+QG0100-C	DRC	2012	Kinshasa
+QG0101-C	DRC	2012	Kinshasa
+QG0102-C	DRC	2012	Kinshasa
+QG0103-C	DRC	2012	Kinshasa
+QG0104-C	DRC	2012	Kinshasa
+QG0105-C	DRC	2012	Kinshasa
+QG0106-C	DRC	2012	Kinshasa
+QG0107-C	DRC	2012	Kinshasa
+QG0108-C	DRC	2012	Kinshasa
+QG0109-C	DRC	2012	Kinshasa
+QG0110-C	DRC	2012	Kinshasa
+QG0111-C	DRC	2012	Kinshasa
+QG0112-C	DRC	2012	Kinshasa
+QG0113-C	DRC	2012	Kinshasa
+QG0114-C	DRC	2012	Kinshasa
+QG0115-C	DRC	2012	Kinshasa
+QG0116-C	DRC	2012	Kinshasa
+QG0117-C	DRC	2012	Kinshasa
+QG0118-C	DRC	2012	Kinshasa
+QG0119-C	DRC	2012	Kinshasa
+QG0120-C	DRC	2012	Kinshasa
+QG0121-C	DRC	2012	Kinshasa
+QG0122-C	DRC	2012	Kinshasa
+QG0123-C	DRC	2012	Kinshasa
+QG0124-C	DRC	2012	Kinshasa
+QG0125-C	DRC	2012	Kinshasa
+QG0126-C	DRC	2012	Kinshasa
+QG0127-C	DRC	2012	Kinshasa
+QG0128-C	DRC	2012	Kinshasa
+QG0129-C	DRC	2012	Kinshasa
+QG0130-C	DRC	2012	Kinshasa
+QG0131-C	DRC	2012	Kinshasa
+QG0132-C	DRC	2012	Kinshasa
+QG0133-C	DRC	2012	Kinshasa
+QG0134-C	DRC	2012	Kinshasa
+QG0135-C	DRC	2012	Kinshasa
+QG0136-C	DRC	2012	Kinshasa
+QG0137-C	DRC	2012	Kinshasa
+QG0138-C	DRC	2012	Kinshasa
+QG0139-C	DRC	2012	Kinshasa
+QG0140-C	DRC	2012	Kinshasa
+QG0141-C	DRC	2012	Kinshasa
+QG0142-C	DRC	2012	Kinshasa
+QG0143-C	DRC	2012	Kinshasa
+QG0144-C	DRC	2012	Kinshasa
+QG0145-C	DRC	2012	Kinshasa
+QG0146-C	DRC	2012	Kinshasa
+QG0147-C	DRC	2012	Kinshasa
+QG0148-C	DRC	2012	Kinshasa
+QG0149-C	DRC	2012	Kinshasa
+QG0150-C	DRC	2012	Kinshasa
+QG0151-C	DRC	2012	Kinshasa
+QG0152-C	DRC	2012	Kinshasa
+QG0153-C	DRC	2012	Kinshasa
+QG0154-C	DRC	2012	Kinshasa
+QG0155-C	DRC	2012	Kinshasa
+QG0156-C	DRC	2012	Kinshasa
+QG0157-C	DRC	2012	Kinshasa
+QG0158-C	DRC	2012	Kinshasa
+QG0159-C	DRC	2012	Kinshasa
+QG0160-C	DRC	2012	Kinshasa
+QG0161-C	DRC	2012	Kinshasa
+QG0162-C	DRC	2012	Kinshasa
+QG0163-C	DRC	2012	Kinshasa
+QG0164-C	DRC	2012	Kinshasa
+QG0165-C	DRC	2012	Kinshasa
+QG0166-C	DRC	2012	Kinshasa
+QG0167-C	DRC	2012	Kinshasa
+QG0168-C	DRC	2012	Kinshasa
+QG0169-C	DRC	2012	Kinshasa
+QG0171-C	DRC	2012	Kinshasa
+QG0172-C	DRC	2012	Kinshasa
+QG0173-C	DRC	2012	Kinshasa
+QG0174-C	DRC	2012	Kinshasa
+QG0175-C	DRC	2012	Kinshasa
+QG0176-C	DRC	2012	Kinshasa
+QG0178-C	DRC	2012	Kinshasa
+QG0179-C	DRC	2012	Kinshasa
+QG0180-C	DRC	2012	Kinshasa
+QG0181-C	DRC	2012	Kinshasa
+QG0182-C	DRC	2013	Kinshasa
+QG0183-C	DRC	2013	Kinshasa
+QG0184-C	DRC	2013	Kinshasa
+QG0185-C	DRC	2013	Kinshasa
+QG0186-C	DRC	2013	Kinshasa
+QG0187-C	DRC	2013	Kinshasa
+QG0188-C	DRC	2013	Kinshasa
+QG0189-C	DRC	2013	Kinshasa
+QG0190-C	DRC	2013	Kinshasa
+QG0191-C	DRC	2013	Kinshasa
+QG0192-C	DRC	2013	Kinshasa
+QG0193-C	DRC	2013	Kinshasa
+QG0194-C	DRC	2013	Kinshasa
+QG0195-C	DRC	2013	Kinshasa
+QG0196-C	DRC	2013	Kinshasa
+QG0197-C	DRC	2013	Kinshasa
+QG0198-C	DRC	2013	Kinshasa
+QG0200-C	DRC	2013	Kinshasa
+QG0201-C	DRC	2013	Kinshasa
+QG0202-C	DRC	2013	Kinshasa
+QG0203-C	DRC	2013	Kinshasa
+QG0204-C	DRC	2013	Kinshasa
+QG0205-C	DRC	2013	Kinshasa
+QG0206-C	DRC	2013	Kinshasa
+QG0207-C	DRC	2013	Kinshasa
+QG0208-C	DRC	2013	Kinshasa
+QG0209-C	DRC	2013	Kinshasa
+QG0210-C	DRC	2013	Kinshasa
+QG0211-C	DRC	2013	Kinshasa
+QG0212-C	DRC	2013	Kinshasa
+QG0213-C	DRC	2013	Kinshasa
+QG0214-C	DRC	2013	Kinshasa
+QG0215-C	DRC	2013	Kinshasa
+QG0216-C	DRC	2013	Kinshasa
+QG0217-C	DRC	2013	Kinshasa
+QG0218-C	DRC	2013	Kinshasa
+QG0219-C	DRC	2013	Kinshasa
+QG0224-C	DRC	2013	Kinshasa
+QG0225-C	DRC	2013	Kinshasa
+QG0226-C	DRC	2013	Kinshasa
+QG0228-C	DRC	2013	Kinshasa
+QG0229-C	DRC	2013	Kinshasa
+QG0231-C	DRC	2013	Kinshasa
+QG0232-C	DRC	2013	Kinshasa
+QG0233-C	DRC	2013	Kinshasa
+QG0234-C	DRC	2013	Kinshasa
+QG0235-C	DRC	2013	Kinshasa
+QG0236-C	DRC	2013	Kinshasa
+QG0237-C	DRC	2013	Kinshasa
+QG0238-C	DRC	2013	Kinshasa
+QG0239-C	DRC	2013	Kinshasa
+QG0240-C	DRC	2013	Kinshasa
+QG0241-C	DRC	2013	Kinshasa
+QG0243-C	DRC	2013	Kinshasa
+QG0244-C	DRC	2013	Kinshasa
+QG0245-C	DRC	2013	Kinshasa
+QG0246-C	DRC	2013	Kinshasa
+QG0247-C	DRC	2013	Kinshasa
+QG0248-C	DRC	2013	Kinshasa
+QG0249-C	DRC	2013	Kinshasa
+QG0250-C	DRC	2013	Kinshasa
+QG0251-C	DRC	2013	Kinshasa
+QG0252-C	DRC	2013	Kinshasa
+QG0253-C	DRC	2013	Kinshasa
+QG0254-C	DRC	2013	Kinshasa
+QG0255-C	DRC	2013	Kinshasa
+QG0256-C	DRC	2013	Kinshasa
+QG0257-C	DRC	2013	Kinshasa
+QG0258-C	DRC	2013	Kinshasa
+QG0259-C	DRC	2013	Kinshasa
+QG0260-C	DRC	2013	Kinshasa
+QG0261-C	DRC	2013	Kinshasa
+QG0262-C	DRC	2013	Kinshasa
+QG0263-C	DRC	2013	Kinshasa
+QG0264-C	DRC	2013	Kinshasa
+QG0265-C	DRC	2013	Kinshasa
+QG0266-C	DRC	2013	Kinshasa
+QG0267-C	DRC	2013	Kinshasa
+QG0269-C	DRC	2013	Kinshasa
+QG0270-C	DRC	2013	Kinshasa
+QG0271-C	DRC	2013	Kinshasa
+QG0273-C	DRC	2013	Kinshasa
+QG0274-C	DRC	2013	Kinshasa
+QG0275-C	DRC	2013	Kinshasa
+QG0276-C	DRC	2013	Kinshasa
+QG0277-C	DRC	2013	Kinshasa
+QG0278-C	DRC	2013	Kinshasa
+QG0279-C	DRC	2013	Kinshasa
+QG0280-C	DRC	2013	Kinshasa
+QG0281-C	DRC	2013	Kinshasa
+QG0282-C	DRC	2013	Kinshasa
+QG0284-C	DRC	2013	Kinshasa
+QG0285-C	DRC	2013	Kinshasa
+QG0286-C	DRC	2013	Kinshasa
+QG0287-C	DRC	2013	Kinshasa
+QG0288-C	DRC	2013	Kinshasa
+QG0289-C	DRC	2013	Kinshasa
+QG0290-C	DRC	2013	Kinshasa
+QG0291-C	DRC	2013	Kinshasa
+QG0292-C	DRC	2013	Kinshasa
+QG0293-C	DRC	2013	Kinshasa
+QG0294-C	DRC	2013	Kinshasa
+QG0295-C	DRC	2013	Kinshasa
+QG0296-C	DRC	2013	Kinshasa
+QG0297-C	DRC	2013	Kinshasa
+QG0298-C	DRC	2013	Kinshasa
+QG0299-C	DRC	2013	Kinshasa
+QG0300-C	DRC	2013	Kinshasa
+QG0303-C	DRC	2014	Kinshasa
+QG0307-C	DRC	2014	Kinshasa
+QG0312-C	DRC	2014	Kinshasa
+QG0313-C	DRC	2014	Kinshasa
+QG0314-C	DRC	2014	Kinshasa
+QG0316-C	DRC	2014	Kinshasa
+QG0320-C	DRC	2014	Kinshasa
+QG0321-C	DRC	2014	Kinshasa
+QG0325-C	DRC	2014	Kinshasa
+QG0326-CW	DRC	2014	Kinshasa
+QG0327-C	DRC	2014	Kinshasa
+QG0328-C	DRC	2014	Kinshasa
+QG0330-C	DRC	2014	Kinshasa
+QG0331-CW	DRC	2014	Kinshasa
+QG0332-CW	DRC	2014	Kinshasa
+QG0335-C	DRC	2014	Kinshasa
+QG0336-C	DRC	2014	Kinshasa
+QG0337-C	DRC	2014	Kinshasa
+QG0338-C	DRC	2014	Kinshasa
+QG0340-C	DRC	2014	Kinshasa
+QG0342-C	DRC	2014	Kinshasa
+QG0344-C	DRC	2014	Kinshasa
+QG0345-C	DRC	2014	Kinshasa
+QG0347-C	DRC	2014	Kinshasa
+QG0348-C	DRC	2014	Kinshasa
+QG0350-C	DRC	2014	Kinshasa
+QG0351-C	DRC	2014	Kinshasa
+QG0352-C	DRC	2014	Kinshasa
+QG0353-C	DRC	2014	Kinshasa
+QG0354-C	DRC	2014	Kinshasa
+QG0355-C	DRC	2014	Kinshasa
+QG0356-C	DRC	2014	Kinshasa
+QG0357-C	DRC	2014	Kinshasa
+QG0358-C	DRC	2014	Kinshasa
+QG0359-C	DRC	2014	Kinshasa
+QG0360-C	DRC	2014	Kinshasa
+QG0361-C	DRC	2014	Kinshasa
+QG0362-C	DRC	2014	Kinshasa
+QG0363-C	DRC	2014	Kinshasa
+QG0364-C	DRC	2014	Kinshasa
+QG0365-C	DRC	2014	Kinshasa
+QG0366-C	DRC	2014	Kinshasa
+QG0367-C	DRC	2014	Kinshasa
+QG0368-C	DRC	2014	Kinshasa
+QG0369-C	DRC	2014	Kinshasa
+QG0370-C	DRC	2014	Kinshasa
+QG0372-C	DRC	2014	Kinshasa
+QG0375-C	DRC	2014	Kinshasa
+QG0376-C	DRC	2014	Kinshasa
+QG0377-C	DRC	2014	Kinshasa
+QG0378-CW	DRC	2014	Kinshasa
+QG0379-C	DRC	2014	Kinshasa
+QG0380-C	DRC	2014	Kinshasa
+QG0382-C	DRC	2014	Kinshasa
+QG0383-C	DRC	2014	Kinshasa
+QG0384-C	DRC	2014	Kinshasa
+QG0385-C	DRC	2014	Kinshasa
+QG0386-C	DRC	2014	Kinshasa
+QG0388-C	DRC	2014	Kinshasa
+QG0390-C	DRC	2014	Kinshasa
+QG0393-C	DRC	2014	Kinshasa
+QG0394-C	DRC	2014	Kinshasa
+QG0395-C	DRC	2014	Kinshasa
+QG0396-C	DRC	2014	Kinshasa
+QG0397-C	DRC	2014	Kinshasa
+QG0398-C	DRC	2014	Kinshasa
+QG0399-C	DRC	2014	Kinshasa
+QG0400-C	DRC	2014	Kinshasa
+QG0401-C	DRC	2014	Kinshasa
+QG0402-C	DRC	2014	Kinshasa
+QG0403-C	DRC	2014	Kinshasa
+QG0407-C	DRC	2014	Kinshasa
+QG0408-C	DRC	2014	Kinshasa
+QG0409-C	DRC	2014	Kinshasa
+QG0411-C	DRC	2014	Kinshasa
+QG0412-C	DRC	2014	Kinshasa
+QG0413-C	DRC	2014	Kinshasa
+QG0414-C	DRC	2014	Kinshasa
+QG0415-C	DRC	2014	Kinshasa
+QG0416-C	DRC	2014	Kinshasa
+QG0418-C	DRC	2014	Kinshasa
+QG0419-C	DRC	2014	Kinshasa
+QG0421-C	DRC	2014	Kinshasa
+QG0422-C	DRC	2014	Kinshasa
+QG0423-C	DRC	2014	Kinshasa
+QG0424-C	DRC	2014	Kinshasa
+QG0425-C	DRC	2014	Kinshasa
+QG0426-C	DRC	2014	Kinshasa
+QG0427-C	DRC	2014	Kinshasa
+QG0429-C	DRC	2014	Kinshasa
+QG0430-C	DRC	2014	Kinshasa
+QG0431-C	DRC	2014	Kinshasa
+QG0432-C	DRC	2014	Kinshasa
+QG0433-C	DRC	2014	Kinshasa
+QG0434-C	DRC	2014	Kinshasa
+QG0435-C	DRC	2014	Kinshasa
+QG0436-C	DRC	2014	Kinshasa
+QG0438-C	DRC	2014	Kinshasa
+QG0439-C	DRC	2014	Kinshasa
+QG0442-C	DRC	2014	Kinshasa
+QG0443-C	DRC	2014	Kinshasa
+QG0444-C	DRC	2014	Kinshasa
+QG0445-C	DRC	2014	Kinshasa
+QG0446-C	DRC	2014	Kinshasa
+QG0447-C	DRC	2014	Kinshasa
+QG0448-C	DRC	2014	Kinshasa
+QG0449-C	DRC	2015	Kinshasa
+QG0450-C	DRC	2015	Kinshasa
+QG0451-C	DRC	2015	Kinshasa
+QG0454-C	DRC	2015	Kinshasa
+QG0456-C	DRC	2015	Kinshasa
+QG0458-C	DRC	2015	Kinshasa
+QG0459-C	DRC	2015	Kinshasa
+QG0461-C	DRC	2015	Kinshasa
+QG0462-C	DRC	2015	Kinshasa
+QG0464-C	DRC	2015	Kinshasa
+QG0467-C	DRC	2015	Kinshasa
+QG0468-C	DRC	2015	Kinshasa
+QG0470-C	DRC	2015	Kinshasa
+QG0471-C	DRC	2015	Kinshasa
+QG0476-C	DRC	2015	Kinshasa
+QG0477-C	DRC	2015	Kinshasa
+QG0479-C	DRC	2015	Kinshasa
+QG0481-C	DRC	2015	Kinshasa
+QG0483-C	DRC	2015	Kinshasa
+QG0484-C	DRC	2015	Kinshasa
+QG0485-C	DRC	2015	Kinshasa
+QG0486-C	DRC	2015	Kinshasa
+QG0488-C	DRC	2015	Kinshasa
+QG0489-CW	DRC	2015	Kinshasa
+QG0496-CW	DRC	2015	Kinshasa
+QG0512-CW	DRC	2015	Kinshasa
+QG0513-CW	DRC	2015	Kinshasa
+RCN08241	DRC	2015	Kinshasa
+RCN08244	DRC	2015	Kinshasa
+RCN08245	DRC	2015	Kinshasa
+RCN08248	DRC	2015	Kinshasa
+RCN08249	DRC	2015	Kinshasa
+RCN08250	DRC	2015	Kinshasa
+RCN08252	DRC	2015	Kinshasa
+RCN08253	DRC	2015	Kinshasa
+RCN08254	DRC	2015	Kinshasa
+RCN08256	DRC	2015	Kinshasa
+RCN08259	DRC	2015	Kinshasa
+RCN08261	DRC	2016	Kinshasa
+RCN08262	DRC	2016	Kinshasa
+RCN08263	DRC	2016	Kinshasa
+RCN08265	DRC	2016	Kinshasa
+RCN08268	DRC	2016	Kinshasa
+RCN08269	DRC	2016	Kinshasa
+RCN08270	DRC	2016	Kinshasa
+RCN08272	DRC	2016	Kinshasa
+RCN08273	DRC	2016	Kinshasa
+RCN08274	DRC	2016	Kinshasa
+RCN08276	DRC	2016	Kinshasa
+RCN08278	DRC	2016	Kinshasa
+RCN08279	DRC	2016	Kinshasa
+RCN08280	DRC	2016	Kinshasa
+RCN08281	DRC	2016	Kinshasa
+RCN08282	DRC	2016	Kinshasa
+RCN08283	DRC	2016	Kinshasa
+RCN08284	DRC	2016	Kinshasa
+RCN08285	DRC	2016	Kinshasa
+RCN08286	DRC	2016	Kinshasa
+RCN08287	DRC	2016	Kinshasa
+RCN08288	DRC	2016	Kinshasa
+RCN08289	DRC	2016	Kinshasa
+RCN08290	DRC	2016	Kinshasa
+RCN08291	DRC	2016	Kinshasa
+RCN08292	DRC	2016	Kinshasa
+RCN08293	DRC	2016	Kinshasa
+RCN08294	DRC	2016	Kinshasa
+RCN08295	DRC	2016	Kinshasa
+RCN08296	DRC	2016	Kinshasa
+RCN08297	DRC	2016	Kinshasa
+RCN08298	DRC	2016	Kinshasa
+RCN08299	DRC	2016	Kinshasa
+RCN08300	DRC	2016	Kinshasa
+RCN08301	DRC	2016	Kinshasa
+RCN08303	DRC	2016	Kinshasa
+RCN08304	DRC	2016	Kinshasa
+RCN08305	DRC	2016	Kinshasa
+RCN08306	DRC	2016	Kinshasa
+RCN08307	DRC	2016	Kinshasa
+RCN08308	DRC	2016	Kinshasa
+RCN08309	DRC	2016	Kinshasa
+RCN08310	DRC	2016	Kinshasa
+RCN08311	DRC	2016	Kinshasa
+RCN08312	DRC	2016	Kinshasa
+RCN08313	DRC	2016	Kinshasa
+RCN08314	DRC	2016	Kinshasa
+RCN08315	DRC	2016	Kinshasa
+RCN08316	DRC	2016	Kinshasa
+RCN08317	DRC	2016	Kinshasa
+RCN08318	DRC	2016	Kinshasa
+RCN08319	DRC	2016	Kinshasa
+RCN08320	DRC	2016	Kinshasa
+RCN08321	DRC	2016	Kinshasa
+RCN08322	DRC	2016	Kinshasa
+RCN08323	DRC	2016	Kinshasa
+RCN08324	DRC	2016	Kinshasa
+RCN08325	DRC	2016	Kinshasa
+RCN08326	DRC	2016	Kinshasa
+RCN08327	DRC	2016	Kinshasa
+RCN08328	DRC	2016	Kinshasa
+RCN08329	DRC	2016	Kinshasa
+RCN08330	DRC	2016	Kinshasa
+RCN08331	DRC	2016	Kinshasa
+RCN08332	DRC	2016	Kinshasa
+RCN08333	DRC	2016	Kinshasa
+RCN08334	DRC	2016	Kinshasa
+RCN08335	DRC	2016	Kinshasa
+RCN08336	DRC	2016	Kinshasa
+RCN08337	DRC	2016	Kinshasa
+RCN08338	DRC	2016	Kinshasa
+RCN08339	DRC	2016	Kinshasa
+RCN08340	DRC	2016	Kinshasa
+RCN08341	DRC	2016	Kinshasa
+RCN08342	DRC	2016	Kinshasa
+RCN08343	DRC	2015	Kinshasa
+RCN08344	DRC	2015	Kinshasa
+RCN08345	DRC	2016	Kinshasa
+RCN08346	DRC	2016	Kinshasa
+RCN08347	DRC	2016	Kinshasa
+RCN08348	DRC	2016	Kinshasa
+RCN08349	DRC	2016	Kinshasa
+RCN08350	DRC	2016	Kinshasa
+RCN08351	DRC	2016	Kinshasa
+RCN08352	DRC	2016	Kinshasa
+RCN08353	DRC	2016	Kinshasa
+RCN08354	DRC	2016	Kinshasa
+RCN08355	DRC	2016	Kinshasa
+RCN08356	DRC	2016	Kinshasa
+RCN08357	DRC	2016	Kinshasa
+RCN08358	DRC	2016	Kinshasa
+RCN08359	DRC	2016	Kinshasa
+RCN08360	DRC	2016	Kinshasa
+RCN08361	DRC	2016	Kinshasa
+RCN08362	DRC	2016	Kinshasa
+RCN08363	DRC	2016	Kinshasa
+PE0002-CW	Tanzania	2010	Tanga
+PE0009-CW	Tanzania	2010	Morogoro
+PE0010-C	Tanzania	2010	Tanga
+PE0011-C	Tanzania	2010	Tanga
+PE0012-C	Tanzania	2010	Tanga
+PE0013-C	Tanzania	2010	Tanga
+PE0016-C	Tanzania	2010	Tanga
+PE0017-CW	Tanzania	2010	Tanga
+PE0018-C	Tanzania	2010	Tanga
+PE0019-C	Tanzania	2010	Tanga
+PE0020-C	Tanzania	2010	Tanga
+PE0021-C	Tanzania	2010	Morogoro
+PE0022-C	Tanzania	2010	Morogoro
+PE0023-C	Tanzania	2010	Morogoro
+PE0024-C	Tanzania	2010	Morogoro
+PE0025-C	Tanzania	2010	Morogoro
+PE0027-C	Tanzania	2010	Morogoro
+PE0028-C	Tanzania	2010	Morogoro
+PE0030-C	Tanzania	2010	Tanga
+PE0087-C	Tanzania	2013	Tanga
+PE0088-C	Tanzania	2013	Tanga
+PE0089-C	Tanzania	2013	Tanga
+PE0090-C	Tanzania	2013	Tanga
+PE0091-C	Tanzania	2013	Tanga
+PE0092-C	Tanzania	2013	Tanga
+PE0093-C	Tanzania	2013	Tanga
+PE0096-C	Tanzania	2013	Tanga
+PE0098-C	Tanzania	2013	Tanga
+PE0102-C	Tanzania	2013	Tanga
+PE0103-C	Tanzania	2013	Tanga
+PE0105-C	Tanzania	2013	Tanga
+PE0108-C	Tanzania	2013	Tanga
+PE0109-C	Tanzania	2013	Tanga
+PE0111-C	Tanzania	2013	Tanga
+PE0113-C	Tanzania	2013	Tanga
+PE0114-C	Tanzania	2013	Tanga
+PE0115-C	Tanzania	2013	Tanga
+PE0116-C	Tanzania	2013	Tanga
+PE0117-C	Tanzania	2013	Tanga
+PE0119-C	Tanzania	2013	Tanga
+PE0121-C	Tanzania	2010	Morogoro
+PE0122-C	Tanzania	2010	Morogoro
+PE0123-C	Tanzania	2010	Tanga
+PE0124-C	Tanzania	2010	Tanga
+PE0125-C	Tanzania	2010	Morogoro
+PE0126-C	Tanzania	2010	Morogoro
+PE0127-C	Tanzania	2010	Tanga
+PE0128-C	Tanzania	2010	Morogoro
+PE0129-C	Tanzania	2010	Morogoro
+PE0130-C	Tanzania	2010	Morogoro
+PE0131-C	Tanzania	2010	Morogoro
+PE0132-C	Tanzania	2010	Morogoro
+PE0133-C	Tanzania	2010	Morogoro
+PE0134-C	Tanzania	2010	Morogoro
+PE0135-C	Tanzania	2010	Morogoro
+PE0136-C	Tanzania	2010	Morogoro
+PE0137-C	Tanzania	2010	Morogoro
+PE0138-C	Tanzania	2010	Morogoro
+PE0139-C	Tanzania	2010	Morogoro
+PE0140-C	Tanzania	2010	Morogoro
+PE0141-C	Tanzania	2010	Morogoro
+PE0142-C	Tanzania	2010	Morogoro
+PE0143-C	Tanzania	2010	Morogoro
+PE0144-C	Tanzania	2010	Morogoro
+PE0145-C	Tanzania	2010	Morogoro
+PE0146-C	Tanzania	2010	Morogoro
+PE0147-C	Tanzania	2010	Tanga
+PE0148-C	Tanzania	2010	Morogoro
+PE0151-C	Tanzania	2013	Tanga
+PE0156-C	Tanzania	2013	Tanga
+PE0157-C	Tanzania	2013	Tanga
+PE0158-C	Tanzania	2013	Tanga
+PE0159-C	Tanzania	2013	Tanga
+PE0160-C	Tanzania	2013	Tanga
+PE0161-C	Tanzania	2013	Tanga
+PE0162-C	Tanzania	2013	Tanga
+PE0163-C	Tanzania	2013	Tanga
+PE0164-C	Tanzania	2013	Tanga
+PE0166-C	Tanzania	2013	Tanga
+PE0170-C	Tanzania	2013	Tanga
+PE0172-C	Tanzania	2013	Tanga
+PE0173-C	Tanzania	2013	Tanga
+PE0177-C	Tanzania	2013	Tanga
+PE0178-C	Tanzania	2013	Tanga
+PE0179-C	Tanzania	2013	Tanga
+PE0180-C	Tanzania	2013	Tanga
+PE0181-C	Tanzania	2013	Tanga
+PE0182-C	Tanzania	2013	Tanga
+PE0184-C	Tanzania	2013	Tanga
+PE0185-C	Tanzania	2013	Tanga
+PE0186-C	Tanzania	2013	Tanga
+PE0187-C	Tanzania	2013	Tanga
+PE0189-C	Tanzania	2013	Tanga
+PE0190-C	Tanzania	2013	Tanga
+PE0191-C	Tanzania	2013	Tanga
+PE0195-C	Tanzania	2013	Tanga
+PE0197-C	Tanzania	2013	Tanga
+PE0198-C	Tanzania	2013	Tanga
+PE0199-C	Tanzania	2013	Tanga
+PE0200-C	Tanzania	2013	Tanga
+PE0201-C	Tanzania	2013	Tanga
+PE0202-C	Tanzania	2013	Tanga
+PE0203-C	Tanzania	2013	Tanga
+PE0205-C	Tanzania	2013	Tanga
+PE0206-C	Tanzania	2013	Tanga
+PE0207-C	Tanzania	2013	Tanga
+PE0208-C	Tanzania	2013	Tanga
+PE0210-C	Tanzania	2013	Tanga
+PE0212-C	Tanzania	2013	Tanga
+PE0213-C	Tanzania	2013	Tanga
+PE0215-C	Tanzania	2013	Tanga
+PE0216-C	Tanzania	2013	Tanga
+PE0218-C	Tanzania	2013	Tanga
+PE0219-C	Tanzania	2013	Tanga
+PE0221-C	Tanzania	2013	Tanga
+PE0223-C	Tanzania	2013	Tanga
+PE0224-C	Tanzania	2013	Tanga
+PE0225-C	Tanzania	2013	Tanga
+PE0226-C	Tanzania	2013	Tanga
+PE0227-C	Tanzania	2013	Tanga
+PE0228-C	Tanzania	2013	Tanga
+PE0229-C	Tanzania	2013	Tanga
+PE0230-C	Tanzania	2013	Tanga
+PE0231-C	Tanzania	2013	Tanga
+PE0232-C	Tanzania	2013	Tanga
+PE0234-C	Tanzania	2013	Tanga
+PE0237-C	Tanzania	2013	Tanga
+PE0242-C	Tanzania	2013	Tanga
+PE0244-C	Tanzania	2013	Tanga
+PE0245-C	Tanzania	2013	Tanga
+PE0247-C	Tanzania	2013	Tanga
+PE0251-C	Tanzania	2013	Tanga
+PE0252-C	Tanzania	2013	Tanga
+PE0253-C	Tanzania	2013	Tanga
+PE0254-C	Tanzania	2013	Tanga
+PE0255-C	Tanzania	2013	Tanga
+PE0256-C	Tanzania	2013	Tanga
+PE0258-C	Tanzania	2013	Tanga
+PE0259-C	Tanzania	2013	Tanga
+PE0261-C	Tanzania	2013	Tanga
+PE0262-C	Tanzania	2013	Tanga
+PE0264-C	Tanzania	2013	Tanga
+PE0265-C	Tanzania	2013	Tanga
+PE0266-C	Tanzania	2013	Tanga
+PE0267-C	Tanzania	2013	Tanga
+PE0268-C	Tanzania	2013	Tanga
+PE0269-C	Tanzania	2013	Tanga
+PE0270-C	Tanzania	2013	Tanga
+PE0271-C	Tanzania	2013	Tanga
+PE0272-C	Tanzania	2013	Tanga
+PE0273-C	Tanzania	2013	Tanga
+PE0274-C	Tanzania	2013	Tanga
+PE0275-C	Tanzania	2013	Tanga
+PE0276-C	Tanzania	2013	Tanga
+PE0278-C	Tanzania	2013	Tanga
+PE0279-C	Tanzania	2013	Tanga
+PE0281-C	Tanzania	2013	Tanga
+PE0282-C	Tanzania	2013	Tanga
+PE0283-C	Tanzania	2013	Tanga
+PE0284-C	Tanzania	2013	Tanga
+PE0285-C	Tanzania	2013	Tanga
+PE0286-C	Tanzania	2013	Tanga
+PE0288-C	Tanzania	2013	Tanga
+PE0290-C	Tanzania	2013	Tanga
+PE0291-C	Tanzania	2013	Tanga
+PE0292-C	Tanzania	2013	Tanga
+PE0294-C	Tanzania	2013	Tanga
+PE0296-C	Tanzania	2013	Tanga
+PE0297-C	Tanzania	2013	Tanga
+PE0298-C	Tanzania	2013	Tanga
+PE0299-C	Tanzania	2013	Tanga
+PE0300-C	Tanzania	2013	Tanga
+PE0301-C	Tanzania	2013	Tanga
+PE0302-C	Tanzania	2013	Tanga
+PE0303-C	Tanzania	2013	Tanga
+PE0305-C	Tanzania	2013	Tanga
+PE0307-C	Tanzania	2013	Tanga
+PE0308-C	Tanzania	2013	Tanga
+PE0309-C	Tanzania	2013	Tanga
+PE0310-C	Tanzania	2013	Tanga
+PE0311-C	Tanzania	2013	Tanga
+PE0312-C	Tanzania	2013	Tanga
+PE0314-C	Tanzania	2013	Tanga
+PE0315-C	Tanzania	2013	Tanga
+PE0317-C	Tanzania	2013	Tanga
+PE0319-C	Tanzania	2013	Tanga
+PE0327-C	Tanzania	2013	Tanga
+PE0329-C	Tanzania	2013	Tanga
+PE0330-C	Tanzania	2013	Tanga
+PE0333-C	Tanzania	2013	Tanga
+PE0335-C	Tanzania	2013	Tanga
+PE0336-C	Tanzania	2013	Tanga
+PE0337-C	Tanzania	2013	Tanga
+PE0338-C	Tanzania	2013	Tanga
+PE0339-C	Tanzania	2013	Tanga
+PE0340-C	Tanzania	2013	Tanga
+PE0341-C	Tanzania	2013	Tanga
+PE0342-C	Tanzania	2013	Tanga
+PE0343-C	Tanzania	2013	Tanga
+PE0347-C	Tanzania	2013	Lindi
+PE0348-C	Tanzania	2013	Lindi
+PE0349-C	Tanzania	2013	Lindi
+PE0350-C	Tanzania	2013	Lindi
+PE0351-C	Tanzania	2013	Lindi
+PE0354-C	Tanzania	2013	Lindi
+PE0361-C	Tanzania	2013	Lindi
+PE0362-C	Tanzania	2013	Lindi
+PE0366-C	Tanzania	2013	Lindi
+PE0368-C	Tanzania	2013	Lindi
+PE0369-C	Tanzania	2013	Lindi
+PE0370-C	Tanzania	2013	Lindi
+PE0372-C	Tanzania	2013	Lindi
+PE0376-C	Tanzania	2013	Lindi
+PE0377-C	Tanzania	2013	Lindi
+PE0378-C	Tanzania	2013	Lindi
+PE0379-C	Tanzania	2013	Lindi
+PE0382-C	Tanzania	2013	Lindi
+PE0383-C	Tanzania	2013	Lindi
+PE0385-C	Tanzania	2013	Lindi
+PE0386-C	Tanzania	2013	Lindi
+PE0387-C	Tanzania	2013	Lindi
+PE0390-C	Tanzania	2013	Lindi
+PE0391-C	Tanzania	2013	Lindi
+PE0393-C	Tanzania	2013	Lindi
+PE0395-C	Tanzania	2013	Lindi
+PE0397-C	Tanzania	2013	Lindi
+PE0399-C	Tanzania	2013	Lindi
+PE0400-C	Tanzania	2013	Lindi
+PE0401-C	Tanzania	2013	Lindi
+PE0403-C	Tanzania	2013	Lindi
+PE0405-C	Tanzania	2013	Lindi
+PE0406-C	Tanzania	2013	Lindi
+PE0409-C	Tanzania	2013	Lindi
+PE0411-C	Tanzania	2013	Lindi
+PE0412-C	Tanzania	2013	Lindi
+PE0415-C	Tanzania	2013	Lindi
+PE0416-C	Tanzania	2013	Lindi
+PE0419-C	Tanzania	2013	Lindi
+PE0420-C	Tanzania	2013	Lindi
+PE0421-C	Tanzania	2013	Lindi
+PE0423-C	Tanzania	2013	Lindi
+PE0424-C	Tanzania	2013	Lindi
+PE0425-C	Tanzania	2013	Lindi
+PE0426-C	Tanzania	2013	Lindi
+PE0429-C	Tanzania	2013	Lindi
+PE0430-C	Tanzania	2013	Lindi
+PE0431-C	Tanzania	2013	Lindi
+PE0432-C	Tanzania	2013	Lindi
+PE0434-C	Tanzania	2013	Lindi
+PE0435-C	Tanzania	2013	Lindi
+PE0436-C	Tanzania	2013	Lindi
+PE0437-C	Tanzania	2013	Lindi
+PE0438-C	Tanzania	2013	Lindi
+PE0439-C	Tanzania	2013	Lindi
+PE0440-C	Tanzania	2013	Lindi
+PE0441-C	Tanzania	2013	Lindi
+PE0442-C	Tanzania	2013	Lindi
+PE0444-C	Tanzania	2013	Lindi
+PE0445-C	Tanzania	2013	Lindi
+PE0447-C	Tanzania	2013	Lindi
+PE0448-C	Tanzania	2013	Lindi
+PE0452-C	Tanzania	2013	Lindi
+PE0453-C	Tanzania	2013	Lindi
+PE0454-C	Tanzania	2013	Lindi
+PE0456-C	Tanzania	2013	Kagera
+PE0462-C	Tanzania	2013	Kagera
+PE0465-C	Tanzania	2013	Kagera
+PE0466-C	Tanzania	2013	Kagera
+PE0467-C	Tanzania	2013	Kagera
+PE0468-C	Tanzania	2013	Kagera
+PE0469-C	Tanzania	2013	Kagera
+PE0470-C	Tanzania	2013	Kagera
+PE0471-C	Tanzania	2013	Kagera
+PE0473-C	Tanzania	2013	Kagera
+PE0476-C	Tanzania	2013	Kagera
+PE0477-C	Tanzania	2013	Kagera
+PE0479-C	Tanzania	2013	Kagera
+PE0480-C	Tanzania	2013	Kagera
+PE0482-C	Tanzania	2013	Kagera
+PE0483-C	Tanzania	2013	Kagera
+PE0485-C	Tanzania	2013	Kagera
+PE0487-C	Tanzania	2013	Kagera
+PE0490-C	Tanzania	2013	Kagera
+PE0492-C	Tanzania	2013	Kagera
+PE0493-C	Tanzania	2013	Kagera
+PE0494-C	Tanzania	2013	Kagera
+PE0496-C	Tanzania	2013	Kagera
+PE0499-C	Tanzania	2013	Kagera
+PE0500-C	Tanzania	2013	Kagera
+PE0501-C	Tanzania	2013	Kagera
+PE0504-C	Tanzania	2013	Kagera
+PE0505-C	Tanzania	2013	Kagera
+PE0508-C	Tanzania	2013	Kagera
+PE0510-C	Tanzania	2013	Kagera
+PE0512-C	Tanzania	2013	Kagera
+PE0515-C	Tanzania	2013	Kagera
+PE0516-C	Tanzania	2013	Kagera
+PE0521-C	Tanzania	2013	Kagera
+PE0529-C	Tanzania	2013	Kagera
+PE0530-C	Tanzania	2013	Kagera
+PE0532-C	Tanzania	2013	Kagera
+PE0535-C	Tanzania	2013	Kagera
+PE0537-C	Tanzania	2013	Kagera
+PE0538-C	Tanzania	2013	Kagera
+PE0540-C	Tanzania	2013	Kagera
+PE0541-C	Tanzania	2013	Kagera
+PE0542-C	Tanzania	2013	Kagera
+PE0543-C	Tanzania	2013	Kagera
+PE0544-C	Tanzania	2013	Kagera
+PE0547-C	Tanzania	2013	Kagera
+PE0548-C	Tanzania	2013	Kagera
+PE0550-C	Tanzania	2013	Kagera
+PE0553-C	Tanzania	2013	Kagera
+PE0554-C	Tanzania	2013	Kagera
+PE0555-C	Tanzania	2013	Kagera
+PE0558-C	Tanzania	2013	Kagera
+SPT15294	Tanzania	2014	Kigoma
+SPT15296	Tanzania	2014	Kigoma
+SPT15297	Tanzania	2014	Kigoma
+SPT15298	Tanzania	2014	Kigoma
+SPT15304	Tanzania	2014	Kigoma
+SPT15309	Tanzania	2014	Kigoma
+SPT15314	Tanzania	2014	Kigoma
+SPT15325	Tanzania	2014	Kigoma
+SPT15327	Tanzania	2014	Kigoma
+SPT15330	Tanzania	2014	Kigoma
+SPT15333	Tanzania	2014	Kigoma
+SPT15335	Tanzania	2014	Kigoma
+SPT15340	Tanzania	2014	Kigoma
+SPT15342	Tanzania	2014	Kigoma
+SPT15346	Tanzania	2014	Kigoma
+SPT15348	Tanzania	2014	Kigoma
+SPT15349	Tanzania	2014	Kigoma
+SPT15352	Tanzania	2014	Kigoma
+SPT15356	Tanzania	2014	Kigoma
+SPT15372	Tanzania	2014	Kigoma
+SPT15376	Tanzania	2014	Kigoma
+SPT15381	Tanzania	2014	Kigoma
+SPT15389	Tanzania	2014	Kigoma
+SPT15407	Tanzania	2014	Kigoma
+SPT15413	Tanzania	2014	Kigoma
+SPT15414	Tanzania	2014	Kigoma
+SPT15417	Tanzania	2014	Kigoma
+SPT15420	Tanzania	2014	Kigoma
+SPT15443	Tanzania	2014	Kigoma
+SPT15446	Tanzania	2014	Kigoma
+SPT15448	Tanzania	2014	Kigoma
+SPT15455	Tanzania	2014	Kigoma
+SPT15456	Tanzania	2014	Kigoma
+SPT15459	Tanzania	2014	Kigoma
+SPT15471	Tanzania	2014	Kigoma
+SPT15483	Tanzania	2014	Kigoma
+SPT15486	Tanzania	2014	Kigoma
+SPT15491	Tanzania	2014	Kigoma
+SPT15504	Tanzania	2014	Kigoma
+SPT15506	Tanzania	2014	Kigoma
+SPT15511	Tanzania	2014	Kigoma
+SPT15517	Tanzania	2014	Kigoma
+SPT15519	Tanzania	2014	Kigoma
+SPT15522	Tanzania	2014	Kigoma
+SPT15528	Tanzania	2014	Kigoma
+SPT15529	Tanzania	2014	Kigoma
+SPT15531	Tanzania	2014	Kigoma
+SPT15532	Tanzania	2014	Kigoma
+SPT15535	Tanzania	2014	Kigoma
+SPT15536	Tanzania	2014	Kigoma
+SPT15537	Tanzania	2014	Kigoma
+SPT15541	Tanzania	2014	Kigoma
+SPT15542	Tanzania	2014	Kigoma
+SPT15543	Tanzania	2014	Kigoma
+SPT15545	Tanzania	2014	Kigoma
+SPT15547	Tanzania	2014	Kigoma
+SPT15548	Tanzania	2014	Kigoma
+SPT15549	Tanzania	2014	Kigoma
+SPT15558	Tanzania	2014	Kigoma
+SPT15562	Tanzania	2014	Kigoma
+SPT15563	Tanzania	2014	Kigoma
+SPT15564	Tanzania	2014	Kigoma
+SPT15565	Tanzania	2014	Kigoma
+SPT15566	Tanzania	2014	Kigoma
+SPT15567	Tanzania	2014	Kigoma
+SPT15571	Tanzania	2014	Kigoma
+SPT15577	Tanzania	2014	Kigoma
+SPT15579	Tanzania	2014	Kigoma
+SPT15580	Tanzania	2014	Kigoma
+SPT15586	Tanzania	2014	Kigoma
+SPT15587	Tanzania	2014	Kigoma
+SPT15588	Tanzania	2014	Kigoma
+SPT15589	Tanzania	2014	Kigoma
+SPT15590	Tanzania	2014	Kigoma
+SPT15591	Tanzania	2014	Kigoma
+SPT15593	Tanzania	2014	Kigoma
+SPT15594	Tanzania	2014	Kigoma
+SPT15595	Tanzania	2014	Kigoma
+SPT15598	Tanzania	2014	Kigoma
+SPT15599	Tanzania	2014	Kigoma
+SPT15600	Tanzania	2014	Kigoma
+SPT15602	Tanzania	2014	Kigoma
+SPT15603	Tanzania	2014	Kigoma
+SPT15604	Tanzania	2014	Kigoma
+SPT15605	Tanzania	2014	Kigoma
+SPT15606	Tanzania	2014	Kigoma
+SPT15607	Tanzania	2014	Kigoma
+SPT15608	Tanzania	2014	Kigoma
+SPT15609	Tanzania	2014	Kigoma
+SPT15611	Tanzania	2014	Kigoma
+SPT15612	Tanzania	2014	Kigoma
+SPT15614	Tanzania	2014	Kigoma
+SPT15615	Tanzania	2014	Kigoma
+SPT15616	Tanzania	2014	Kigoma
+SPT15617	Tanzania	2014	Kigoma
+SPT15619	Tanzania	2014	Kigoma
+SPT15620	Tanzania	2014	Kigoma
+SPT15621	Tanzania	2014	Kigoma
+SPT15622	Tanzania	2014	Kigoma
+SPT15623	Tanzania	2014	Kigoma
+SPT15625	Tanzania	2014	Kigoma
+SPT15626	Tanzania	2014	Kigoma
+SPT15627	Tanzania	2014	Kigoma
+SPT15628	Tanzania	2014	Kigoma
+SPT15630	Tanzania	2014	Kigoma
+SPT15631	Tanzania	2014	Kigoma
+SPT15632	Tanzania	2014	Kigoma
+SPT15633	Tanzania	2014	Kigoma
+SPT15634	Tanzania	2014	Kigoma
+SPT15635	Tanzania	2014	Kigoma
+SPT15636	Tanzania	2014	Kigoma
+SPT15637	Tanzania	2014	Kigoma
+SPT15638	Tanzania	2014	Kigoma
+SPT15639	Tanzania	2014	Kigoma
+SPT15640	Tanzania	2014	Kigoma
+SPT15641	Tanzania	2014	Kigoma
+SPT15642	Tanzania	2014	Kigoma
+SPT15643	Tanzania	2014	Kigoma
+SPT15644	Tanzania	2014	Kigoma
+SPT15645	Tanzania	2014	Kigoma
+SPT15646	Tanzania	2014	Kigoma
+SPT15647	Tanzania	2014	Kigoma
+SPT15649	Tanzania	2014	Kigoma
+SPT15650	Tanzania	2014	Kigoma
+SPT15653	Tanzania	2014	Kigoma
+SPT15654	Tanzania	2014	Kigoma
+SPT15655	Tanzania	2014	Kigoma
+SPT15656	Tanzania	2014	Kigoma
+SPT15658	Tanzania	2014	Kigoma
+SPT15659	Tanzania	2014	Kigoma
+SPT15660	Tanzania	2014	Kigoma
+SPT15663	Tanzania	2014	Kigoma
+SPT15665	Tanzania	2014	Kigoma
+SPT15666	Tanzania	2014	Kigoma
+SPT15668	Tanzania	2014	Kigoma
+SPT15669	Tanzania	2014	Kigoma
+SPT15670	Tanzania	2014	Kigoma
+SPT15671	Tanzania	2014	Kigoma
+SPT15672	Tanzania	2014	Kigoma
+SPT15678	Tanzania	2014	Tanga
+SPT15679	Tanzania	2014	Tanga
+SPT15680	Tanzania	2014	Tanga
+SPT15681	Tanzania	2014	Tanga
+SPT15682	Tanzania	2014	Tanga
+SPT15683	Tanzania	2014	Tanga
+SPT15684	Tanzania	2014	Tanga
+SPT15685	Tanzania	2014	Tanga
+SPT15686	Tanzania	2014	Tanga
+SPT15687	Tanzania	2014	Tanga
+SPT15688	Tanzania	2014	Tanga
+SPT15689	Tanzania	2014	Tanga
+SPT15690	Tanzania	2014	Tanga
+SPT15691	Tanzania	2014	Tanga
+SPT15692	Tanzania	2014	Tanga
+SPT15694	Tanzania	2014	Tanga
+SPT15695	Tanzania	2014	Tanga
+SPT15696	Tanzania	2014	Tanga
+SPT15697	Tanzania	2014	Tanga
+SPT15698	Tanzania	2014	Tanga
+SPT15699	Tanzania	2014	Tanga
+SPT15700	Tanzania	2014	Tanga
+SPT15701	Tanzania	2014	Tanga
+SPT15702	Tanzania	2014	Tanga
+SPT15703	Tanzania	2014	Tanga
+SPT15704	Tanzania	2014	Tanga
+SPT15705	Tanzania	2014	Tanga
+SPT15706	Tanzania	2014	Tanga
+SPT15707	Tanzania	2014	Tanga
+SPT15708	Tanzania	2014	Tanga
+SPT15709	Tanzania	2014	Tanga
+SPT15710	Tanzania	2014	Tanga
+SPT15711	Tanzania	2014	Tanga
+SPT15712	Tanzania	2014	Tanga
+SPT15713	Tanzania	2014	Tanga
+SPT15714	Tanzania	2014	Tanga
+SPT15715	Tanzania	2014	Tanga
+SPT15716	Tanzania	2014	Tanga
+SPT15717	Tanzania	2014	Tanga
+SPT15718	Tanzania	2014	Tanga
+SPT15719	Tanzania	2014	Tanga
+SPT15720	Tanzania	2014	Tanga
+SPT15721	Tanzania	2014	Tanga
+SPT15722	Tanzania	2014	Tanga
+SPT15723	Tanzania	2014	Tanga
+SPT15724	Tanzania	2014	Tanga
+SPT15725	Tanzania	2014	Tanga
+SPT15726	Tanzania	2014	Tanga
+SPT15727	Tanzania	2014	Tanga
+SPT15728	Tanzania	2014	Tanga
+SPT15729	Tanzania	2014	Tanga
+SPT15730	Tanzania	2014	Tanga
+SPT15731	Tanzania	2014	Tanga
+SPT15732	Tanzania	2014	Tanga
+SPT15733	Tanzania	2014	Tanga
+SPT15734	Tanzania	2014	Tanga
+SPT15735	Tanzania	2014	Tanga
+SPT15736	Tanzania	2014	Tanga
+SPT15737	Tanzania	2014	Tanga
+SPT15738	Tanzania	2014	Tanga
+SPT15740	Tanzania	2014	Tanga
+SPT15742	Tanzania	2014	Tanga
+SPT15744	Tanzania	2014	Tanga
+SPT15745	Tanzania	2014	Tanga
+SPT15747	Tanzania	2014	Tanga
+SPT15749	Tanzania	2014	Tanga
+SPT15752	Tanzania	2014	Tanga
+SPT15753	Tanzania	2014	Tanga
+SPT15756	Tanzania	2014	Tanga
+SPT15757	Tanzania	2014	Tanga
+SPT15758	Tanzania	2014	Tanga
+SPT15761	Tanzania	2014	Tanga
+SPT15764	Tanzania	2014	Tanga
+SPT15766	Tanzania	2014	Tanga
+SPT15767	Tanzania	2014	Tanga
+SPT15768	Tanzania	2014	Tanga
+SPT15770	Tanzania	2014	Tanga
+SPT15772	Tanzania	2014	Tanga
+SPT15773	Tanzania	2014	Tanga
+SPT15775	Tanzania	2014	Tanga
+SPT15777	Tanzania	2014	Tanga
+SPT15779	Tanzania	2014	Tanga
+SPT15782	Tanzania	2014	Tanga
+SPT15785	Tanzania	2014	Tanga
+SPT15787	Tanzania	2014	Tanga
+SPT15789	Tanzania	2014	Tanga
+SPT15792	Tanzania	2014	Tanga
+SPT15794	Tanzania	2014	Tanga
+SPT15797	Tanzania	2014	Tanga
+SPT15799	Tanzania	2014	Tanga
+SPT15800	Tanzania	2014	Tanga
+SPT15804	Tanzania	2014	Tanga
+SPT15805	Tanzania	2014	Tanga
+SPT15807	Tanzania	2014	Tanga
+SPT15808	Tanzania	2014	Tanga
+SPT15810	Tanzania	2014	Tanga
+SPT15814	Tanzania	2014	Tanga
+SPT15817	Tanzania	2014	Tanga
+SPT15818	Tanzania	2014	Tanga
+SPT15820	Tanzania	2014	Tanga
+SPT15823	Tanzania	2014	Tanga
+SPT15832	Tanzania	2014	Tanga
+SPT15834	Tanzania	2014	Tanga
+SPT15838	Tanzania	2014	Tanga
+SPT15846	Tanzania	2014	Tanga
+SPT15849	Tanzania	2014	Tanga
+SPT15850	Tanzania	2014	Tanga
+SPT15851	Tanzania	2014	Tanga
+SPT15852	Tanzania	2014	Tanga
+SPT15853	Tanzania	2014	Tanga
+SPT15854	Tanzania	2014	Tanga
+SPT15855	Tanzania	2014	Tanga
+SPT15856	Tanzania	2014	Tanga
+SPT15857	Tanzania	2014	Tanga
+SPT15858	Tanzania	2014	Tanga
+SPT15859	Tanzania	2014	Tanga
+SPT15860	Tanzania	2014	Tanga
+SPT15861	Tanzania	2014	Tanga
+SPT15862	Tanzania	2014	Tanga
+SPT15863	Tanzania	2014	Tanga
+SPT15865	Tanzania	2014	Tanga
+SPT15866	Tanzania	2014	Tanga
+SPT15867	Tanzania	2014	Tanga
+SPT15869	Tanzania	2014	Tanga
+SPT15870	Tanzania	2014	Tanga
+SPT15871	Tanzania	2014	Tanga
+SPT15873	Tanzania	2014	Tanga
+SPT15874	Tanzania	2014	Tanga
+SPT15875	Tanzania	2014	Tanga
+SPT15876	Tanzania	2014	Tanga
+SPT15877	Tanzania	2014	Kigoma
+SPT15879	Tanzania	2014	Kigoma
+SPT15880	Tanzania	2014	Kigoma
+SPT18689	Tanzania	2014	Kigoma

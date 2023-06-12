@@ -72,4 +72,13 @@ Pf7_multi_samples <- rbind(Kenya, Gambia, DRC, Myanmar, Tanzania)
 Pf7_multi_samples %>% str()
 Pf7_multi_samples %>% summary()
 
+
+Pf7_african_samples <- rbind(Kenya, Gambia, DRC, Tanzania)
+Pf7_african_samples %>% str()
+Pf7_african_samples %>% summary()
+
+write.table(Pf7_african_samples$id, file = "data/Pf7/sample_ids/Pf7_african_samples_ids.txt", sep = "\t", row.names = FALSE, quote=FALSE, col.names = FALSE)
+
 write.table(Pf7_multi_samples, file = "data/Pf7/sample_ids/Pf7_multi_samples.txt", sep = "\t", row.names = FALSE, quote=FALSE)
+
+write.table(Pf7_african_samples, file = "data/Pf7/sample_ids/Pf7_african_samples.txt", sep = "\t", row.names = FALSE, quote=FALSE)

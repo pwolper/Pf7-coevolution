@@ -20,11 +20,7 @@
 
 source ~/.bashrc
 
-echo STARTED on $(date)
 
 ## bcftools
 source ../code/qsub-bcftools/bcftools_SNP.sh
 
-echo FINISHED indexing on $(date)
-
-echo FINISHED task on $(date)
