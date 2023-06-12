@@ -39,7 +39,7 @@ sliding.stats <- calc_stats_sliding_window(vcf, 10000, 2500)
 
 
 # Plotting the segregating sites
-source(here("code/PopGenome/functions/TajD-plots.R"))
+source(here("code/PopGenome/functions/plots.R"))
 sliding.stats.formatted <- format_Popgenome_stats(sliding.stats, output_txt)
 
 plot_S_chr11(vcf.S.formatted,output_png)
