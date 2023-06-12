@@ -20,7 +20,7 @@
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
-- Can we compare /P.falciparum/ to /P.vivax?
+- Can we compare /P.falciparum/ to /P.vivax/?
 - Do things like recombination with multiple mergers affect selection and how?
 - What about genetic burden, such as Muller's ratchet or clonal interference?
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
@@ -45,16 +45,22 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 *Do these loci show signs of balancing selection indicating coevolution with the host?* What could be the molecular mechanisms and virulence related functions?
 
 * Population genetic stats
+[[./output/Pf7.chr2.stats.DRC_GM_KE_MM.png]]
 
 ** Results
 - D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)
 
-* Tajima's D
-** P.falciparum chr 2
+* PCA plot
+#+attr_latex: :placement center :width 1.3\textwidth
+[[./output/pca/Pf7.chr2.pca.all.png]]
+
+* Tajima's D :noexport:
+** Tajima's D
+*** P.falciparum chr 2
 [[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
 
-* Tajima's D
-** P.falciparum chr 11
+** Tajima's D
+*** P.falciparum chr 11
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
 *  $\theta$ and $\pi$
