@@ -53,13 +53,12 @@ plot_TajD_chr2 <- function(TajD_formatted, fileName){
     geom_vline(xintercept = Pfsa2/1000000) +
     geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
     theme_light() +
-    labs(title = "Tajima's D calculated in a genomic region of Chr 2 of P. falciparum",
-         subtitle = "Sliding window of 10 Kb in length",
+    labs(y = "Tajima's D",
          x = "Genomic position in Mb")
 
-  ggsave(TajD.plot, file = here("output/TajD/png/",fileName),
-         device = "png", dpi = 300,
-         width = 14, height = 7)
+  ## ggsave(TajD.plot, file = here("output/TajD/png/",fileName),
+  ##        device = "png", dpi = 300,
+  ##        width = 14, height = 7)
 }
 
 plot_TajD_chr11 <- function(TajD_formatted, fileName){
@@ -72,9 +71,9 @@ plot_TajD_chr11 <- function(TajD_formatted, fileName){
          subtitle = "Sliding window of 10 Kb in length",
          x = "Genomic position in Mb")
 
-  ggsave(TajD.plot, file = here("output/TajD/png/",fileName),
-         device = "png", dpi = 300,
-         width = 14, height = 7)
+  ## ggsave(TajD.plot, file = here("output/TajD/png/",fileName),
+  ##        device = "png", dpi = 300,
+  ##        width = 14, height = 7)
 }
 
 plot_TajD_Pfsa1_region <- function(TajD_formatted, fileName){
@@ -105,14 +104,12 @@ plot_S_chr2 <- function(S_formatted, fileName){
     geom_vline(xintercept = Pfsa2/1000000) +
     geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
     theme_light() +
-    labs(title = "Number of segregating sites per 10 Kb on Chr 2 of P. falciparum",
-         subtitle = "Sliding window of 10 Kb in length, stepwise 2.5 Kb",
-         y = "Segregating sites S per 10 Kb",
+    labs(y = "Segregating sites S",
          x = "Genomic position in Mb")
 
-  ggsave(S.plot, file = here("output/sites/png/",fileName),
-         device = "png", dpi = 300,
-         width = 14, height = 7)
+  ## ggsave(S.plot, file = here("output/sites/png/",fileName),
+  ##        device = "png", dpi = 300,
+  ##        width = 14, height = 7)
 }
 
 plot_S_chr11 <- function(S_formatted, fileName){
@@ -126,7 +123,7 @@ plot_S_chr11 <- function(S_formatted, fileName){
          y = "Segregating sites S per 10 Kb",
          x = "Genomic position in Mb")
 
-  ggsave(S.plot, file = here("output/sites/png/",fileName),
-         device = "png", dpi = 300,
-         width = 14, height = 7)
+  ## ggsave(S.plot, file = here("output/sites/png/",fileName),
+  ##        device = "png", dpi = 300,
+  ##        width = 14, height = 7)
 }
