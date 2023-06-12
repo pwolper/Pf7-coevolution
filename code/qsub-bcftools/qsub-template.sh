@@ -16,7 +16,8 @@
 #$-j yes
 
 #$-q all.q
-#$-N vcf-snp
+#$-N download-data
 
 source ~/.bashrc
 
+cp -r /data/proj/teaching/NGS_course/Data/projects/Unknown_mosquitoes/!(Unknown_mosquitoes.pdf) $PWD/../data/
