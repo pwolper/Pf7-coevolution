@@ -9,9 +9,19 @@ pca.eigenvalues <- read.csv(here("output/pca/Pf7.pca.african.eigenvalues.txt"), 
 pca.loading <- read.csv(here("output/pca/Pf7.pca.african.loadings.txt"), sep = "\t")
 
 str(pca.scores)
+str(as.vector(pca.eigenvalues$x))
+str(pca.loading)
+
+eig_percent <- round((pca.eigenvalues$x/sum(pca.eigenvalues$x))*100,2)
+str(eig_percent)
+
+
+barplot(100*pca.eigenvalues$x/sum(pca.eigenvalues$x))
+
 
 ## Plotting the pca
-Pf7.plot12 <- ggplot(pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country))
+Pf7.plot12 <- ggplot(pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country))  +
+  theme_light()
 Pf7.plot12
 
 
