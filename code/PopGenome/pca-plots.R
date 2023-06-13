@@ -4,14 +4,15 @@ library(tidyverse)
 library(here)
 
 ## Load Files 
-pca.scores <- read.csv(here("output/pca/Pf7.pca.scores.txt"), sep = "\t")
-pca.eigenvalues <- read.csv(here("output/pca/Pf7.pca.eigenvalues.txt"), sep = "\t")
-pca.loading <- read.csv(here("output/pca/Pf7.pca.loadings.txt"), sep = "\t")
+pca.scores <- read.csv(here("output/pca/Pf7.pca.african.scores.txt"), sep = "\t")
+pca.eigenvalues <- read.csv(here("output/pca/Pf7.pca.african.eigenvalues.txt"), sep = "\t")
+pca.loading <- read.csv(here("output/pca/Pf7.pca.african.loadings.txt"), sep = "\t")
 
 str(pca.scores)
 
 ## Plotting the pca
 Pf7.plot12 <- ggplot(pca.scores, aes(PC1,PC2)) + geom_point(aes(col=Country))
+Pf7.plot12
 
 
 ggsave(Pf7.plot12, file = here("output/pca/","Pf7.chr2.pca.african.png"),
