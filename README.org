@@ -6,17 +6,10 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-- [ ] Selection of populations
-  - Kenya, Gambia, DRC, Tanzania, Myanmar
-- [-] Calculate TajD
-- [-] Segregating sites on chr11 and chr2
-  - Using synonymous polymorphisms?
-- [-] \Theta _W and \Theta _pi
-- [ ] PopGen stats discussion
-- [ ] Population differentiation. Genomic PCA plot
+- [ ] DAPC and PCA_africa plot
   - Maybe with F_st population differentitaion between chooses populations
 - [ ] Plot the SFS.
-  - Which software to use?
+  - chr11 and chr2. different types of sites. Sites far away from each other.
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
