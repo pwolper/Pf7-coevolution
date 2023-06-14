@@ -20,7 +20,7 @@ ploidy(Pf7.snp.gl) <- 1
 
 Pf7.snp.gl
 
-Pf7.snp.gl@pop
+cat("Created gl object...")
 
 ## Performing dapc analyis
 dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.da =nPop(Pf7.snp.gl) -1)
