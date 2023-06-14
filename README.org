@@ -135,6 +135,8 @@ Citations and PDF files can be found in the /~/biblio/ directory.
 * Links
 ** Pf7 Data Viewer
 https://www.malariagen.net/apps/pf7/
+** P.reichenowi ftp
+ftp://ftp.sanger.ac.uk/pub/project/pathogens/Plasmodium/reichenowi/
 
 ** PopGen Cluster - p.wolper home
 [[/sshx:p.wolper@10.152.154.1:~/]]
