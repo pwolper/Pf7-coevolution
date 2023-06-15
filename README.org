@@ -10,6 +10,7 @@
   - Maybe with F_st population differentitaion between chooses populations
 - [ ] Plot the SFS.
   - chr11 and chr2. different types of sites. Sites far away from each other.
+  - angsd -doSaf not really working.
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
