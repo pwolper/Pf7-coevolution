@@ -8,8 +8,16 @@
 * Tasks :noexport:
 - [ ] DAPC and PCA_africa plot
   - Maybe with F_st population differentitaion between chooses populations
-- [ ] Plot the SFS.
+- [ ] Plot the unfolded SFS.
+  - Polarize the vcf file. Then calculate the unfolded sfs.
   - chr11 and chr2. different types of sites. Sites far away from each other.
+
+* Unfolded sfs
+- EasySFS: can calculate the unfolded SFS, but requires accurately polarized SFS (https://github.com/isaacovercast/easySFS)
+- SuperSFS: can speculate the anchestral allele, but need the outgroup included in the vcf file (https://github.com/xhchauvet/superSFS)
+- repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
+
+
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
@@ -17,7 +25,6 @@
 - Do things like recombination with multiple mergers affect selection and how?
 - What about genetic burden, such as Muller's ratchet or clonal interference?
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
-
 * Ideas for analysis
 - PCA analysis to show the clustering of samples by location or year. Choose some good samples for further analysis. Should the SNPs be filtered for LD to remove correlations?
 - Coalescent methods for demogaphic/multiple merger (MMC) methods
