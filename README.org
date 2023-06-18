@@ -80,6 +80,9 @@ Signatures of balancing selection:
 
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
+* Selection in Plasmodium
+https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
+
 * Pf7 populations :noexport:
 ** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
