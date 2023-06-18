@@ -11,6 +11,7 @@
 - [ ] Plot the unfolded SFS.
   - Polarize the vcf file. Then calculate the unfolded sfs.
   - chr11 and chr2. different types of sites. Sites far away from each other.
+  - angsd -doSaf not really working.
 
 * Unfolded sfs
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized SFS (https://github.com/isaacovercast/easySFS)
@@ -142,6 +143,8 @@ Citations and PDF files can be found in the /~/biblio/ directory.
 * Links
 ** Pf7 Data Viewer
 https://www.malariagen.net/apps/pf7/
+** P.reichenowi ftp
+ftp://ftp.sanger.ac.uk/pub/project/pathogens/Plasmodium/reichenowi/
 
 ** PopGen Cluster - p.wolper home
 [[/sshx:p.wolper@10.152.154.1:~/]]
