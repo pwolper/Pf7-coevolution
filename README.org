@@ -18,7 +18,7 @@
 - SuperSFS: can speculate the anchestral allele, but need the outgroup included in the vcf file (https://github.com/xhchauvet/superSFS)
 - repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
 
-
+Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
@@ -143,6 +143,7 @@ Citations and PDF files can be found in the /~/biblio/ directory.
 * Links
 ** Pf7 Data Viewer
 https://www.malariagen.net/apps/pf7/
+
 ** P.reichenowi ftp
 ftp://ftp.sanger.ac.uk/pub/project/pathogens/Plasmodium/reichenowi/
 
