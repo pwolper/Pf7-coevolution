@@ -19,6 +19,7 @@
 - repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
 
 Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
+Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316729/
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
@@ -28,8 +29,7 @@ Divergence between falciparum and reichenowi? https://journals.plos.org/plosgene
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 * Ideas for analysis
 - PCA analysis to show the clustering of samples by location or year. Choose some good samples for further analysis. Should the SNPs be filtered for LD to remove correlations?
-- Coalescent methods for demogaphic/multiple merger (MMC) methods
- [[cite:&korfmann-2023-simul-infer]]
+- Coalescent methods for demogaphic/multiple merger (MMC) methods [[cite:&korfmann-2023-simul-infer]]
 - SMC? other coalescent methods. Quantifying recombination?
 - Test for balancing selection?
 - Time series of genomic data (ABS) (ask  Meline)
@@ -81,6 +81,7 @@ Signatures of balancing selection:
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
 * Selection in Plasmodium
+
 https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
 
 * Pf7 populations :noexport:
