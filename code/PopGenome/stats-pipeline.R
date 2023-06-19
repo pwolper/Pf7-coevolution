@@ -30,10 +30,7 @@ vcf <- set_populations(vcf, Pf7_samples, population = Pf7_samples$Country)
 
 # Neutrality stats
 vcf.neutrality <- neutrality.stats(vcf, FAST=TRUE)
-
 get.neutrality(vcf.neutrality, theta = TRUE)[[1]]
-
-vcf.neutrality <- recomb.stats(vcf)
 
 # Segregating sites on sliding window
 source(here("code/PopGenome/functions/calc_stats_sliding_window.R"))
