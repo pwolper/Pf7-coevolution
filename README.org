@@ -22,6 +22,9 @@
 Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
 Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316729/
 
+* Recombination rate
+https://academic.oup.com/g3journal/article/6/6/1563/6029955
+
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
 - Can we compare /P.falciparum/ to /P.vivax/?
