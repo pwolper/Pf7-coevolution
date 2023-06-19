@@ -27,6 +27,7 @@ Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articl
 - Do things like recombination with multiple mergers affect selection and how?
 - What about genetic burden, such as Muller's ratchet or clonal interference?
 - What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
+
 * Ideas for analysis
 - PCA analysis to show the clustering of samples by location or year. Choose some good samples for further analysis. Should the SNPs be filtered for LD to remove correlations?
 - Coalescent methods for demogaphic/multiple merger (MMC) methods [[cite:&korfmann-2023-simul-infer]]
