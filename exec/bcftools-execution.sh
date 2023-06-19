@@ -16,10 +16,10 @@
 #-j yes
 
 #$-q all.q
-#$-N vcftools.freq
+#$-N bcftools
 
 source ~/.bashrc
 
 
 ## bcftools
-source ../code/sfs-vcftools.sh
+source ../code/qsub-bcftools/bcftools_SNP.sh
