@@ -16,13 +16,13 @@
 #$-j yes
 
 #$-q bigmem@node09.pgen.wzw.tum.de
-#$-N PCA.par
+#$-N stats
 
 source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ../code/PopGenome/pca-analysis.R
+Rscript ../code/PopGenome/stats_pipeline.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on $(date)

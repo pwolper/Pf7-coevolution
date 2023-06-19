@@ -6,9 +6,9 @@ library(here)
 
 source(here("code/PopGenome/functions/plots.R"))
 
-file = "Pf7.chr2.stats.DRC_GM_KE_MM"
-file_txt = paste0(file,".txt")
-file_png = paste0(file,".png")
+file <- "Pf7.chr2.stats.DRC_GM_KE_MM"
+file_txt <- paste0(file,".txt")
+file_png <- paste0(file,".png")
 
 Pfsa1 <- 631190
 Pfsa2 <- 814288
