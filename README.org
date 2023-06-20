@@ -85,10 +85,6 @@ Signatures of balancing selection:
 
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
-* Selection in Plasmodium
-
-https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
-
 * Pf7 populations :noexport:
 ** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
@@ -130,24 +126,29 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 https://wellcomeopenresearch.org/articles/7-136/v1
 
 * Reading list
+
 Citations and PDF files can be found in the /~/biblio/ directory.
-** Pf7 populations
-- [[cite:&rich-2000-popul-struc]]; Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum
-- [[cite:&nderu-2019-genet-diver]]; Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas
-- [[cite:&amambua-ngwa-2019-major-subpop]]; Amambua-Ngwa et al., 2019: Major subpopulations of P. falciparum in sub-Saharan Africa
-- [[cite:&meyer-2002-review]]; Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages
 
 ** Plasmodium Genomics
-- [[cite:&benavente-2021-distin-genet]]; Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika
+- Rich et al., 2000: Population structure and recent evolution of Plasmodium falciparum; [[cite:&rich-2000-popul-struc]];
+- Nderu et al., 2019: Genetic diversity and population structure of P. falciparum in Kenyan-Ugandan border areas; [[cite:&nderu-2019-genet-diver]];
+- Amambua-Ngwa et al., 2019: Major subpopulations of P. falciparum in sub-Saharan Africa; [[cite:&amambua-ngwa-2019-major-subpop]];
+- Meyer et al., 2002: Genetic diversity of P. falciparum: asexual stages;  [[cite:&meyer-2002-review]];
+- Benavente, 2021: Genetic structure and selection patterns of Plasmodium vivax in South Asia and East Afrika; [[cite:&benavente-2021-distin-genet]];
+- Nygaard et al, 2010: Long- and Short-term selective forces on Malaria Parasite Genomes;[[cite:&nygaard-2010-long-short]]
+- Sundararaman et al. 2016: Genomes of cryptic chimpanzee Plasmodium reveal key evolutionary events leading to human malaria;[[cite:&sundararaman-2016-genom-crypt]]
+- Otto et al, 2014: Genome sequencing of chimpanzee malaria parasite reveals possible pathways of adaptation to human hosts; [[cite:&otto-2014-genom-sequen]]
+- Pearson et al., 2016: Genomic analysis of local variation and recent evolution in Plasmodium vivax; [[cite:&nygaard-2010-long-short]]
+- Naung et al., 2022: Global diversity and balancing selection of 23 leading Plasmodium falciparum candidate vaccine antigens;[[cite:&naung-2022-global-diver]]
 
 ** Human-parasite interactions
-- [[cite:&band-2021-malar-protec]]; Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype
-- [[cite:&raberg-2023-human-pathog]]; Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory
+- Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype; [[cite:&band-2021-malar-protec]];
+- Raberg, 2023: Human and Pathogen Genotype-By-Genotype Interactions in the Light of Coevolution theory; [[cite:&raberg-2023-human-pathog]];
 
 ** Coevolution Theory
-- [[cite:&brown-2011-plant-paras-coevol]]; Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology
-- [[cite:&tellier-2021-theor-host]]; Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics
-- [[cite:&maerkle-2021-novel-genom]]; Maerkle, 2021: Genomic approaches to study antagonistic coevolution in host and parasites
+- Brown and Tellier, 2011: Plant-parasite coevolution: Bridging the Gap between Genetics and Ecology; [[cite:&brown-2011-plant-paras-coevol]];
+- Tellier and Brown, 2021: Theory of Host-Parasite Coevolution: From Ecology to Genomics; [[cite:&tellier-2021-theor-host]];
+- Maerkle, 2021: Genomic approaches to study antagonistic coevolution in host and parasites; [[cite:&maerkle-2021-novel-genom]];
 
 * Links
 ** Pf7 Data Viewer
