@@ -7,6 +7,7 @@ library(adegenet)
 library(vcfR)
 
 vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples.SNP.vcf.gz")
+filename <- "Pf7_chr2_dapc.rds"
 
 ## Step 1: Reading vcf file and converting it to a genlight object using vcfR::vcfR2genlight
 Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")
@@ -24,3 +25,6 @@ Pf7.snp.gl@pop
 
 ## Performing dapc analyis
 dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.da =nPop(Pf7.snp.gl) -1)
+
+## Save dapc object to .rds file to load later
+saveRDS(dapc1, here("output/pca", filename))
