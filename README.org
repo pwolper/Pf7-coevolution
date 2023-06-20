@@ -12,7 +12,7 @@
   - Polarize the vcf file. Then calculate the unfolded sfs.
   - chr11 and chr2. different types of sites. Sites far away from each other.
   - angsd -doSaf not really working.
-- [ ] Recombination rate in sliding windows
+- [ ] Recombination rate in sliding windows with FastEPRR.
 
 * Unfolded sfs
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized SFS (https://github.com/isaacovercast/easySFS)
@@ -22,7 +22,15 @@
 Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
 Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316729/
 
+* P.reichenowi as an outgroup
+The first P. reichenowi reference genome PrCDC was assembled by mapping to Pf7 reference genome ([[cite:&otto-2014-genom-sequen]])
+Reference genome PrSY57 has been constructed by mapping to PrCDC ([[cite:&sundararaman-2016-genom-crypt]]).
+
+Check the divergence between PrSY57 anf Pf7. If there is too much intra-specific polymorphism, we cannot determine the ancestral state of the sample polymorphisms.
+How to do this? Alignment or mapping?
+
 * Recombination rate
+Calculation of recombination rate with FastEPRR
 https://academic.oup.com/g3journal/article/6/6/1563/6029955
 
 * Questions
