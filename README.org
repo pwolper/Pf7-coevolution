@@ -7,6 +7,7 @@
 
 * Tasks :noexport:
 - [ ] DAPC and PCA_africa plot
+  - wrote results from dapc analysis to output rds file.
   - Maybe with F_st population differentitaion between chooses populations
 - [ ] Plot the unfolded SFS.
   - Polarize the vcf file. Then calculate the unfolded sfs.
