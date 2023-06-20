@@ -34,6 +34,9 @@ How to do this? Alignment or mapping?
 Calculation of recombination rate with FastEPRR
 https://academic.oup.com/g3journal/article/6/6/1563/6029955
 
+* PCA and DAPC
+https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
+
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
 - Can we compare /P.falciparum/ to /P.vivax/?
