@@ -4,7 +4,7 @@
 # This option tells gridware to change to the current directory before executing the job
 # (default is the home of the user).
 
-#$-pe serial 12
+#$-pe serial 8
 # Specify this option only for multithreaded jobs that use more than one cpu core.
 # IMPORTANT! Don't use more than 4 cores to keep free space for other students!
 
@@ -15,14 +15,11 @@
 
 #$-j yes
 
-#$-q bigmem@node09.pgen.wzw.tum.de
-#$-N dapc
+#$-q bigmem@node09
+#$-N gmap-t-alignment
+
+data=$HOME/FP-coevolution/data
 
 source ~/.bashrc
-conda activate R.env
 
-echo STARTED on $(date)
-Rscript ../code/pca/dapc-analysis.R
-
-echo FINISHED writing output file on $(date)
-echo FINISHED task on $(date)
+gmap -g $data/P.reichenowi/embl.PrCDC/PrCDC_02_v3.fasta -A --nosplicing -t 8 -f sampe $data/Pf7/seqs/Pf3D7_02_v3.fasta

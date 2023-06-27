@@ -6,17 +6,19 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-- [ ] DAPC and PCA_africa plot
-  - wrote results from dapc analysis to output rds file.
-  - Maybe with F_st population differentitaion between chooses populations
+- [ ] Choose individuals from each population for further analysis.
+  - how many samples? Closest together around the mean? Coordinated from DAPC.
 - [ ] Plot the unfolded SFS.
-  - Polarize the vcf file. Then calculate the unfolded sfs.
-  - chr11 and chr2. different types of sites. Sites far away from each other.
-  - angsd -doSaf not really working.
+  - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
+  - Then calculate the unfolded sfs.
+  - chr11 and chr2 different types of sites. Sites far away from each other.
 - [ ] Recombination rate in sliding windows with FastEPRR.
+- [X] DAPC and PCA_africa plot
+  - running for chr11 as well
+  - Maybe with F_st population differentitaion between chooses populations
 
 * Unfolded sfs
-- EasySFS: can calculate the unfolded SFS, but requires accurately polarized SFS (https://github.com/isaacovercast/easySFS)
+- EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
 - SuperSFS: can speculate the anchestral allele, but need the outgroup included in the vcf file (https://github.com/xhchauvet/superSFS)
 - repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
 
@@ -31,7 +33,7 @@ Check the divergence between PrSY57 anf Pf7. If there is too much intra-specific
 How to do this? Alignment or mapping?
 
 * Recombination rate
-Calculation of recombination rate with FastEPRR
+Calculation of recombination rate with FastEPRR not working becasue the data needs to be phased. How can we "phase" the vcf file, when P.falciparum is haploid.
 https://academic.oup.com/g3journal/article/6/6/1563/6029955
 
 * PCA and DAPC
@@ -39,19 +41,14 @@ https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
-- Can we compare /P.falciparum/ to /P.vivax/?
-- Do things like recombination with multiple mergers affect selection and how?
-- What about genetic burden, such as Muller's ratchet or clonal interference?
-- What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
+- Do we find signatures of multiple mergers or dormancy in /P. falciparum/ populations?
+
+- Maybe: What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
+
 
 * Ideas for analysis
-- PCA analysis to show the clustering of samples by location or year. Choose some good samples for further analysis. Should the SNPs be filtered for LD to remove correlations?
 - Coalescent methods for demogaphic/multiple merger (MMC) methods [[cite:&korfmann-2023-simul-infer]]
-- SMC? other coalescent methods. Quantifying recombination?
-- Test for balancing selection?
-- Time series of genomic data (ABS) (ask  Meline)
 
-Think about the biological question we want to ask!!
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
