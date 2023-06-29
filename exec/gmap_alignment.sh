@@ -20,6 +20,7 @@
 
 data=$HOME/FP-coevolution/data
 
+
 source ~/.bashrc
 
-gmap -g $data/P.reichenowi/embl.PrCDC/PrCDC_02_v3.fasta -A --nosplicing -t 8 -f sampe $data/Pf7/seqs/Pf3D7_02_v3.fasta
+gmapl -g $data/P.reichenowi/embl.PrCDC/PrCDC_02_v3.fasta -A --nosplicing -t 8 -f samse $data/Pf7/seqs/Pf3D7_02_v3.fasta > $data/PrCDC_Pf7_gmapl.sam

@@ -1,0 +1,8 @@
+Note: gmapl.avx512 does not exist.  For faster speed, may want to compile package on an AVX512 machine
+GMAP version 2020-06-30 called with args: gmapl.avx2 -g /data/home/students/p.wolper/FP-coevolution/data/P.reichenowi/embl.PrCDC/PrCDC_02_v3.fasta -A --nosplicing -t 8 -f samse /data/home/students/p.wolper/FP-coevolution/data/Pf7/seqs/Pf3D7_02_v3.fasta
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler options for SSE4.2: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Starting alignment
+Processed 1 queries in 26840.38 seconds (0.00 queries/sec)
