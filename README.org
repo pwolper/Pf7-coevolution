@@ -7,15 +7,17 @@
 
 * Tasks :noexport:
 - [ ] Choose individuals from each population for further analysis.
-  - how many samples? Closest together around the mean? Coordinated from DAPC.
+  - how many samples? Closest together around the mean? Coordinated from DAPC. From STRUCTURE analysis.
+- [ ] Recombination rate in sliding windows with LDhelmet.
+- [ ] STRUCTURE Analysis.
+  - fastSTRUCTURE
+- [X] DAPC and PCA_africa plot
+  - running for chr11 as well
+  - Maybe with F_st population differentitaion between chooses populations
 - [ ] Plot the unfolded SFS.
   - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
   - Then calculate the unfolded sfs.
   - chr11 and chr2 different types of sites. Sites far away from each other.
-- [ ] Recombination rate in sliding windows with FastEPRR.
-- [X] DAPC and PCA_africa plot
-  - running for chr11 as well
-  - Maybe with F_st population differentitaion between chooses populations
 
 * Unfolded sfs
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
