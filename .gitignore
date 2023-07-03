@@ -6,6 +6,8 @@
 *.vcf.gz.tbi
 *.gff
 
+data/
+
 # caches
 *.log
 tmp/
