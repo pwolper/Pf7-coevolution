@@ -9,7 +9,7 @@
 - [ ] Choose individuals from each population for further analysis.
   - how many samples? Closest together around the mean? Coordinated from DAPC. From STRUCTURE analysis.
 - [ ] Recombination rate in sliding windows with LDhelmet.
-- [ ] STRUCTURE Analysis.
+- [ ] STRUCTURE Analysis, then choose 50 'pure' individuals.
   - fastSTRUCTURE
 - [X] DAPC and PCA_africa plot
   - running for chr11 as well
