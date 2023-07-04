@@ -8,16 +8,16 @@
 * Tasks :noexport:
 - [ ] Choose individuals from each population for further analysis.
   - how many samples? Closest together around the mean? Coordinated from DAPC. From STRUCTURE analysis.
-- [ ] Recombination rate in sliding windows with LDhelmet.
-- [ ] STRUCTURE Analysis, then choose 50 'pure' individuals.
-  - fastSTRUCTURE
+- [ ] Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
+- [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continnue with.
+  - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
+  - Format  vcf as .bed file
 - [X] DAPC and PCA_africa plot
   - running for chr11 as well
   - Maybe with F_st population differentitaion between chooses populations
 - [ ] Plot the unfolded SFS.
   - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
   - Then calculate the unfolded sfs.
-  - chr11 and chr2 different types of sites. Sites far away from each other.
 
 * Unfolded sfs
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
@@ -34,9 +34,10 @@ Reference genome PrSY57 has been constructed by mapping to PrCDC ([[cite:&sundar
 Check the divergence between PrSY57 anf Pf7. If there is too much intra-specific polymorphism, we cannot determine the ancestral state of the sample polymorphisms.
 How to do this? Alignment or mapping?
 
+How to set the anchestral allele information in the outgroup
+
 * Recombination rate
-Calculation of recombination rate with FastEPRR not working becasue the data needs to be phased. How can we "phase" the vcf file, when P.falciparum is haploid.
-https://academic.oup.com/g3journal/article/6/6/1563/6029955
+ use LDhelmet because I have the sequences in fasta format. Use 50 individuals per population.
 
 * PCA and DAPC
 https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
@@ -49,7 +50,7 @@ https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 
 
 * Ideas for analysis
-- Coalescent methods for demogaphic/multiple merger (MMC) methods [[cite:&korfmann-2023-simul-infer]]
+- Coalescent methods for demogaphic/multiple merger (SMC) methods [[cite:&korfmann-2023-simul-infer]]
 
 
 * HbS-associated variants in /P. falciparum/
