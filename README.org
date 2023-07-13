@@ -9,7 +9,7 @@
 - [ ] Choose individuals from each population for further analysis.
   - how many samples? Closest together around the mean? Coordinated from DAPC. From STRUCTURE analysis.
 - [ ] Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
-- [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continnue with.
+- [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continue with.
   - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
   - Format  vcf as .bed file
 - [X] DAPC and PCA_africa plot
