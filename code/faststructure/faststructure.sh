@@ -8,11 +8,11 @@ output=$HOME/FP-coevolution/output/faststructure
 
 # fastSTRUCTURE
 structure.py \
-    -K 3 \
+    -K 2 \
     --input=$bed_file \
     --output=$output/chr2_simple
 
-distruct.py \
-    -K 3 \
-    --input=$output/chr2_simple \
-    --output=$output/chr2_simple.svg
+# distruct.py \
+#     -K 3 \
+#     --input=$output/chr2_simple \
+#     --output=$output/chr2_simple.svg
