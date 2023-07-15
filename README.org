@@ -11,7 +11,7 @@
 - [ ] Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
 - [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continue with.
   - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
-  - Format  vcf as .bed file
+ https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
 - [X] DAPC and PCA_africa plot
   - running for chr11 as well
   - Maybe with F_st population differentitaion between chooses populations
