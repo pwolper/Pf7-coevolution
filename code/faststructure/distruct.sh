@@ -7,4 +7,4 @@
 input=$HOME/FP-coevolution/output/faststructure
 output=$HOME/FP-coevolution/output/faststructure/distruct
 
-distruct.py -K 3 --input=$input/chr2_simple_full --output=$output/chr2_simple_full_K3
+distruct.py -K 5 --input=$input/chr2_simple_II --output=$output/chr2_simple_II_K5

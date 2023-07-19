@@ -5,7 +5,7 @@ library(pophelper); library(here)
 
 faststructure_dir <- here("output/faststructure")
 
-readQ(files = here(faststructure_dir, "chr2_simple.2"))
+## readQ(files = here(faststructure_dir, "chr2_simple.2"))
 
 ffiles <- list.files(path=faststructure_dir, pattern = ".meanQ", full.names = TRUE)
 ffiles

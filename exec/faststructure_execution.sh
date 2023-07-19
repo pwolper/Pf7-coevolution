@@ -28,11 +28,7 @@ output=$HOME/FP-coevolution/output/faststructure
 
 # fastSTRUCTURE
 structure.py \
-    -K 3 \
-    --full \
+    -K 5 \
+    --prior=logistic \
     --input=$bed_file \
-    --output=$output/chr2_simple_full
-
-# distruct.py \
-#     -K 3 \
-#     --input=$output/chr2_simple#     --output=$output/chr2_simple.svg
+    --output=$output/chr2_logistic_I

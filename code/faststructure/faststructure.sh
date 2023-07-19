@@ -9,8 +9,9 @@ output=$HOME/FP-coevolution/output/faststructure
 # fastSTRUCTURE
 structure.py \
     -K 2 \
+    --prior=logistic
     --input=$bed_file \
-    --output=$output/chr2_simple
+    --output=$output/chr2_logistic_I
 
 # distruct.py \
 #     -K 3 \
