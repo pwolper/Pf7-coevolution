@@ -11,7 +11,8 @@
 - [ ] Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
 - [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continue with.
   - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
- https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
+  https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
+- How do I interpret the likelihood values for choosing K in faststructure? delta K convergence plots?
 - [X] DAPC and PCA_africa plot
   - running for chr11 as well
   - Maybe with F_st population differentitaion between chooses populations
