@@ -21,6 +21,12 @@
   - Then calculate the unfolded sfs.
 
 * Unfolded sfs
+** Genome alignment
+MUmer version 4 to align the outgroup PrCDCD to ref Pf3D7.
+Use R script to visualize alignment success:
+https://taylorreiter.github.io/2019-05-11-Visualizing-NUCmer-Output/
+
+** SFS Calc
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
 - SuperSFS: can speculate the anchestral allele, but need the outgroup included in the vcf file (https://github.com/xhchauvet/superSFS)
 - repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
@@ -32,7 +38,7 @@ Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articl
 The first P. reichenowi reference genome PrCDC was assembled by mapping to Pf7 reference genome ([[cite:&otto-2014-genom-sequen]])
 Reference genome PrSY57 has been constructed by mapping to PrCDC ([[cite:&sundararaman-2016-genom-crypt]]).
 
-Check the divergence between PrSY57 anf Pf7. If there is too much intra-specific polymorphism, we cannot determine the ancestral state of the sample polymorphisms.
+Check the divergence between PrSY57 and Pf7. If there is too much intra-specific polymorphism, we cannot determine the ancestral state of the sample polymorphisms.
 How to do this? Alignment or mapping?
 
 How to set the anchestral allele information in the outgroup
