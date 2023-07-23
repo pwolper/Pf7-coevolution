@@ -31,4 +31,4 @@ structure.py \
     -K 5 \
     --prior=logistic \
     --input=$bed_file \
-    --output=$output/chr2_logistic_I
+    --output=$output/chr2_logistic_III
