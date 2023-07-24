@@ -16,10 +16,10 @@
 #-j yes
 
 #$-q all.q
-#$-N consensus
+#$-N vcf-filter
 
 source ~/.bashrc
 
 
 ## bcftools
-source ../code/pf7-consensus/bcftools-consensus.sh
+source ../code/qsub-bcftools/bcftools_SNP.sh
