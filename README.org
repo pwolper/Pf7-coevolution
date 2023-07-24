@@ -6,19 +6,39 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-- [ ] Choose individuals from each population for further analysis.
-  - how many samples? Closest together around the mean? Coordinated from DAPC. From STRUCTURE analysis.
-- [ ] Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
-- [ ] STRUCTURE Analysis, then choose 50 'closely related' individuals to continue with.
-  - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
+** TODO filter the vcf file for snps with higher quality (VQSLOD > 5.0)
+- rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
+- Cross check the faststructure by running ADMIXTURE.
+** TODO Population structure analysis
+- fastSTRUCTURE (https://github.com/rajanil/fastStructure)
   https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
+- DAPC and PCA plot
 - How do I interpret the likelihood values for choosing K in faststructure? delta K convergence plots?
-- [X] DAPC and PCA_africa plot
-  - running for chr11 as well
-  - Maybe with F_st population differentitaion between chooses populations
-- [ ] Plot the unfolded SFS.
+** TODO Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
+** TODO Plot the unfolded SFS.
   - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
   - Then calculate the unfolded sfs.
+
+* Data
+vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
+
+** SNP filtering with bcf tools.
+Filtering for Quality control pass (?), bialleic snps...
+
+#+begin_src bash
+bcftools view \
+    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
+    --samples-file $samples_dir/Pf7_african_samples_ids.txt \
+    --output-type z\
+    --output-file  Pf3D7_02_v3.SNP.vcf \
+    Pf3D7_02_v3.pf7.vcf.gz
+
+bcftools index -t Pf3D7_02_v3.SNP.vcf
+#+end_src
+
+The average VQSLOD value for the 1846 african samples, filtered only by the above is 4.215 and 4.238 for chr11 and chr2, respectively.
+** P.vivax data?
+https://wellcomeopenresearch.org/articles/7-136/v1
 
 * Unfolded sfs
 ** Genome alignment
@@ -124,25 +144,6 @@ https://www.malariagen.net/apps/pf7/countries/GM
 - Malawi, Chikawa (231 samples, 2011)
 - ...
 Vivax data set from similar locations?
-
-* Data
-vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
-
-** SNP filtering with bcf tools.
-Filtering for Quality control pass (?), bialleic snps...
-
-#+begin_src bash
-bcftools view \
-    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp"'\
-    --output-type z\
-    --output-file  Pf3D7_02_v3.SNP.vcf \
-    Pf3D7_02_v3.pf7.vcf.gz
-
-bcftools index -t Pf3D7_02_v3.SNP.vcf
-#+end_src
-
-** P.vivax data?
-https://wellcomeopenresearch.org/articles/7-136/v1
 
 * Reading list
 
