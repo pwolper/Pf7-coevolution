@@ -116,7 +116,7 @@ How can we interpret the values of D_Taj?
 
 - Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
-  - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
+ - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
 
 ** Signatures of Balancing Selection?
 Signatures of balancing selection:
