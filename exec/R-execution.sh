@@ -15,14 +15,14 @@
 
 #$-j yes
 
-#$-q bigmem@node09.pgen.wzw.tum.de
-#$-N stats
+#$-q bigmem
+#$-N dapc
 
 source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ../code/PopGenome/stats-pipeline.R
+Rscript ../code/pca/dapc-analysis.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on $(date)
