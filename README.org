@@ -21,6 +21,17 @@
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
+*** Unfiltered
+|             | chr2   | chr11   |
+|-------------+--------+---------|
+| SNPs        | 83,810 | 231,511 |
+| avg. VQSLOD | 4.238  | 4.215   |
+
+*** Filtered (VQSLOD > 5.0)
+|             | chr2   | chr11  |
+|-------------+--------+--------|
+| SNPs        | 16,269 | 44,040 |
+| avg. VQSLOD | 7.481  | 7.427  |
 
 ** SNP filtering with bcf tools.
 Filtering for Quality control pass (?), bialleic snps...
@@ -37,14 +48,42 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
 The average VQSLOD value for the 1846 african samples, filtered only by the above is 4.215 and 4.238 for chr11 and chr2, respectively.
+
 ** P.vivax data?
 https://wellcomeopenresearch.org/articles/7-136/v1
+
+* Pf7 populations :noexport:
+[[./data/Pf7/sample_ids/plots/afr_samples_years.png]]
+** Kenya
+https://www.malariagen.net/apps/pf7/countries/KE
+- 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
+
+** Upper River Gambia
+https://www.malariagen.net/apps/pf7/countries/GM
+ - 452 samples from Upper River and the years 2013-2017
+
+** Democratic Republic of Congo
+ - 520 samples, 2012-2016, QC.pass = True
+
+** Tanzania
+- 589 samples (2010-2014), QC.pass = True
+
+** Other candidates
+- Myanmar, Kayin (631 samples, 2016-2017)
+- Malawi, Chikawa (231 samples, 2011)
+- ...
+Vivax data set from similar locations?
 
 * Unfolded sfs
 ** Genome alignment
 MUmer version 4 to align the outgroup PrCDCD to ref Pf3D7.
 Use R script to visualize alignment success:
 https://taylorreiter.github.io/2019-05-11-Visualizing-NUCmer-Output/
+
+*** Pf7-PrCDC
+Nucleotide substitutions between Pf7 reference and PrCDC assemebled sequence: 25353
+
+Overlapping with the snps from the vcf file: 927
 
 ** SFS Calc
 - EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
@@ -53,8 +92,7 @@ https://taylorreiter.github.io/2019-05-11-Visualizing-NUCmer-Output/
 
 Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
 Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316729/
-
-* P.reichenowi as an outgroup
+** P.reichenowi as an outgroup
 The first P. reichenowi reference genome PrCDC was assembled by mapping to Pf7 reference genome ([[cite:&otto-2014-genom-sequen]])
 Reference genome PrSY57 has been constructed by mapping to PrCDC ([[cite:&sundararaman-2016-genom-crypt]]).
 
@@ -75,10 +113,8 @@ https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 
 - Maybe: What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
-
 * Ideas for analysis
 - Coalescent methods for demogaphic/multiple merger (SMC) methods [[cite:&korfmann-2023-simul-infer]]
-
 
 * HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
@@ -124,27 +160,6 @@ Signatures of balancing selection:
 
 What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
 
-* Pf7 populations :noexport:
-** Kenya
-https://www.malariagen.net/apps/pf7/countries/KE
-- 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
-
-** Upper River Gambia
-https://www.malariagen.net/apps/pf7/countries/GM
- - 452 samples from Upper River and the years 2013-2017
-
-** Democratic Republic of Congo
- - 520 samples, 2012-2016, QC.pass = True
-
-** Tanzania
-- 589 samples (2010-2014), QC.pass = True
-
-** Other candidates
-- Myanmar, Kayin (631 samples, 2016-2017)
-- Malawi, Chikawa (231 samples, 2011)
-- ...
-Vivax data set from similar locations?
-
 * Reading list
 
 Citations and PDF files can be found in the /~/biblio/ directory.
@@ -160,6 +175,7 @@ Citations and PDF files can be found in the /~/biblio/ directory.
 - Otto et al, 2014: Genome sequencing of chimpanzee malaria parasite reveals possible pathways of adaptation to human hosts; [[cite:&otto-2014-genom-sequen]]
 - Pearson et al., 2016: Genomic analysis of local variation and recent evolution in Plasmodium vivax; [[cite:&nygaard-2010-long-short]]
 - Naung et al., 2022: Global diversity and balancing selection of 23 leading Plasmodium falciparum candidate vaccine antigens;[[cite:&naung-2022-global-diver]]
+- Noviyanti et al., 2015: Contrasting transmission dynamics of co-endemic Plasmodium;[[cite:&noviyanti-2015-contr-trans]]
 
 ** Human-parasite interactions
 - Band, 2021: Malaria Protection due to Sickle Haemoglobin Depends on Parasite Genotype; [[cite:&band-2021-malar-protec]];
