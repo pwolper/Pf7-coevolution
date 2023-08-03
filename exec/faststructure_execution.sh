@@ -16,19 +16,20 @@
 #$-j yes
 
 #$-q bigmem
-#$-N fastSTRUCTURE
+#$-N admixture
 
 source ~/.bashrc
 
-conda activate faststructure
-
-# Paths
-bed_file=$HOME/FP-coevolution/data/Pf7/bed/Pf3D7_02_v3.afr_samples.SNP
-output=$HOME/FP-coevolution/output/faststructure
-
-# fastSTRUCTURE
-structure.py \
-    -K 5 \
-    --prior=logistic \
-    --input=$bed_file \
-    --output=$output/chr2_logistic_III
+source ../code/faststructure/admixture.sh
+#conda activate faststructure
+#
+## Paths
+#bed_file=$HOME/FP-coevolution/data/Pf7/bed/Pf3D7_02_v3.afr_samples_2014.qSNP
+#output=$HOME/FP-coevolution/output/faststructure/qSNP
+#
+## faststructure
+#structure.py \
+#    -k 5 \
+#    --prior=logistic \
+#    --input=$bed_file \
+#    --output=$output/chr2_qsnp_2014_logistic_i

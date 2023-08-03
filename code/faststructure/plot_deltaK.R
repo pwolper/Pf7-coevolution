@@ -26,3 +26,12 @@ str(log_n_df)
 plot(log_n_df$logfiles.K, log(abs(log_n_df$Marginal_Likelihood)))
 
 plot(log_n_df$logfiles.K, log(abs(log_n_df$delta_Marginal_Likelihood)))
+
+# CV error from admixture analysis
+CV_error <- read.table(here("output/faststructure/admixture/CV_error.txt"))
+#, sep = " ", col.names = c("K", "CV error"))
+str(CV_error)
+
+png(here("output/faststructure/admixture/CV_error_african_samples_qSNP_2014.png"))
+plot(CV_error$K, CV_error$CV.error, type = "o", ylab = "CV error", xlab = "K", main = "Admixture CV error for the african samples 2014 qSNPs")
+dev.off()

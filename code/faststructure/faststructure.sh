@@ -3,7 +3,7 @@
 conda activate faststructure
 
 # Paths
-bed_file=$HOME/FP-coevolution/data/Pf7/bed/Pf3D7_02_v3.afr_samples.SNP
+bed_file=$HOME/FP-coevolution/data/Pf7/bed/Pf3D7_02_v3.afr_samples.qSNP
 output=$HOME/FP-coevolution/output/faststructure
 
 # fastSTRUCTURE
