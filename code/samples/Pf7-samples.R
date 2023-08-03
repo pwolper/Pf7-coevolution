@@ -1,6 +1,7 @@
 ## Subsetting the samples of the Pf7-samples.txt file
 
-library("tidyverse")
+library(dplyr)
+library(ggplot2)
 library(here)
 # setwd("/data/home/students/p.wolper/FP-coevolution/")
 setwd(here())
