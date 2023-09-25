@@ -3,7 +3,7 @@ library(here)
 library(tidyverse)
 
 # Load the data from the text file
-allele_frequencies <- read.csv(here("output/sfs/afr_freq_min.txt"))
+allele_frequencies <- read.csv(here("output/sfs/folded/afr_freq_min.txt"))
 allele_frequencies <- allele_frequencies[,1] %>% unname()
 allele_frequencies %>% str()
 
