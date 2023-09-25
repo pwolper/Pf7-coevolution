@@ -6,33 +6,22 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-** TODO filter the vcf file for snps with higher quality (VQSLOD > 5.0)
+** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
 - rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
 - Cross check the faststructure by running ADMIXTURE.
 ** TODO Population structure analysis
 - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
   https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
 - DAPC and PCA plot
+- redo the dapc according to the tutorial writen by the author.
 - How do I interpret the likelihood values for choosing K in faststructure? delta K convergence plots?
 ** TODO Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
-** TODO Plot the unfolded SFS.
+** DONE Plot the unfolded SFS.
   - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
   - Then calculate the unfolded sfs.
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
-*** Unfiltered
-|             | chr2   | chr11   |
-|-------------+--------+---------|
-| SNPs        | 83,810 | 231,511 |
-| avg. VQSLOD | 4.238  | 4.215   |
-
-*** Filtered (VQSLOD > 5.0)
-|             | chr2   | chr11  |
-|-------------+--------+--------|
-| SNPs        | 16,269 | 44,040 |
-| avg. VQSLOD | 7.481  | 7.427  |
-
 ** SNP filtering with bcf tools.
 Filtering for Quality control pass (?), bialleic snps...
 
@@ -48,6 +37,27 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 #+end_src
 
 The average VQSLOD value for the 1846 african samples, filtered only by the above is 4.215 and 4.238 for chr11 and chr2, respectively.
+
+*** Unfiltered
+|             | chr2   | chr11   |
+|-------------+--------+---------|
+| SNPs        | 83,810 | 231,511 |
+| avg. VQSLOD | 4.238  | 4.215   |
+
+*** Filtered (VQSLOD > 5.0)
+|             | chr2   | chr11  |
+|-------------+--------+--------|
+| SNPs        | 16,269 | 44,040 |
+| avg. VQSLOD | 7.481  | 7.427  |
+
+*** Set the 'heterozygote' GTs to ./.
+#+begin_src bash
+bcftools filter -S . -e 'GT=="het"' chr2/Pf3D7_02_v3.afr_samples.qSNP.vcf.gz -o chr2/Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf -Oz
+#+end_src
+
+*** Query snp count data for the sfs
+#+begin_src bash
+bcftools query -f '%POS %REF %ALT %AF %AC %AN\n' Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz > Pf7.02.vcf.qSNP.AF_AC_AN.txt
 
 ** P.vivax data?
 https://wellcomeopenresearch.org/articles/7-136/v1
@@ -85,13 +95,6 @@ Nucleotide substitutions between Pf7 reference and PrCDC assemebled sequence: 25
 
 Overlapping with the snps from the vcf file: 927
 
-** SFS Calc
-- EasySFS: can calculate the unfolded SFS, but requires accurately polarized vcf (https://github.com/isaacovercast/easySFS)
-- SuperSFS: can speculate the anchestral allele, but need the outgroup included in the vcf file (https://github.com/xhchauvet/superSFS)
-- repolarize-vcf: can be used to repolarize a vcf file using the genotype of one sample (outgroup) in the vcf. (https://github.com/xuelingyi/repolarize-vcf/blob/main/README.md)
-
-Divergence between falciparum and reichenowi? https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001099
-Reichenowi has been used as an outgroup: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316729/
 ** P.reichenowi as an outgroup
 The first P. reichenowi reference genome PrCDC was assembled by mapping to Pf7 reference genome ([[cite:&otto-2014-genom-sequen]])
 Reference genome PrSY57 has been constructed by mapping to PrCDC ([[cite:&sundararaman-2016-genom-crypt]]).
@@ -107,6 +110,8 @@ How to set the anchestral allele information in the outgroup
 * PCA and DAPC
 https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 
+use dapc tutorial to run dapc with k-1 retained components to avaoid overfitting the data.
+
 * Questions
 - What does plasmodiums parasitic lifestyle traits contribute it's transmission demography (ie. fluctuating population sizes or mulitple merger events) and adative processes (such as  positive selection and/or coevolution)?
 - Do we find signatures of multiple mergers or dormancy in /P. falciparum/ populations?
@@ -116,7 +121,7 @@ https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 * Ideas for analysis
 - Coalescent methods for demogaphic/multiple merger (SMC) methods [[cite:&korfmann-2023-simul-infer]]
 
-* HbS-associated variants in /P. falciparum/
+** HbS-associated variants in /P. falciparum/
 Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
 
 - Pfsa1: chr2: *631,190 T>A variant*, which lies in ACS8, was associated with HbS. PfACS8 (628,091-632,681)
@@ -145,7 +150,6 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 [[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
 
 *  $\theta$ and $\pi$
-
 * Discussion
 ** Tajima's D peaks?
 How can we interpret the values of D_Taj?
