@@ -13,6 +13,7 @@ plot the sfs with neutral model expectation and zoomed windows using the ggmagni
 
 ** TODO Recombination rate in genes and intergenic regions
 - following the 4-gamete rule, how is the recombination rate in genes? Compare with genetic diversity stats in genes.
+- how can I do this with popgenome?
 
 ** TODO Population structure analysis
 - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
