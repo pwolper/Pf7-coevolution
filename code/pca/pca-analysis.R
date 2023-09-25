@@ -13,7 +13,7 @@ if(!require(vcfR)){
     install.packages("vcfR")
     library(vcfR)}
 
-vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples.SNP.vcf.gz")
+vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples.qSNP.vcf.gz")
 
 ## Step 1: Reading vcf file and converting it to a genlight object using vcfR::vcfR2genlight
 Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")

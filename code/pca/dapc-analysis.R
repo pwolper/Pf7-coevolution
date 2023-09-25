@@ -6,11 +6,11 @@ library(parallel)
 library(adegenet)
 library(vcfR)
 
-vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples_2014.qSNP.vcf.gz")
+vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz")
 filename <- "Pf7_chr02_2014_qSNP_dapc.rds"
 
 ## Step 1: Reading vcf file and converting it to a genlight object using vcfR::vcfR2genlight
-Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples_2014.txt"), sep = "\t")
+Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")
 
 Pf7.snp <- read.vcfR(vcf_path, verbose = TRUE)
 
@@ -24,6 +24,9 @@ Pf7.snp.gl
 Pf7.snp.gl@pop
 
 ## Performing dapc analyis
+
+clust <- find.clusters(Pf7.snp.gl, max.n.clust = 10)
+
 dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.pca = 100, n.da = nPop(Pf7.snp.gl) -1)
 
 ## Save dapc object to .rds file to load later
