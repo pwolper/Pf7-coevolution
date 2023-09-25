@@ -25,7 +25,7 @@ Pf7.snp.gl@pop
 
 ## Performing dapc analyis
 
-clust <- find.clusters(Pf7.snp.gl, max.n.clust = 10)
+clust <- find.clusters(Pf7.snp.gl, max.n.clust = 40)
 
 dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.pca = 100, n.da = nPop(Pf7.snp.gl) -1)
 

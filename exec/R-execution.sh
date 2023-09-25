@@ -16,13 +16,13 @@
 #$-j yes
 
 #$-q bigmem
-#$-N dapc
+#$-N FastEPRR
 
 source ~/.bashrc
 conda activate R.env
 
 echo STARTED on $(date)
-Rscript ../code/pca/dapc-analysis.R
+Rscript ../code/recomb/FastEPRR-analysis.R
 
 echo FINISHED writing output file on $(date)
 echo FINISHED task on $(date)
