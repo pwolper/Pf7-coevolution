@@ -32,10 +32,10 @@ nrow(common_snps)
 snps_to_repolarize <- common_snps[common_snps$ALT == common_snps$OUT, ]
 str(snps_to_repolarize)
 
-vcf_repol <- vcf[,c("pos", "REF", "ALT", "AC", "AN")]
+vcf_repol <- vcf[, c("pos", "REF", "ALT", "AC", "AN")]
 
 for(i in 1:nrow(vcf_repol)){
-  if(vcf_repol$pos[i] %in% snps_to_repolarize$pos){
+  if(vcf_repol$pos[i] %in% snps_to_repolarize$pos) {
     # setting ALT to ANC is ALT is also OUT nuc
     vcf_repol$ANC[i] <- vcf_repol$ALT[i]
     vcf_repol$DRV[i] <- vcf_repol$REF[i]
@@ -43,7 +43,8 @@ for(i in 1:nrow(vcf_repol)){
     vcf_repol$AC[i] <- vcf_repol$AN[i] - vcf_repol$AC[i]
   } else {
     vcf_repol$ANC[i] <- vcf_repol$REF[i]
-    vcf_repol$DRV[i] <- vcf_repol$ALT[i]}
+    vcf_repol$DRV[i] <- vcf_repol$ALT[i]
+  }
 }
 str(vcf_repol)
 
@@ -64,7 +65,9 @@ png(here("output/sfs/unfolded/sfs_unfolded_chr2_afr_samples.png"), height = 500,
 ## plot(names(unfolded_sfs_vcf_repol), unfolded_sfs_vcf_repol, type = "h",
 ##      xlab = "Unfolded frequency", ylab = "Count",
 ##      main = "Unfolded site frequency for Pf7 chr2 snps polarized with P. reichenowi")
-hist(vcf_repol_filtered$AF, breaks = 300, xlab = "Unfolded frequency", ylab = "Count",
+
+hist(vcf_repol_filtered$AF, breaks = 300, ylim = c(0,1000), xlab = "Unfolded frequency", ylab = "Count",
      main = "Unfolded site frequency for Pf7 chr2 snps polarized with P. reichenowi",
      sub = paste(nrow(vcf_repol_filtered),"sites from 1846 individuals"))
+
 dev.off()
