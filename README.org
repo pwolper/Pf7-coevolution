@@ -8,17 +8,18 @@
 * Tasks :noexport:
 ** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
 - rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
-- Cross check the faststructure by running ADMIXTURE.
+** SFS plotting
+plot the sfs with neutral model expectation and zoomed windows using the ggmagnify package (https://hughjonesd.github.io/ggmagnify/).
+
+** TODO Recombination rate in genes and intergenic regions
+- following the 4-gamete rule, how is the recombination rate in genes? Compare with genetic diversity stats in genes.
+
 ** TODO Population structure analysis
 - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
   https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
 - DAPC and PCA plot
 - redo the dapc according to the tutorial writen by the author.
 - How do I interpret the likelihood values for choosing K in faststructure? delta K convergence plots?
-** TODO Recombination rate in sliding windows with LDhelmet. max 50 individuals per population.
-** DONE Plot the unfolded SFS.
-  - Polarize the vcf file. Call variants from a BAM file obtained using gmap between the Pf7 and PrSy57.
-  - Then calculate the unfolded sfs.
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
