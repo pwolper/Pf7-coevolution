@@ -56,4 +56,4 @@ vcf_repol_filtered <- vcf_repol %>%
 vcf_repol_filtered$AF <- vcf_repol_filtered$AC/vcf_repol_filtered$AN
 str(vcf_repol_filtered)
 
-
+write.csv(vcf_repol_filtered, here("output/sfs/unfolded/Pf7.chr2.snps.polarized.txt"), row.names = FALSE)
