@@ -57,10 +57,6 @@ vcf_repol_filtered$AF <- vcf_repol_filtered$AC/vcf_repol_filtered$AN
 str(vcf_repol_filtered)
 
 
-## Plotting the unfolded sfs
-unfolded_sfs_vcf_repol <- table(vcf_repol_filtered$AF)
-str(unfolded_sfs_vcf_repol)
-
 png(here("output/sfs/unfolded/sfs_unfolded_chr2_afr_samples.png"), height = 500, width = 1000)
 ## plot(names(unfolded_sfs_vcf_repol), unfolded_sfs_vcf_repol, type = "h",
 ##      xlab = "Unfolded frequency", ylab = "Count",
