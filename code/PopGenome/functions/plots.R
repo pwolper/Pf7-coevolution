@@ -47,11 +47,12 @@ Pfsa3 <- 1058035
 
 plot_TajD_chr2 <- function(TajD_formatted, fileName){
   TajD.plot <- ggplot(data = subset(TajD_formatted,!is.na(TajD)), aes(x=positions/1000000, y = TajD)) +
-    geom_line(aes(color = population)) +
-    geom_vline(xintercept = Pfsa1/1000000) +
-    geom_text(aes(x=Pfsa1/1000000, label="Pfsa1", y=1), angle=90, vjust = 1.2) +
-    geom_vline(xintercept = Pfsa2/1000000) +
-    geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
+    geom_line() +
+    #geom_line(aes(color = population)) +
+    ## geom_vline(xintercept = Pfsa1/1000000) +
+    ## geom_text(aes(x=Pfsa1/1000000, label="Pfsa1", y=1), angle=90, vjust = 1.2) +
+    ## geom_vline(xintercept = Pfsa2/1000000) +
+    ## geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
     theme_light() +
     labs(y = "Tajima's D",
          x = "Genomic position in Mb")
@@ -63,9 +64,10 @@ plot_TajD_chr2 <- function(TajD_formatted, fileName){
 
 plot_TajD_chr11 <- function(TajD_formatted, fileName){
   TajD.plot <- ggplot(data = subset(TajD_formatted,!is.na(TajD)), aes(x=positions/1000000, y = TajD)) +
-    geom_line(aes(color = population)) +
-    geom_vline(xintercept = Pfsa3/1000000) +
-    geom_text(aes(x=Pfsa3/1000000, label="Pfsa3", y=1), angle=90, vjust = 1.2) +
+    geom_line() +
+    ## geom_line(aes(color = population)) +
+    ## geom_vline(xintercept = Pfsa3/1000000) +
+    ## geom_text(aes(x=Pfsa3/1000000, label="Pfsa3", y=1), angle=90, vjust = 1.2) +
     theme_light() +
     labs(title = "Tajima's D calculated in a genomic region of Chr 11 of P. falciparum",
          subtitle = "Sliding window of 10 Kb in length",
@@ -98,11 +100,12 @@ plot_TajD_Pfsa1_region <- function(TajD_formatted, fileName){
 
 plot_S_chr2 <- function(S_formatted, fileName){
   S.plot <- ggplot(data = subset(S_formatted,!is.na(S)), aes(x=positions/1000000, y = S)) +
-    geom_line(aes(color = population)) +
-    geom_vline(xintercept = Pfsa1/1000000) +
-    geom_text(aes(x=Pfsa1/1000000, label="Pfsa1", y=1), angle=90, vjust = 1.2) +
-    geom_vline(xintercept = Pfsa2/1000000) +
-    geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
+    geom_line() +
+    ## geom_line(aes(color = population)) +
+    ## geom_vline(xintercept = Pfsa1/1000000) +
+    ## geom_text(aes(x=Pfsa1/1000000, label="Pfsa1", y=1), angle=90, vjust = 1.2) +
+    ## geom_vline(xintercept = Pfsa2/1000000) +
+    ## geom_text(aes(x=Pfsa2/1000000, label="Pfsa2", y=1), angle=90, vjust = 1.2) +
     theme_light() +
     labs(y = "Segregating sites S",
          x = "Genomic position in Mb")
@@ -114,9 +117,10 @@ plot_S_chr2 <- function(S_formatted, fileName){
 
 plot_S_chr11 <- function(S_formatted, fileName){
   S.plot <- ggplot(data = subset(S_formatted,!is.na(S)), aes(x=positions/1000000, y = S)) +
-    geom_line(aes(color = population)) +
-    geom_vline(xintercept = Pfsa3/1000000) +
-    geom_text(aes(x=Pfsa3/1000000, label="Pfsa3", y=1), angle=90, vjust = 1.2) +
+    geom_line() +
+    ## geom_line(aes(color = population)) +
+    ## geom_vline(xintercept = Pfsa3/1000000) +
+    ## geom_text(aes(x=Pfsa3/1000000, label="Pfsa3", y=1), angle=90, vjust = 1.2) +
     theme_light() +
     labs(title = "Number of segregating sites per 10 Kb on Chr 11 of P. falciparum",
          subtitle = "Sliding window of 10 Kb in length, stepwise 2.5 Kb",
