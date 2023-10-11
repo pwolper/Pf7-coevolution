@@ -1,6 +1,7 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+date: \today
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
+
 #+STARTUP: showstars
 #+SETUPFILE: report/beamer.setup
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
@@ -8,12 +9,11 @@
 * Tasks :noexport:
 ** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
 - rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
-** SFS plotting
-plot the sfs with neutral model expectation and zoomed windows using the ggmagnify package (https://hughjonesd.github.io/ggmagnify/).
+** DONE SFS plotting. plot the sfs with neutral model expectation and zoomed windows.
 
 ** TODO Recombination rate in genes and intergenic regions
 - following the 4-gamete rule, how is the recombination rate in genes? Compare with genetic diversity stats in genes.
-- how can I do this with popgenome?
+- Non-gene regions RM and maybe filter out regions with less than 30 SNPs?
 
 ** TODO Population structure analysis
 - fastSTRUCTURE (https://github.com/rajanil/fastStructure)
