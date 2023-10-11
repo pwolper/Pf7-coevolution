@@ -21,7 +21,7 @@ ploidy(Pf7.snp.gl) <- 1
 
 Pf7.snp.gl
 
-Pf7.snp.gl@pop
+#Pf7.snp.gl@pop
 
 ## Performing dapc analyis
 
