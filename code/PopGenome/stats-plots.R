@@ -6,7 +6,7 @@ library(here)
 
 source(here("code/PopGenome/functions/plots.R"))
 
-file <- "Pf7.chr2.stats.10kb.GT_filtered"
+file <- "Pf7.chr11.stats.10kb.GT_filtered"
 file_txt <- paste0(file,".txt")
 file_png <- paste0(file,".png")
 
@@ -19,11 +19,12 @@ stats <- read.csv(here("output/stats",file_txt), sep = "\t")
 colnames(stats) <- c("S", "theta_W", "theta_pi", "TajD", "positions")
 str(stats)
 
-recomb <- read.csv(here("output/recomb/recomb_chr2_windows.txt"))
+recomb <- read.csv(here("output/recomb/recomb_chr11_windows.txt"))
 stats$recomb <- recomb$Hudson.Kaplan.RM
 str(recomb)
 
 str(stats)
+
 
 TajD.plot <- ggplot(data = subset(stats,!is.na(TajD)), aes(x=positions/1000000, y = TajD)) +
     ## geom_line(colour = "red") +
@@ -72,14 +73,27 @@ dev.off()
 
 #ggsave(here("output/stats",file_png),device = "png", dpi = 300, height = 10, width = 15, bg = "white")
 
-recomb.theta.window <- ggplot(data = subset(stats, !is.na(theta_W)), aes(x = recomb, y = theta_W)) +
+coding.stats <- read.csv(here("output/stats/coding_chr11_stats_RM.txt"))
+coding.stats$type <- rep("coding", times = nrow(coding.stats))
+str(coding.stats)
+
+stats$type <- rep("full", times = nrow(stats))
+str(stats)
+
+stats.comb <- rbind(coding.stats[,c("theta_W", "recomb", "type")], stats[,c("theta_W", "recomb", "type")])
+str(stats.comb)
+
+
+
+recomb.theta.window <- ggplot(data = subset(stats.comb, !is.na(theta_W)), aes(x = recomb, y = theta_W, colour = type)) +
     geom_point() +
     geom_smooth() +
     theme_light() +
     labs(x = "Hudson-Kaplan RM")
+recomb.theta.window
 
 
-png(filename = here("output/recomb/theta_W_recomb_chr2.png"), width = 1080, height = 400)
+png(filename = here("output/recomb/theta_W_recomb_chr11_full.png"), width = 1080, height = 400)
 recomb.theta.window
 dev.off()
 
