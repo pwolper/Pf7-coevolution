@@ -7,6 +7,7 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
+plot sfs and theta/recomb for two populations. WHich two? Set up pipeline for this.
 ** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
 - rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
 ** DONE SFS plotting. plot the sfs with neutral model expectation and zoomed windows.
@@ -198,9 +199,6 @@ https://www.malariagen.net/apps/pf7/
 
 ** P.reichenowi ftp
 ftp://ftp.sanger.ac.uk/pub/project/pathogens/Plasmodium/reichenowi/
-
-** PopGen Cluster - p.wolper home
-[[/sshx:p.wolper@10.152.154.1:~/]]
 
 ** Kevin Korfmann Kenya Workshop GitHub
 https://kevinkorfmann.github.io/workshop-kenya/session_1.html
