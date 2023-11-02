@@ -33,7 +33,7 @@ bcftools index -t Pf3D7_02_v3.SNP.vcf
 
 The average VQSLOD value for the 1846 african samples, filtered only by the above is 4.215 and 4.238 for chr11 and chr2, respectively.
 
-*** Unfiltered
+*** Unfiltered (all quality)
 |             | chr2   | chr11   |
 |-------------+--------+---------|
 | SNPs        | 83,810 | 231,511 |
