@@ -7,21 +7,8 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-plot sfs and theta/recomb for two populations. WHich two? Set up pipeline for this.
-** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
-- rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
-** DONE SFS plotting. plot the sfs with neutral model expectation and zoomed windows.
-
-** TODO Recombination rate in genes and intergenic regions
-- following the 4-gamete rule, how is the recombination rate in genes? Compare with genetic diversity stats in genes.
-- Non-gene regions RM and maybe filter out regions with less than 30 SNPs?
-
-** TODO Population structure analysis
-- fastSTRUCTURE (https://github.com/rajanil/fastStructure)
-  https://www.biorxiv.org/content/10.1101/181610v1.full.pdf
-- DAPC and PCA plot
-- redo the dapc according to the tutorial writen by the author.
-- How do I interpret the likelihood values for choosing K in faststructure? delta K convergence plots?
+** TODO Apply faststructure, dapc to chromosome 11
+** TODO Calculate sfs for 'major' subclusters in the data.
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
@@ -61,6 +48,7 @@ bcftools filter -S . -e 'GT=="het"' chr2/Pf3D7_02_v3.afr_samples.qSNP.vcf.gz -o 
 *** Query snp count data for the sfs
 #+begin_src bash
 bcftools query -f '%POS %REF %ALT %AF %AC %AN\n' Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz > Pf7.02.vcf.qSNP.AF_AC_AN.txt
+#+end_src
 
 ** P.vivax data?
 https://wellcomeopenresearch.org/articles/7-136/v1
@@ -107,9 +95,6 @@ How to do this? Alignment or mapping?
 
 How to set the anchestral allele information in the outgroup
 
-* Recombination rate
- use LDhelmet because I have the sequences in fasta format. Use 50 individuals per population.
-
 * PCA and DAPC
 https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html
 
@@ -121,17 +106,6 @@ use dapc tutorial to run dapc with k-1 retained components to avaoid overfitting
 
 - Maybe: What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
-* Ideas for analysis
-- Coalescent methods for demogaphic/multiple merger (SMC) methods [[cite:&korfmann-2023-simul-infer]]
-
-** HbS-associated variants in /P. falciparum/
-Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-associated)
-
-- Pfsa1: chr2: *631,190 T>A variant*, which lies in ACS8, was associated with HbS. PfACS8 (628,091-632,681)
-- Pfsa2: chr2: *814,288 C>T variant*, which lies in Pf3D7_0220300,
-- Pfsa3: chr11: *1,058,035 T>A variant*, which lies in Pf3D7_1127000,
-
-*Do these loci show signs of balancing selection indicating coevolution with the host?* What could be the molecular mechanisms and virulence related functions?
 
 * Population genetic stats
 [[./output/Pf7.chr2.stats.DRC_GM_KE_MM.png]]
@@ -139,34 +113,14 @@ Described in Band et al are three loci /Pfsa1, 2/ and /3/3 (P.falciparum sickle-
 ** Results
 - D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)?
 
-* PCA plot
-#+attr_latex: :placement center :width 1.3\textwidth
-[[./output/pca/Pf7.chr2.pca.all.png]]
 
-* Tajima's D :noexport:
-** Tajima's D
-*** P.falciparum chr 2
-[[./output/TajD/png/Pf7.chr2.full.TajD_DRC_GM_KE.png]]
-
-** Tajima's D
-*** P.falciparum chr 11
-[[./output/TajD/png/Pf7.chr11.full.TajD_DRC_GM_KE.png]]
-
-*  $\theta$ and $\pi$
 * Discussion
 ** Tajima's D peaks?
 How can we interpret the values of D_Taj?
 
 - Nucelotide diversity:
 - virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
- - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
-
-** Signatures of Balancing Selection?
-Signatures of balancing selection:
-- negative-frequency dependent selection
-
-What is the gene ontology of genes under balancing selection? How can we show coevolution of these genes? What are some other methods for detecting balancing selection?
-
+  - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
 * Reading list
 
 Citations and PDF files can be found in the /~/biblio/ directory.

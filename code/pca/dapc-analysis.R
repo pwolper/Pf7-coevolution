@@ -7,7 +7,7 @@ library(adegenet)
 library(vcfR)
 
 vcf_path <- here("data/Pf7/vcf/chr2","Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz")
-filename <- "Pf7_chr02_2014_qSNP_dapc.rds"
+filename <- "Pf7_chr02_GT_filtered_dapc_with_9_pop.rds"
 
 ## Step 1: Reading vcf file and converting it to a genlight object using vcfR::vcfR2genlight
 Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")
@@ -25,9 +25,13 @@ Pf7.snp.gl
 
 ## Performing dapc analyis
 
-clust <- find.clusters(Pf7.snp.gl, max.n.clust = 40)
+clust <- find.clusters(Pf7.snp.gl, max.n.clust = 30)
 
-dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.pca = 100, n.da = nPop(Pf7.snp.gl) -1)
+saveRDS(clust, here("output/pca", Kmeans_clustering.rds))
+
+dapc <- dapc(Pf7.snp.gl, clust$grp, n.pca = 8, n.da = 8)
+
+#dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.pca = 500, n.da = nPop(Pf7.snp.gl)-1)
 
 ## Save dapc object to .rds file to load later
-saveRDS(dapc1, here("output/pca", filename))
+saveRDS(dapc, here("output/pca", filename))
