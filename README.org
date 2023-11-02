@@ -7,8 +7,8 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-** TODO Apply faststructure, dapc to chromosome 11
-** TODO Calculate sfs for 'major' subclusters in the data.
+- TODO Apply faststructure, dapc to chromosome 11
+- TODO Calculate sfs for 'major' subclusters in the data.
 
 * Overview
 Population Structure: admixture/structure and dapc analysis
