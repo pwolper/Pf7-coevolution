@@ -1,6 +1,6 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+date: \today
-#+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
+#+SUBTITLE: Population genetic analysis of Plasmodium falciparum in Africa
 
 #+STARTUP: showstars
 #+SETUPFILE: report/beamer.setup
@@ -9,6 +9,11 @@
 * Tasks :noexport:
 ** TODO Apply faststructure, dapc to chromosome 11
 ** TODO Calculate sfs for 'major' subclusters in the data.
+
+* Overview
+Population Structure: admixture/structure and dapc analysis
+Diversity stats: Diversity and Tajima's D and estimation of recombination events.
+SFS: Calaculation of the unfolded sfs by polarizing some snp with P. reichenowi outgroup.
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
