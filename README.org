@@ -1,13 +1,12 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+date: \today
 #+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
-
 #+STARTUP: showstars
 #+SETUPFILE: report/beamer.setup
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-plot sfs and theta/recomb for two populations. WHich two? Set up pipeline for this.
+plot sfs and theta/recomb for two populations. Which two? Set up pipeline for this.
 ** DONE filter the vcf file for snps with higher quality (VQSLOD > 5.0)
 - rerun some of the faststructure with this smaller dataset. are the results the same? Also maybe rerun the DAPC?
 ** DONE SFS plotting. plot the sfs with neutral model expectation and zoomed windows.
@@ -25,6 +24,7 @@ plot sfs and theta/recomb for two populations. WHich two? Set up pipeline for th
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
+
 ** SNP filtering with bcf tools.
 Filtering for Quality control pass (?), bialleic snps...
 
