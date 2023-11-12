@@ -4,20 +4,36 @@ library(here)
 library(tidyverse)
 library(adegenet)
 
-rds_file <- here("output/pca/Pf7_chr02_2014_qSNP_dapc.rds")
+rds_file <- here("output/pca/Pf7_chr02_GT_filtered_dapc_with_9_pop.rds")
 
-outfile <- here("output/pca/Pf7.chr2.2014.qSNP.dapc.african")
+outfile <- here("output/pca/Pf7.chr2.qSNP.GT_filtered_with_9_pops")
 outfile.txt <- paste0(outfile, ".txt")
 outfile.png <- paste0(outfile, ".png")
 
+## Country metadata
+Pf7.metadata <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")
+country_grp <- setNames(as.factor(Pf7.metadata$Country), Pf7.metadata$id)
+str(country_grp)
+
+year_grp <- setNames(as.factor(Pf7.metadata$year), Pf7.metadata$id)
+str(year_grp)
+
 ## Read in the rst file saved in dapc-analysis.R
 dapc <- readRDS(rds_file)
+clust <- readRDS(here("output/pca/Kmeans_clustering.rds"))
+clust$grp %>% str()
 
 dapc$prior %>% str()
 
+
+scatter(dapc, grp = country_grp, cstar = 0, scree.da = TRUE, legend = TRUE)
+
+scatter(dapc, grp = year_grp, cstar = 0, scree.da = TRUE, legend = TRUE)
+
+
 png(outfile.png)
 
-scatter(dapc, cell = 0, pch = 18:23, cstar = 0, lwd = 2, lty = 2, legend = TRUE, scree.pca = TRUE)
+scatter(dapc, cstar = 0, scree.da = TRUE, legend = TRUE)
 
 dev.off()
 
