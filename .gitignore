@@ -1,0 +1,15 @@
+## Ignore files
+
+# Large datafiles
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.gff
+
+data/
+
+# caches
+*.log
+tmp/
+*.Rhistory
+*.RData
