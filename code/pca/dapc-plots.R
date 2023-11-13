@@ -4,9 +4,9 @@ library(here)
 library(tidyverse)
 library(adegenet)
 
-rds_file <- here("output/pca/Pf7_chr02_GT_filtered_dapc_with_9_pop.rds")
+rds_file <- here("output/pca/Pf7_chr11_GT_filtered_dapc_with_Kmeans.rds")
 
-outfile <- here("output/pca/Pf7.chr2.qSNP.GT_filtered_with_9_pops")
+outfile <- here("output/pca/Pf7.chr11.qSNP.GT_filtered_Kmeans")
 outfile.txt <- paste0(outfile, ".txt")
 outfile.png <- paste0(outfile, ".png")
 
@@ -26,9 +26,11 @@ clust$grp %>% str()
 dapc$prior %>% str()
 
 
-scatter(dapc, grp = country_grp, cstar = 0, scree.da = TRUE, legend = TRUE)
+scatter(dapc, grp = country_grp, clab = 0, cstar = 0, scree.da = TRUE, leg = TRUE)
 
 scatter(dapc, grp = year_grp, cstar = 0, scree.da = TRUE, legend = TRUE)
+
+scatter(dapc, grp = clust$grp, cstar = 0, scree.da = TRUE, legend = TRUE)
 
 
 png(outfile.png)
@@ -37,4 +39,7 @@ scatter(dapc, cstar = 0, scree.da = TRUE, legend = TRUE)
 
 dev.off()
 
-## Choose indivduals from each population for the further analysis with MMC
+
+png(here("output/pca/Pf7.chr11.qSNP.GT_filtered_Kmeans.by_country.png"))
+scatter(dapc, grp = country_grp, clab = 0, cstar = 0, scree.da = TRUE, leg = TRUE)
+dev.off()
