@@ -11,13 +11,13 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-- TODO Apply faststructure, dapc to chromosome 11
-- TODO Calculate sfs for 'major' subclusters in the data.
+** TODO Apply faststructure, dapc to chromosome 11
+** TODO Calculate sfs for 'major' subclusters in the data.
 
 * Overview
-Population Structure: admixture/structure and dapc analysis
-Diversity stats: Diversity and Tajima's D and estimation of recombination events.
-SFS: Calaculation of the unfolded sfs by polarizing some snp with P. reichenowi outgroup.
+Population Structure: admixture/structure and dapc analysis \\
+Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\
+SFS: Calaculation of the unfolded sfs by polarizing some snp with P. reichenowi outgroup. \\
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
@@ -118,8 +118,6 @@ use dapc tutorial to run dapc with k-1 retained components to avaoid overfitting
 
 
 * Population genetic stats
-[[./output/Pf7.chr2.stats.DRC_GM_KE_MM.png]]
-
 ** Results
 - D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)?
 
