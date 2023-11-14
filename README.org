@@ -12,7 +12,7 @@
 
 ** TODO writing
 *** Make panels for Population structure figures.
-- DAPC + ADMIXTURE for both dapc priors and country proirs.
+- DAPC + ADMIXTURE for both dapc priors and country priors.
 
 
 * Overview
