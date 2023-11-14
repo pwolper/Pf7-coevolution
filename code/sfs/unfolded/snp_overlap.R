@@ -1,11 +1,11 @@
 ## Script to calculate the overlapping snps between the outgroup and the vcf file.
 library(dplyr); library(here)
 
-ref <- read.csv(here("data/mummer_aln/chr11/Pf7_PrCDC_SNPs_formatted.txt"),sep = "\t",header = FALSE, skip = 1)[,c(1:4)]
+ref <- read.csv(here("data/mummer_aln/chr2/Pf7_PrCDC_SNPs_formatted.txt"),sep = "\t",header = FALSE, skip = 1)[,c(1:4)]
 colnames(ref) <- c("pos","N_Pf7","N_PrCDC","pos_PrCDC")
 str(ref)
 
-vcf <- read.table(here("data/Pf7/vcf/Pf7.11.vcf.qSNP.AF_AC_AN.txt"))
+vcf <- read.table(here("data/Pf7/vcf/Pf7.02.vcf.qSNP.AF_AC_AN.txt"))
 colnames(vcf) <- c("pos", "REF", "ALT","AF","AC","AN")
 vcf$AC <- vcf$AC/2
 vcf$AN <- vcf$AN/2
@@ -52,6 +52,7 @@ str(vcf_repol)
 vcf_repol_filtered <- vcf_repol %>%
   select(-c("REF", "ALT")) %>%
   filter(AC != 0, AN != AC)
+str(vcf_repol_filtered)
 
 # extrapolating site frequencies from allele frequencies.
 vcf_repol_filtered$AF <- vcf_repol_filtered$AC/vcf_repol_filtered$AN
