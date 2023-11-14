@@ -1,18 +1,19 @@
 #+TITLE: Project Notes for Research Internship in the Lab of Aurelien Tellier
 #+date: \today
-<<<<<<< HEAD
-#+SUBTITLE: Coevolution of human and malaria pathogen under supervision of Meline Saubin.
-=======
 #+SUBTITLE: Population genetic analysis of Plasmodium falciparum in Africa
 
->>>>>>> a58462acb617457f837f2956771b00a7b97de29a
 #+STARTUP: showstars
 #+SETUPFILE: report/beamer.setup
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-** TODO Apply faststructure, dapc to chromosome 11
 ** TODO Calculate sfs for 'major' subclusters in the data.
+** TODO Calculate dapc for 4 country clusters using k-1 PCs and DAs
+
+** TODO writing
+*** Make panels for Population structure figures.
+- DAPC + ADMIXTURE for both dapc priors and country proirs.
+
 
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
