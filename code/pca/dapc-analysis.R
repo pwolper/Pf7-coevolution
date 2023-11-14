@@ -30,7 +30,7 @@ clust
 
 saveRDS(clust, here("output/pca", "Kmeans_clustering_chr11.rds"))
 
-dapc <- dapc(Pf7.snp.gl, clust$grp, n.pca = 9, n.da = 9)
+dapc <- dapc(Pf7.snp.gl, n.pca = 3, n.da = 3)
 dapc
 
 ## #dapc1 <- dapc(Pf7.snp.gl, var.contrib = TRUE, scale = FALSE, n.pca = 500, n.da = nPop(Pf7.snp.gl)-1)
