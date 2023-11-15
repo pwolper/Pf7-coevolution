@@ -20,22 +20,21 @@ str(year_grp)
 
 ## Read in the rst file saved in dapc-analysis.R
 dapc <- readRDS(rds_file)
-clust <- readRDS(here("output/pca/Kmeans_clustering.rds"))
+clust <- readRDS(here("output/pca/Kmeans_clustering_chr11.rds"))
 clust$grp %>% str()
 
 dapc$prior %>% str()
 
 
-scatter(dapc, grp = country_grp, clab = 0, cstar = 0, scree.da = TRUE, leg = TRUE)
 
-scatter(dapc, grp = year_grp, cstar = 0, scree.da = TRUE, legend = TRUE)
+scatter(dapc, grp = year_grp, cstar = 0, scree.da = TRUE, scree.pca = TRUE, legend = TRUE)
 
-scatter(dapc, grp = clust$grp, cstar = 0, scree.da = TRUE, legend = TRUE)
 
+scatter(dapc, grp = country_grp, clab = 0, cstar = 0, scree.pca = TRUE, scree.da = TRUE, leg = TRUE)
 
 png(outfile.png)
 
-scatter(dapc, cstar = 0, scree.da = TRUE, legend = TRUE)
+scatter(dapc, grp = clust$grp, cstar = 0, clab = 0.7, scree.pca = TRUE, scree.da = TRUE, legend = TRUE)
 
 dev.off()
 

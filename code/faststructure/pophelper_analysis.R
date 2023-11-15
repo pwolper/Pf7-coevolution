@@ -12,7 +12,7 @@ countries <- data.frame(countries = countries$V1, stringsAsFactors = FALSE)
 countries %>% str()
 
 #read in dapc with grouping designation
-dapc <- readRDS(here("output/pca/Pf7_chr11_GT_filtered_dapc_with_Kmeans.rds"))
+dapc <- readRDS(here("output/pca/Pf7_chr02_GT_filtered_dapc_with_9_pop.rds"))
 dapc_grp <- as.character(dapc$assign)
 dapc_grp <- as.data.frame(dapc_grp, stringsAsFactors = FALSE)
 str(dapc_grp)
@@ -35,7 +35,7 @@ tab_flist; sum_flist
 
 
 # admixture files
-afiles <- list.files(path=admix_dir, pattern = "*11.+.GT_filtered.+.Q", full.names = TRUE)
+afiles <- list.files(path=admix_dir, pattern = "*2.+.GT_filtered.+.Q", full.names = TRUE)
 index <- c(9,1,2,3,4,5,6,7,8)
 afiles <- afiles[order(index)]
 afiles
@@ -73,14 +73,14 @@ plotQ(qlist = alist, sortind = "all", sharedindlab = FALSE,
 plotQ(qlist = alist, sortind = "label", grplab = dapc_grp, sharedindlab = FALSE,
       ordergrp = TRUE, splab = c("K=2", "K=3", "K=4", "K=5", "K=6", "K=7", "K=8", "K=9", "K=10"),
       splabsize = 7,
-      exportpath = here("output/faststructure/admixture/GT_filtered/chr11/"),
-      outputfilename = "Admixture_chr11_qSNP_GT_filtered_sorted_dapc",
+      exportpath = here("output/faststructure/admixture/GT_filtered/"),
+      outputfilename = "Admixture_chr2_qSNP_GT_filtered_sorted_dapc",
       imgoutput = "join")
 
 # sorted by country admixture plot
 plotQ(qlist = alist, sortind = "label", grplab = countries, sharedindlab = FALSE,
       ordergrp = TRUE, splab = c("K=2", "K=3", "K=4", "K=5", "K=6", "K=7", "K=8", "K=9", "K=10"),
       splabsize = 7, splabangle = -90,
-      exportpath = here("output/faststructure/admixture/GT_filtered/chr11/"),
-      outputfilename = "Admixture_chr11_qSNP_GT_filtered_sorted_countries",
+      exportpath = here("output/faststructure/admixture/GT_filtered/"),
+      outputfilename = "Admixture_chr2_qSNP_GT_filtered_sorted_countries",
       imgoutput = "join")

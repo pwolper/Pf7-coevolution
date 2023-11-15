@@ -9,6 +9,7 @@
 * Tasks :noexport:
 ** TODO Calculate sfs for 'major' subclusters in the data.
 ** TODO Calculate dapc for 4 country clusters using k-1 PCs and DAs
+- re do the plot for admixture chr2 (?) dapc sorted.
 
 ** TODO writing
 *** Make panels for Population structure figures.
