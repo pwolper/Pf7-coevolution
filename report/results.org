@@ -14,7 +14,7 @@ Across both chromosomes analyzed, we found that diversity statisic, such as \the
 #+attr_html: :width 800px :align center
 [[./figures/stats_panel_chr11.png]]
 
-We conducted two parallel approaches to investigate possible population structure in our /P. falciparum/ samples, dapc analysis and bayesian ADMIXTURE analysis. Both methods are commonly used to identify population structure and complement each other well.
+We conducted two parallel approaches to investigate possible population structure in our /P. falciparum/ samples, dapc analysis and bayesian ADMIXTURE analysis. Both methods are commonly used to identify population structure and complement each other well. We first chose to analyze if population structure follows the sampled locations. Generally we found sign of high levels of admixture between population, although we could observe some signals of geographic structuring. Specifically, the Gambian samples showed the most differntiation in the admixture analysis. It is noteworthy, that chromosome 2 seems to have much less population structure than chromosome 11, with the dapc (Fig. [[Pop_Struct_country_chr2]]B) and (Fig. [[Pop_Struct_country_chr11]]B), supporting this.
 
 #+name: Pop_Struct_country_chr2
 #+caption: Population structure analysis of /P. falciparum/ chromosome 2, showing the clustering by predefined labels based on sampling location.
