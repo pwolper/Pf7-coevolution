@@ -1,5 +1,6 @@
 #+title: Results
 
+* Diversity Statistics
 Across both chromosomes analyzed, we found that diversity statisic, such as \theta_{W}, \theta_{pi}, the number of segregating sites S and Tajima's D to vary quite a lot (Fig. [[div_stats_chr2]] and [[div_stats_chr11]]), as is to be expect from different regions of the genome. Interestingly, we found overall very low values of Tajima's D across all samples (Fig. [[div_stats_chr2]]A and [[div_stats_chr11]]A). When comparing the nucleotide diversity measure of Watterson, \theta_{W} to an estimate of recombination events Hudson-Kaplan-RM, we find a higher diversity for windows with more recombination events (Fig. [[div_stats_chr2]]E and [[div_stats_chr11]]E). This is expected under linked selection, where selection between linked loci will drag down polymorphism. Less linked regions with higher recombination frequencies, therefore are estimated to show more polymorphism. At high recombination rates, this effect, \theta_{W} values flatten out, because polymorphism ultimately is constrained by mutation.
 
 #+name: div_stats_chr2
@@ -14,7 +15,8 @@ Across both chromosomes analyzed, we found that diversity statisic, such as \the
 #+attr_html: :width 800px :align center
 [[./figures/stats_panel_chr11.png]]
 
-We conducted two parallel approaches to investigate possible population structure in our /P. falciparum/ samples, dapc analysis and bayesian ADMIXTURE analysis. Both methods are commonly used to identify population structure and complement each other well. We first chose to analyze if population structure follows the sampled locations. Generally we found sign of high levels of admixture between population, although we could observe some signals of geographic structuring. Specifically, the Gambian samples showed the most differntiation in the admixture analysis. It is noteworthy, that chromosome 2 seems to have much less population structure than chromosome 11, with the dapc (Fig. [[Pop_Struct_country_chr2]]B) and (Fig. [[Pop_Struct_country_chr11]]B), supporting this.
+* Population Structure
+We conducted two parallel approaches to investigate possible population structure in our /P. falciparum/ samples, discriminant of principle components (dapc) and bayesian structure analysis using the software ADMIXTURE. We first chose to analyze if population structure follows the sampled locations, using these as our a priori labels. Generally we found high levels of admixture between populations, although we could observe some signals of geographic structuring (Fig. [[Pop_Struct_country_chr2]] and [[Pop_Struct_country_chr11]]). Specifically, the Gambian samples showed the most differentiation in the admixture analysis for the other locations. While the distruct plots of te structure analysis show similar low, but present population structure for both chromosomes, it is noteworthy, that chromosome 2 seems to have much less population structure than chromosome 11, as can be seen from the dapc (Fig. [[Pop_Struct_country_chr2]]B) and (Fig. [[Pop_Struct_country_chr11]]B).
 
 #+name: Pop_Struct_country_chr2
 #+caption: Population structure analysis of /P. falciparum/ chromosome 2, showing the clustering by predefined labels based on sampling location.
@@ -27,3 +29,32 @@ We conducted two parallel approaches to investigate possible population structur
 #+attr_latex: :width 1\textwidth :center t
 #+attr_html: :width 1000px :align center
 [[./figures/Population_structure_countries_chr11.png]]
+
+Next, we were interested in possible other causes of population structure in african /P. falciparum/ other than the geographic locations. We inferred the number of groups and membership /de novo/ using a K-means clustering algorithm, /find.clusters()/, described in the dapc manual (*cite*). The optimal value of K was determined to be 9 and 10, respectively for chromosome 2 and 11, significantly more than the a priori groups based on sampling location. We performed dapc analysis on these newly inferred groups, and clustering of both chromosomes into groups, but some of the clusters seem to overlap quite significantly. Chromosome 2 shows more distinct clustering by inferred group labels, than chromosome 11, but they do not correlate with the sampling location or year (Fig. [[dapc_corr_chr2]]). In contrast, the inferred clusters of chromosome 11 seem to  correlate roughly with the sampling location and year. (Fig. [[dapc_corr_chr11]]). When sorting the individuals in the admixture analysis by these inferred group labels, we found the results to agree with the dapc (Fig. [[admix_Kmeans]] *Add to Appendix*).
+
+#+name: dapc_corr_chr2
+#+caption:
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 1000px :align center
+[[./figures/dapc_Kmeans_chr2.png]]
+
+#+name: dapc_corr_chr11
+#+caption:
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 1000px :align center
+[[./figures/dapc_Kmeans_chr11.png]]
+
+#+name: admix_Kmeans
+#+caption:
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 1000px :align center
+[[./figures/admixture_Kmeans_groups.png]]
+
+* Site-frequency spectrum
+In order to allow for more detailed inferences about the demographic history of the population and evolutionary forces such as selection we calculated the a polarized site frequency spectrum (SFS), for both chromosomes (Fig. [[SFS_unfolded]]). The SFS we found, both had a U-shaped character, with an excess of singletons compared the the neutral expectation and increased high-frequency alleles.
+
+#+name: SFS_unfolded
+#+caption:
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 1000px :align center
+[[./figures/sfs_unfolded.png]]
