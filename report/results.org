@@ -1,5 +1,6 @@
 #+title: Results
 
+
 * Diversity Statistics
 Across both chromosomes analyzed, we found that diversity statisic, such as \theta_{W}, \theta_{pi}, the number of segregating sites S and Tajima's D to vary quite a lot (Fig. [[div_stats_chr2]] and [[div_stats_chr11]]), as is to be expect from different regions of the genome. Interestingly, we found overall very low values of Tajima's D across all samples (Fig. [[div_stats_chr2]]A and [[div_stats_chr11]]A). When comparing the nucleotide diversity measure of Watterson, \theta_{W} to an estimate of recombination events Hudson-Kaplan-RM, we find a higher diversity for windows with more recombination events (Fig. [[div_stats_chr2]]E and [[div_stats_chr11]]E). This is expected under linked selection, where selection between linked loci will drag down polymorphism. Less linked regions with higher recombination frequencies, therefore are estimated to show more polymorphism. At high recombination rates, this effect, \theta_{W} values flatten out, because polymorphism ultimately is constrained by mutation.
 

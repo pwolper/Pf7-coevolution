@@ -51,7 +51,7 @@ str(vcf_repol)
 # removing positions with either none or all ALT alleles.
 vcf_repol_filtered <- vcf_repol %>%
   select(-c("REF", "ALT")) %>%
-  filter(AC != 0, AN != AC)
+  filter(AC != 0)
 str(vcf_repol_filtered)
 
 # extrapolating site frequencies from allele frequencies.
