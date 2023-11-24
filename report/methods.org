@@ -12,7 +12,6 @@ For this report, we chose to analyze 1846 sample from 4 different african countr
 Filtering steps and manipulation of the vcf files were done usingthe software /bcftools/ (*citation*). The VCF files for chromosomes 2 and 11 were filtered to include only biallelic SNPs, which where designated with the filter 'PASS' by the Pf7 data resource. Additionally, we retained only the SNPs with a quality score VQSLOD > 5.0. In total this yielded data sets with 16,269 and 44,040 SNPs, for chromosomes 2 and 11, respectively.
 The proportion of heterozygous genotypes in the VCF files was relatively small: 0.2% and 0.3% for chromosome 2 and 11, respectively. To avoid possible effects of multiple infection, we removed all heterozygous genotypes (including both phased and unphased GT fields), by setting them to missing data (./.).
 
-
 * Analysis
 ** Population genetics statisics
 Basic population genetic measures, such as \theta or Tajima' D statistic, were calculated using the R package /PopGenome/ (*add citation*). Statistics were calculated in sliding windows of 10 Kb for both chromosomes. Additionally, we calculated calculated recombination events accross each chromosome, according to the four-gamete test, also implemented in /PopGenome/.
