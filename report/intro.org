@@ -8,7 +8,7 @@ Not only is demography important when accounting for signals of selection, but a
 - account for demography, when infering life-history traits from coalescent models. Multiple merger models are better?
 * Importance of selection
 
-
-* How can demography skew inferences about selection? What happens if we do not account for population structure?
-* How does the transmission dynamics and recombination influences genetic variation? What does this mean for control measures and vacciens? What do high levels of gene flow mean for effective control strategies?
-* How does the U-shaped sfs influence typical selection inference? Use of multiple merger models?
+* Questions
+- How can demography skew inferences about selection? What happens if we do not account for population structure?
+- How does the transmission dynamics and recombination influences genetic variation? What does this mean for control measures and vacciens? What do high levels of gene flow mean for effective control strategies?
+- How does the U-shaped sfs influence typical selection inference? Use of multiple merger models?
