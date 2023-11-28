@@ -1,11 +1,20 @@
 #+title: Introduction
 
+/Plasmodium falciparum/, an apicomplexan human parasite and the most important disease agent of malaria, is a major global health threat, with nearly half the worlds population at risk for the disease. Especially tropical and subtropical regions suffer the highest disease burden, with nearly 95% of all cases and deaths occuring in Africa. Fatalities in this region mainly affect young children, as 80% of malaria mortality occurs in children aged 5 years or younger ([[cite:&world2022world]]). Although impoved control measures has contributed to a steady decline of malaria cases and death rates over the past 20 years, increasing resistances to major anti-malaria drugs, such as artemisin and chloroquinine, is constantly threatening to undermine reradication progress of the disease. Continued effective malaria control measures, rely on disentangling the effects of population structure, selection, recombination and random processes on genome evolution and population dynamics.
 
-Understanding the demographic history and population structure of /P. falciparum/ is crucial to make valid inferences about disease transmission patterns and different selection pressures, such as drug resistance, contributing to the evolution of this malaria parasite.
+Understanding the genetic diversiy and population structure of /P. falciparum/ is crucial to make valid inferences of selection on parasite traits, such as drug resistance. Importantly, conclusions about selective processes require comprehensive evolutionary 'null'-models, to test hypothesis. Such models should account for population structure, demographic history, as well as other biological or life-history traits, that could potentially lead to signatures of genetic variation similar to selection.
+
+Population genetic structure of P.falciparum variy greatly when looking at different global regions, and is closely associated with transmission intensity and disease epidemiology. Regions with low transmission, typically show low levels of multiple co-infection, leading to predominantly clonal populations, with low genetic diversity and high levels of linkage disequilibrium (LD). This LD often results from epidemic expansion of a particular clone. On the other hand high levels of parasite transmission, leads to high levels of co-infection in the host and high rates of outcrossing lead to rapid decay in LD ([[cite:&anderson-2000-micros-marker]], [[cite:&mu-2005-recom-hotsp]]).
+
+* Malaria Population genetics
+- Why is population genetics of malaria parasite importnatn
+- Adaptive vs. non-adaptive phenomena, in light of drug or other selective pressures.
+- Population structure and gene flow, for asessing control measures.
 
 * Importance of accounting for demography
 Not only is demography important when accounting for signals of selection, but also relates directly to the epidemiology, as high levels of gene flow and recombination are brought about by high levels of infection and transmission.
 - account for demography, when infering life-history traits from coalescent models. Multiple merger models are better?
+
 * Importance of selection
 
 * Questions
