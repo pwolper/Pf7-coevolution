@@ -1,0 +1,19 @@
+#+title: Population Structure and Gentic Variation of /P. falciparum/ in West and Central Africa
+#+subtitle: Report for a research internship at the Chair of population genetics, Prof. Aureli\eacute{}n Tellier
+
+# #+SETUPFILE: ~/.doom.d/setup-files/simple_whiteblue.theme
+#+SETUPFILE: ~/.doom.d/setup-files/latex.setup
+
+#+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
+
+* Introduction
+#+INCLUDE: "intro.org"
+* Data and Methods
+#+INCLUDE: "methods.org"
+* Results
+#+INCLUDE: "results.org"
+* Discussion
+
+* Bibliography
+[[printbibliography:]]
+# bibliography:~/biblio/pop-gen.bib
