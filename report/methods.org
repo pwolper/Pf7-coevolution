@@ -1,5 +1,8 @@
 #+title: Data and Methods
 
+#+SETUPFILE: ~/.doom.d/setup-files/latex.setup
+#+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
+
 * Pf7 data availability
 In this section, we provide a comprehensive overview of the data source, data preprocessing steps, and the analytical methods employed for this investigation.
 
@@ -17,10 +20,8 @@ The proportion of heterozygous genotypes in the VCF files was relatively small: 
 Basic population genetic measures, such as \theta or Tajima' D statistic, were calculated using the R package /PopGenome/ (*add citation*). Statistics were calculated in sliding windows of 10 Kb for both chromosomes. Additionally, we calculated calculated recombination events accross each chromosome, according to the four-gamete test, also implemented in /PopGenome/.
 
 ** Population structure
-*** DAPC
 Local Population structure of the selected data was investigated using discriminant analysis of principal components (dapc), performed using the R package /adegenet/ (*citation*). The dapc analysis was conducted according to the guidelines outlined by [[cite:&thia-2022-guidel-stand]]. To determine the number of clusters suited for discrimination, we performed a K-means clustering algorithm prior to the dapc using /adegenet/'s in-built function /find.clusters()/. The K-means algorithm implemented in /find.cluster()/ uses proir tranformation by principal component analysis (PCA), retaining principal component axis which approximately 80-90% of the variance in the data set. The number of clusters to be used for the dapc was selected based on the Bayesian Information Criterion (BIC). The dapc analysis was run with K-1 PCA axes and K-1 discriminant axes, using the K-mean group assignments as priors.
 
-*** ADMIXTURE
 Extending the dapc analysis, we did a population structure analysis using the software /ADMIXTURE/ (*citation*). The VCF files had their chromosome renamed numerically and using /plink2/ we converted them to .bed files. We conducted admixture analysis for a wide range of K values, including the value used for the dapc. The results of the admixture analysis were validated by comparing the CV error values of each run of K.
 
 ** Site-frequency spectrum

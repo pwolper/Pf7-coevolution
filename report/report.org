@@ -3,13 +3,13 @@
 
 # #+SETUPFILE: ~/.doom.d/setup-files/simple_whiteblue.theme
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
-
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
 * Introduction
 #+INCLUDE: "intro.org"
 * Data and Methods
 #+INCLUDE: "methods.org"
+# #+LATEX: \clearpage
 * Results
 #+INCLUDE: "results.org"
 * Discussion
@@ -17,3 +17,12 @@
 * Bibliography
 [[printbibliography:]]
 # bibliography:~/biblio/pop-gen.bib
+
+* Appendix
+#+LATEX: \appendix
+
+#+name: admix_Kmeans
+#+caption:
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 800px :align center
+[[./figures/admixture_Kmeans_groups.png]]

@@ -1,5 +1,8 @@
 #+title: Discussion
 
+#+SETUPFILE: ~/.doom.d/setup-files/latex.setup
+#+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
+
 * Malaria specific discussion
 - Implications of these results for the study of genetic variation in malaria?
 - Importance of accounting for demography for selection inference and life-history traits.
