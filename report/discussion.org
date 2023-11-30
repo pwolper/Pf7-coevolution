@@ -3,6 +3,8 @@
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
+In this report we investigate population structure in samples of /P. falciparum/ from Africa. Additionally we compute the unfolded SFS for
+
 * Malaria specific discussion
 - Implications of these results for the study of genetic variation in malaria?
 - Importance of accounting for demography for selection inference and life-history traits.

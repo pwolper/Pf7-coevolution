@@ -7,15 +7,9 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-** TODO Calculate sfs for 'major' subclusters in the data.
-** TODO Calculate dapc for 4 country clusters using k-1 PCs and DAs
-- re do the plot for admixture chr2 (?) dapc sorted.
-
+** TODO Plot gambian chr11 sfs with scaled tails
+** TODO Plot african sfs with scaled tails for comparison.
 ** TODO writing
-*** Make panels for Population structure figures.
-- DAPC + ADMIXTURE for both dapc priors and country priors.
-
-
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
 Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\
@@ -118,11 +112,9 @@ use dapc tutorial to run dapc with k-1 retained components to avaoid overfitting
 
 - Maybe: What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
-
 * Population genetic stats
 ** Results
 - D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)?
-
 
 * Discussion
 ** Tajima's D peaks?

@@ -26,3 +26,5 @@
 #+attr_latex: :width 1\textwidth :center t
 #+attr_html: :width 800px :align center
 [[./figures/admixture_Kmeans_groups.png]]
+
+** Code used

@@ -6,20 +6,20 @@ library(PopGenome)
 library(here)
 
 ## Variables
-filename <- "Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz"
-data_dir <- "chr2" #vcf subfolder contaning the vcf data
-chr_tid <- "Pf3D7_02_v3"
+filename <- "Pf3D7_11_v3.gambian_samples.qSNP.GT_filtered.vcf.gz"
+data_dir <- "chr11" #vcf subfolder contaning the vcf data
+chr_tid <- "Pf3D7_11_v3"
 chr_start <- 1
-chr_end <- 1000000
-#chr_end <- 2040000 #for chr11
+#chr_end <- 1000000
+chr_end <- 2040000 #for chr11
 
-output_filename <- "Pf7.chr2.stats.10kb.GT_filtered"
+output_filename <- "Pf7.chr11.gambia.stats.10kb.GT_filtered"
 output_txt <- paste0(output_filename,".txt")
 output_png <- paste0(output_filename,".png")
 
 #### CODE STARTS HERE ####
 ## Read Sample data
-Pf7_samples <- read.csv(here("data/Pf7/sample_ids/Pf7_african_samples.txt"), sep = "\t")
+Pf7_samples <- read.csv(here("data/Pf7/sample_ids/Pf7_gambia_samples.txt"), sep = "\t")
 str(Pf7_samples)
 
 ## Reading in the vcf data
@@ -37,6 +37,8 @@ get_gff_info(gff.file = here("data/Pf7/gff/Pfalciparum_replace_Pf3D7_MIT_v3_with
 vcf.neutrality <- neutrality.stats(vcf, FAST=TRUE)
 stats <- get.neutrality(vcf.neutrality, theta = TRUE)[[1]]
 str(stats)
+stats
+stats[[11]]
 
 # recombination and split coding region stats
 vcf@n.biallelic.sites
