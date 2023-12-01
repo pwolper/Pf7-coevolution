@@ -3,19 +3,28 @@
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
-In this report we investigate population structure in samples of /P. falciparum/ from Africa. Additionally we compute the unfolded SFS for
+When calculating genome-wide levels of polymorphism, we found levels of both \theta_{W} and pi to vary significantly for different regions of the genome. While this is expected due to varying levels of mutations and recombination, selection of certain genes and region is also a plausible explaination. It remains to be indentified if a significant proportion of putative genes under selection coincide with the observed regions of reduced polymorphism found. Furthermore, we found Tajima's D to vary across the genome, but generally being strongly negative for both chromosomes analyzed in each subpopulation separately, as well as for the total population. Negative values of Tajima's D across multiple chromosomes can be sign of population expansion, which would be consistent with findings of other studies ([[cite:&rich-2000-popul-struc]]). This is likely linked to expansion of human populations and increased vectorial capacity since the last glacial maximum ([[cite:&donnelly-2001-eviden-recen]]).
 
-* Malaria specific discussion
-- Implications of these results for the study of genetic variation in malaria?
-- Importance of accounting for demography for selection inference and life-history traits.
-- What can we say about effective control measures.
-* Discussion of the population structure results
+We investigated population structure in /P. falciparum/ samples from the African countries of Gambia, Democratic Republic of Congo, Kenya and Tanzania. Applying DAPC analysis, we found very little population structure, with samples from Gambia being the most differntiated in one of the two chromosomes, supporting a weak form of isolation by  distance, as Gambia is the most distant from the other three countries. It is feasible, that this relative lack of population structure is due to strong migration from humans, as human movement has shown to influence parasite movement at smaller geographic scale in Kenya and Uganda ([[cite:&nderu-2019-genet-diver]]).
+
+Complementing the DAPC analysis, we performed ADMIXTURE analysis, and found high levels of admixture between all subpopulations of /P. falciparum/. These results can be interpreted in the context of high malaria transmission leading to increased recombination between differnt strains during co-infection. It remains to be investigated, how recombination rates correlate with levels of within-host diversity F_{WS} and genome-wide linkage disequilibrium.
+
+We assigned ancestral states using the outgroup species /P. reichenowi/ and calculated the unfolded site-frequency spectrum (SFS) for chromosomes 2 and 11. The number of SNPs we were able to polarize, was limited to divergent sites between the outgroup and ingroups which were segregating in /P.falciparum/.  While we deem our method of assigning ancestral states to allels to be robust under the infinite-sites model, we acknowledge misorientations could happen due incomplete lineage sorting and sites not fully diverged between the two parasite species or recurrent mutation at the same site (i.e. homplasy) ([[cite:&baudry-2003-effec-misor]]). Including more samples of the outgroup can increase the certainty of selecting sites, that are divergent between /P. reichenowi/ and /P. falciparum/, reducing cross-species polymorphic sites. Additionally, including polarization of alleles using a more distant outgroups, such as /P. vivax/, might yield more sites, that can be assigned anchestral states. We believe that allele misorientations due to sequencing errors of the outgroup are rather unlikely with our method of polarisation, because the allele to be polarized not only should be fixed in the outgroup sequence, but also segregating in the ingroup species. While sequencing errors, that produce the same allele as also found polymorphic in the ingroup are possible, we conclude these to be rather unlikely and sufficient to produce the pervasive u-shaped SFS we observe. We propose investigating measures such as the probability of misorientation used in other studies ([[cite:&baudry-2003-effec-misor]], [[cite:&fay-2000-hitch-under]] ), to assess the impact if has on the SFS.
+
+
+
+
+
+Characterizing genetic variation in /P. falciparum/ is highly important for evalutating the efficacy of control measures and drug interventions, as genetically diverse population have a greater reservoir of alleles, which can selection can act on (*Double check this sentence*). In addition to quantifying the levels of genetic variation, the structure of the parasite population can inform us about the levels of gene flow and outcrossing, which in turn allow alleles to spread between (sub-)populations.
+
 * Discussion of the U-shaped SFS
 - gene flow can lead to u-shaped SFS without invoking any directional selection.
 - sweepstake reproduction
-- misorientation of anchestral and derived alleles.
+- misorientation of anchestral and derived alleles. (improve polarisation with other outgroups. Vivax might yield more SNPs, multiple sequences of P.reichenowi to avoid incomplete lineage sorting.)
 - biased gene conversion (relevant in Plasmodium, considering extremely high AT content?)
+  (might be interesting to calculate the sfs for subset of sites excluding AT bias.)
 - directional selection at multiple loci as a cause of u-shaped SFS. And background selection?
 - temporally variable selection (makes sense for a pathogen)
 - reproductive strategies (i.e. sweepstakes reproduction) and multiple merger events.
+
 * Maybe discussion of MMC models as a more appropriate null model

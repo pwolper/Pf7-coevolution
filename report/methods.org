@@ -3,9 +3,9 @@
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
-* Pf7 data availability
 In this section, we provide a comprehensive overview of the data source, data preprocessing steps, and the analytical methods employed for this investigation.
 
+* Pf7 data availability
 The analysis of population genetics data for /Plasmodium falciparum/ presented in this report was derived from whole-genome Single Nucleotide Polymorphism (SNP) data. The dataset used in this study was obtained from the MalariaGEN Pf7 data resource, a large release of genome variation data from /Plasmodium falciparum/ ([[cite:&MalariaGEN-2023-pf7]]). In whole, Pf7 consists of over 16,000 samples high-quality from over 33 countries and 82 partner studies. By using a method called selective whole genome amplification (sWGA) prior to sequencing, samples could be collected from dried blood spots. While showing the use of sWGA does not indroduce any biases in coverage or population structure, the Pf7 resource is the largest publicly available resource for genomic information of /P.falciparum/. Pf7 provides data on genomic variation as variant calling format (VCF) files per chromosome. The vcf files are freely available from an FTP server using an FTP client (ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/).
 
 * Data

@@ -1,18 +1,22 @@
-#+title: Population Structure and Gentic Variation of /P. falciparum/ in West and Central Africa
+#+title: Population Structure and Gentic Variation of Plasmodium falciparum in West and Central Africa
 #+subtitle: Report for a research internship at the Chair of population genetics, Prof. Aureli\eacute{}n Tellier
+#+AUTHOR: Philip L. Wolper
+#+EMAIL: phi.wolper@tum.de
 
-# #+SETUPFILE: ~/.doom.d/setup-files/simple_whiteblue.theme
+# #+SETUPFILE: ~/.doom.d/setup-files/bigblow_inline.theme
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
+#+OPTIONS: ^:nil p:t
 
 * Introduction
-#+INCLUDE: "intro.org"
+#+INCLUDE: "intro.org" :lines "3-"
 * Data and Methods
-#+INCLUDE: "methods.org"
+#+INCLUDE: "methods.org" :lines "3-"
 # #+LATEX: \clearpage
 * Results
-#+INCLUDE: "results.org"
+#+INCLUDE: "results.org" :lines "3-"
 * Discussion
+#+INCLUDE: "discussion.org" :lines "3-"
 
 * Bibliography
 [[printbibliography:]]
