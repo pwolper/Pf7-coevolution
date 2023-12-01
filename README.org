@@ -10,6 +10,7 @@
 ** TODO Plot gambian chr11 sfs with scaled tails
 ** TODO Plot african sfs with scaled tails for comparison.
 ** TODO writing
+** TODO Copy relevant code used to appendix
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
 Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\
