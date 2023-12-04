@@ -34,7 +34,7 @@ bibliography:~/biblio/pop-gen.bib
 
 ** Code used
 *** Filtering
-Downloaded VCF files where filtered and reindexed. (*double check VSQLOD code*)
+Downloaded VCF files where filtered and reindexed.
 #+begin_src bash
 bcftools view \
     --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && VSQLOD>5.0'\
