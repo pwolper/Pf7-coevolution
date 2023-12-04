@@ -3,8 +3,8 @@
 #+AUTHOR: Philip L. Wolper
 #+EMAIL: phi.wolper@tum.de
 
-# #+SETUPFILE: ~/.doom.d/setup-files/bigblow_inline.theme
-#+SETUPFILE: ~/.doom.d/setup-files/latex.setup
+#+SETUPFILE: ~/.doom.d/setup-files/bigblow_inline.theme
+# #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 #+OPTIONS: ^:nil p:t
 
@@ -20,11 +20,12 @@
 
 * Bibliography
 [[printbibliography:]]
-# bibliography:~/biblio/pop-gen.bib
+bibliography:~/biblio/pop-gen.bib
 
 * Appendix
 #+LATEX: \appendix
 
+** Figures
 #+name: admix_Kmeans
 #+caption:
 #+attr_latex: :width 1\textwidth :center t
@@ -32,3 +33,24 @@
 [[./figures/admixture_Kmeans_groups.png]]
 
 ** Code used
+*** Filtering
+Downloaded VCF files where filtered and reindexed. (*double check VSQLOD code*)
+#+begin_src bash
+bcftools view \
+    --include 'FILTER="PASS" && N_ALT=1 && TYPE="snp" && VSQLOD>5.0'\
+    --samples-file $samples_dir/Pf7_african_samples_ids.txt \
+    --output-type z\
+    --output-file  Pf3D7_02_v3.SNP.vcf \
+    Pf3D7_02_v3.pf7.vcf.gz
+
+bcftools index -t Pf3D7_02_v3.SNP.vcf
+#+end_src
+
+Heterozygous genotypes were removed using the following code as an example:
+#+begin_src bash
+bcftools filter -S . -e 'GT=="het"' chr2/Pf3D7_02_v3.afr_samples.qSNP.vcf.gz\
+    -o chr2/Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf -Oz
+#+end_src
+
+*** ADMIXTURE and DAPC
+*** Unfolded SFS

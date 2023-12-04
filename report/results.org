@@ -12,7 +12,7 @@ Across both chromosomes analyzed, we found that diversity statisic, such as \the
 #+name: div_stats_chr2
 #+caption: Diversity statistics of chromosome 2, calculated in sliding windows of 10 Kb length. (A) Tajima's D, (B) Segregating sites S, (C) \theta_{Watterson}, (D) \theta_{pi} and (E) \theta_{W} plotted against Hudson-Kaplan RM in 10 Kb windows.
 #+attr_latex: :width 0.6\textwidth :float nil
-#+attr_html: :width 400px :align center
+#+attr_html: :width 600px :align center
 [[./figures/stats_panel_chr2.png]]
 
 # #+LATEX: \end{minipage}\hfill
@@ -21,7 +21,7 @@ Across both chromosomes analyzed, we found that diversity statisic, such as \the
 #+name: div_stats_chr11
 #+caption: Diversity statistics of chromosome 11, calculated in sliding windows of 10 Kb length. (A) Tajima's D, (B) Segregating sites S, (C) \theta_{Watterson}, (D) \theta_{pi} and (E) \theta_{W} plotted against Hudson-Kaplan RM in 10 Kb windows.
 #+attr_latex: :width 0.6\textwidth :float nil
-#+attr_html: :width 400px :align center
+#+attr_html: :width 600px :align center
 [[./figures/stats_panel_chr11.png]]
 
 # #+LATEX: \end{minipage}
@@ -33,13 +33,13 @@ We conducted two parallel approaches to investigate possible population structur
 #+name: Pop_Struct_country_chr2
 #+caption: Population structure analysis of /P. falciparum/ chromosome 2, showing the clustering by predefined labels based on sampling location.
 #+attr_latex: :width 1\textwidth :float nil
-#+attr_html: :width 800px :align center
+#+attr_html: :width 700px :align center
 [[./figures/Population_structure_countries_chr2.png]]
 
 #+name: Pop_Struct_country_chr11
 #+caption: Population structure analysis of /P. falciparum/ chromosome 11, showing the clustering by predefined labels based on sampling location.
 #+attr_latex: :width 1\textwidth :float nil
-#+attr_html: :width 800px :align center
+#+attr_html: :width 700px :align center
 [[./figures/Population_structure_countries_chr11.png]]
 
 Next, we were interested in possible other causes of population structure in african /P. falciparum/ other than the geographic locations. We inferred the number of groups and membership /de novo/ using a K-means clustering algorithm, /find.clusters()/, described in the dapc manual (*cite*). The optimal value of K was determined to be 9 and 10, respectively for chromosome 2 and 11, significantly more than the a priori groups based on sampling location. We performed dapc analysis on these newly inferred groups, and clustering of both chromosomes into groups, but some of the clusters seem to overlap quite significantly. Chromosome 2 shows more distinct clustering by inferred group labels, than chromosome 11, but they do not correlate with the sampling location or year (Fig. [[dapc_corr_chr2]]). In contrast, the inferred clusters of chromosome 11 seem to  correlate roughly with the sampling location and year. (Fig. [[dapc_corr_chr11]]). When sorting the individuals in the admixture analysis by these inferred group labels, we found the results to agree with the dapc (Fig. [[admix_Kmeans]]).
@@ -47,13 +47,13 @@ Next, we were interested in possible other causes of population structure in afr
 #+name: dapc_corr_chr2
 #+caption: DAPC analysis of nine population clusters inferred /de novo/ with a K-means algorithm, chromosome 2. (A) Individuals colored according to assigned clusters. (B) Individuals colored by their sample location. (C) Individuals are colored by the sampled year.
 #+attr_latex: :width 0.7\textwidth :center t
-#+attr_html: :width 800px :align center
+#+attr_html: :width 700px :align center
 [[./figures/dapc_Kmeans_chr2.png]]
 
 #+name: dapc_corr_chr11
 #+caption: DAPC analysis of nine population clusters inferred /de novo/ with a K-means algorithm, chromosome 2. (A) Individuals colored according to assigned clusters. (B) Individuals colored by their sample location. (C) Individuals are colored by the sampled year.
 #+attr_latex: :width 0.7\textwidth :center t
-#+attr_html: :width 800px :align center
+#+attr_html: :width 700px :align center
 [[./figures/dapc_Kmeans_chr11.png]]
 
 
@@ -63,5 +63,5 @@ In order to allow for more detailed inferences about the demographic history of 
 #+name: SFS_unfolded
 #+caption:
 #+attr_latex: :width 0.6\textwidth :center t
-#+attr_html: :width 500px :align center
+#+attr_html: :width 700px :align center
 [[./figures/sfs_unfolded.png]]
