@@ -17,7 +17,6 @@ The classic interpretation of an excess of high-frequency derived variants in th
 
 Indeed, several studies have found both directional positive selection and balancing types of selection in /P. falciparum/ (cite:&naung-2022-global-diver,  [[cite:&mobegi-2014-genom-wide]]). Usage of antimalarial drugs, such as chloroquinbe has been shown to drive allele frequency changes over a period of 25 years ([[cite:&nwakanma-2013-chang-malar]]). Interestingly, patterns of selection for drug resistance reflect historical usage of antimalaria drugs varying between countries. Similarly, different regional selection pressures can be expected from geographical differences in transmission intensity and malaria endemicity ([[cite:&mobegi-2014-genom-wide]]), which is reflected in a high divergence (high F_{ST}), between genomic regions between subpopulations. Seasonal differences in transmission intensity can cause selection pressures to fluctuate temporally.
 
-
 Add paragraph about selection in Plasmodium. Positive directional. High transmission, competitive vs. low transmission non competitive. Drug resistance loci, geographically related to usage of medicines in certain countries. Seasonal fluctuating selection as transmission intensity changes. Balancing selection at host-parasite interface.
 
 Inferring life-history traits... MMC. Furthermore, the SFS can be used to infe
