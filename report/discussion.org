@@ -22,8 +22,6 @@ Add paragraph about selection in Plasmodium. Positive directional. High transmis
 Inferring life-history traits... MMC. Furthermore, the SFS can be used to infe
 
 
-
-
 Characterizing genetic variation in /P. falciparum/ is highly important for evalutating the efficacy of control measures and drug interventions, as genetically diverse population have a greater reservoir of alleles, which can selection can act on (*Double check this sentence*). In addition to quantifying the levels of genetic variation, the structure of the parasite population can inform us about the levels of gene flow and outcrossing, which in turn allow alleles to spread between (sub-)populations.
 
 * Discussion of the U-shaped SFS
