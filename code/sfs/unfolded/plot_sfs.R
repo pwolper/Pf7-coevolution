@@ -1,7 +1,7 @@
 library(here); library(ggplot2); library(dplyr)
 
 
-vcf_repol <- read.csv(here("output/sfs/unfolded/Pf7.chr2.gambia.snps.polarized.txt"))
+vcf_repol <- read.csv(here("output/sfs/unfolded/Pf7.chr11.snps.polarized.txt"))
 str(vcf_repol)
 
 vcf_repol$SF %>% max()
@@ -10,14 +10,15 @@ vcf_repol$SF %>% max()
 # for 1846 afr_samples theta_W is calculated as 667.966 and 1712.087 for chromosome 2 and 11, respectively. The expected sfs is theta_W/i
 # for 452 gambian samples theta_W is: 379.534 and 924.543, chromsome 2 and 11, respectively.
 
-## neutral_sfs <- data.frame(f = c(1:1846))
-## for(i in c(1:1846)){neutral_sfs$count[i] <- 667.966/i}
-## str(neutral_sfs)
-
-neutral_sfs <- data.frame(f = c(1:452))
-for(i in c(1:452)){neutral_sfs$count[i] <- 379.524/i}
+neutral_sfs <- data.frame(f = c(1:1846))
+for(i in c(1:1846)){neutral_sfs$count[i] <- 1712.087/i}
 str(neutral_sfs)
 
+## neutral_sfs <- data.frame(f = c(1:452))
+## for(i in c(1:452)){neutral_sfs$count[i] <- 379.524/i}
+## str(neutral_sfs)
+
+## scaled tails
 # plot the sfs together with the expected one.
 lower_tail <- ggplot() +
     geom_histogram(data = vcf_repol, mapping = aes(x = SF, y = ..density..), binwidth = 1,
@@ -33,28 +34,28 @@ upper_tail <- ggplot() +
                    colour = "black", fill = "white") +
     geom_point(data = neutral_sfs, aes(x = f, y = count/nrow(vcf_repol)), colour = "red", size = 1) +
     geom_line(data = neutral_sfs, aes(x = f, y = count/nrow(vcf_repol)), colour = "red") +
-    coord_cartesian(xlim = c(400,455), ylim = c(0,0.05))+
+    coord_cartesian(xlim = c(1830,1847), ylim = c(0,0.05))+
     labs(x = NULL, y = NULL, title = "Upper tail") +
     theme_light()
 
-## # plot the sfs together with the expected one.
-## lower_tail <- ggplot() +
-##     geom_histogram(data = vcf_repol, mapping = aes(x = SF), binwidth = 1,
-##                    colour = "black", fill = "white") +
-##     geom_point(data = neutral_sfs, aes(x = f, y = count), colour = "red", size = 1) +
-##     geom_line(data = neutral_sfs, aes(x = f, y = count), colour = "red") +
-##     coord_cartesian(xlim = c(0,50)) +
-##     labs(x = NULL, y = NULL, title = "Lower tail") +
-##     theme_light()
+# plot the sfs together with the expected one.
+lower_tail <- ggplot() +
+    geom_histogram(data = vcf_repol, mapping = aes(x = SF), binwidth = 1,
+                   colour = "black", fill = "white") +
+    geom_point(data = neutral_sfs, aes(x = f, y = count), colour = "red", size = 1) +
+    geom_line(data = neutral_sfs, aes(x = f, y = count), colour = "red") +
+    coord_cartesian(xlim = c(0,50)) +
+    labs(x = NULL, y = NULL, title = "Lower tail") +
+    theme_light()
 
-## upper_tail <- ggplot() +
-##     geom_histogram(data = vcf_repol, mapping = aes(x = SF), binwidth = 1,
-##                    colour = "black", fill = "white") +
-##     geom_point(data = neutral_sfs, aes(x = f, y = count), colour = "red", size = 1) +
-##     geom_line(data = neutral_sfs, aes(x = f, y = count), colour = "red") +
-##     coord_cartesian(xlim = c(1830,1847),ylim = c(0,150)) +
-##     labs(x = NULL, y = NULL, title = "Upper tail") +
-##     theme_light()
+upper_tail <- ggplot() +
+    geom_histogram(data = vcf_repol, mapping = aes(x = SF), binwidth = 1,
+                   colour = "black", fill = "white") +
+    geom_point(data = neutral_sfs, aes(x = f, y = count), colour = "red", size = 1) +
+    geom_line(data = neutral_sfs, aes(x = f, y = count), colour = "red") +
+    coord_cartesian(xlim = c(1830,1847),ylim = c(0,150)) +
+    labs(x = NULL, y = NULL, title = "Upper tail") +
+    theme_light()
 
 full <- ggplot() +
     geom_histogram(data = vcf_repol, mapping = aes(x = SF), binwidth = 1,
@@ -66,22 +67,22 @@ full <- ggplot() +
          #title = "Unfolded site frequency spectrum of polarized SNPs on P. falciparum chromosome 11",
          #subtitle = paste(nrow(vcf_repol),"sites from 1846 individuals"))
 
-## sfs_unfolded <- full +
-##     annotation_custom(ggplotGrob(lower_tail), xmin = 50, xmax = 1200, ymin = 750, ymax = 2000) +
-##     annotation_custom(ggplotGrob(upper_tail), xmin = 1300, xmax = 1850, ymin = 750, ymax = 2000)
-## sfs_unfolded
+sfs_unfolded <- full +
+    annotation_custom(ggplotGrob(lower_tail), xmin = 50, xmax = 1200, ymin = 750, ymax = 2000) +
+    annotation_custom(ggplotGrob(upper_tail), xmin = 1300, xmax = 1850, ymin = 750, ymax = 2000)
+sfs_unfolded
 
 sfs_unfolded <- full +
     annotation_custom(ggplotGrob(lower_tail), xmin = 25, xmax = 225, ymin = 400, ymax = 800) +
     annotation_custom(ggplotGrob(upper_tail), xmin = 250, xmax = 450, ymin = 400, ymax = 800)
 sfs_unfolded
 
-## sfs_unfolded <- full +
-##     annotation_custom(ggplotGrob(lower_tail), xmin = 50, xmax = 1200, ymin = 2000, ymax = 5300) +
-##     annotation_custom(ggplotGrob(upper_tail), xmin = 1300, xmax = 1850, ymin = 2000, ymax = 5300)
-## sfs_unfolded
+sfs_unfolded <- full +
+    annotation_custom(ggplotGrob(lower_tail), xmin = 50, xmax = 1200, ymin = 2000, ymax = 5300) +
+    annotation_custom(ggplotGrob(upper_tail), xmin = 1300, xmax = 1850, ymin = 2000, ymax = 5300)
+sfs_unfolded
 
-png(here("output/sfs/unfolded/sfs_unfolded_chr2_gambian_samples_unlabeled.png"), height = 500, width = 1000)
+png(here("output/sfs/unfolded/sfs_unfolded_chr11_samples_unlabeled_scaled.png"), height = 500, width = 1000)
 sfs_unfolded
 dev.off()
 
