@@ -7,13 +7,13 @@
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Tasks :noexport:
-** DONE Plot gambian chr11 sfs with scaled tails
-** DONE Plot african sfs with scaled tails for comparison.
+** TODO Combine scaled sfs image
 ** TODO write abstract
 ** TODO Copy relevant code used to appendix
+- mummer and admixture. maybe dapc?
 ** TODO review report
-- insert citations
 - proofreading
+
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
 Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\

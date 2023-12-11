@@ -1,33 +1,41 @@
-#+title: Population Structure and Gentic Variation of Plasmodium falciparum in West and Central Africa
-#+subtitle: Report for a research internship at the Chair of population genetics, Prof. Aureli\eacute{}n Tellier
+#+title: Population Structure and Genetic Variation of /Plasmodium falciparum/ in West and Central Africa
+#+subtitle: TUM, Section of population genetics, Prof. Aureli\eacute{}n Tellier \linebreak Research internship final report, WS 2023
+
 #+AUTHOR: Philip L. Wolper
 #+EMAIL: phi.wolper@tum.de
 
 #+SETUPFILE: ~/.doom.d/setup-files/bigblow_inline.theme
-# #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
+#+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 #+OPTIONS: ^:nil p:t
+
+#+begin_src latex
+\begin{abstract}
+This report presents insights on the genetic diversity and population structure of the malaria-causing parasite /Plasmodium falciparum/ using whole-genome SNP data from various African countries. We confirm previous knowledge of high admixture and limited population substructure between African countries. Interestingly, we find chromosome 11, to exhobit higher signatures of isolation-by-distance than chromosome 2. Additionally we calculate the unfolded site-frequency spectrum (SFS) for both chromosomes and show it to be U-shaped. We provide some discussion on evolutionary mechanisms leading this U-shaped SFS in /P. facliparum/ and emphasize how population genetics, particularly multiple-merger coalescents, can be applied to understand the evolutionary dynamics of P. falciparum in the future, contributing to better malaria control and drug intervention strategies.
+\end{abstract}
+#+end_src
+
+#+LATEX: \vspace{1cm}
 
 * Introduction
 #+INCLUDE: "intro.org" :lines "3-"
 * Data and Methods
 #+INCLUDE: "methods.org" :lines "3-"
-# #+LATEX: \clearpage
 * Results
 #+INCLUDE: "results.org" :lines "3-"
 * Discussion
 #+INCLUDE: "discussion.org" :lines "3-"
-
+#+LATEX: \newpage
 * Bibliography
 [[printbibliography:]]
-bibliography:~/biblio/pop-gen.bib
+# bibliography:~/biblio/pop-gen.bib
 
 * Appendix
 #+LATEX: \appendix
 
 ** Figures
 #+name: admix_Kmeans
-#+caption:
+#+caption: Admixture analysis for both chromosomes with individuals sorted by Kmeans clustering memebrships
 #+attr_latex: :width 1\textwidth :center t
 #+attr_html: :width 800px :align center
 [[./figures/admixture_Kmeans_groups.png]]
@@ -52,5 +60,35 @@ bcftools filter -S . -e 'GT=="het"' chr2/Pf3D7_02_v3.afr_samples.qSNP.vcf.gz\
     -o chr2/Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf -Oz
 #+end_src
 
-*** ADMIXTURE and DAPC
+*** DAPC
+In order to run the dapc on our vcf files we used the R package /vcfR/ (*citation*) to read in the file and convert it to a genlight object. Subsequently, we read in a vector of country membership and set haploidy. The dapc is conducted according to guideslines stated in [[cite:&thia-2022-guidel-stand]].
+
+#+begin_src R
+Pf7.snp <- read.vcfR(vcf_path, verbose = TRUE)
+
+Pf7.snp.gl <- vcfR2genlight(Pf7.snp)
+
+pop(Pf7.snp.gl) <- Pf7.metadata$Country
+ploidy(Pf7.snp.gl) <- 1
+
+#+end_src
+*** ADMIXTURE
+Before converting the vcf files were converted to .bed files using /plink2/, we had to rename the chromosome from Pf3D7_x_v3 to x. We used a names.txt file according to the bcftools documentation.
+
+#+begin_src bash
+plink2
+#+end_src
+
+The admixture analysis was performed with the following options:
+#+begin_src bash
+for K in {2..10}; do
+    admixture $bed_file $K --cv | tee log{$K}.out; done
+#+end_src
+
 *** Unfolded SFS
+The genome sequence of the outgroup /P. reichenowi/ was aligned to the /P. falciparum/ reference sequence Pf7 using the following code:
+
+SNP frequencies and counts were extracted with the following code:
+#+begin_src bash
+bcftools query -f '%POS %REF %ALT %AF %AC %AN\n' Pf3D7_02_v3.afr_samples.qSNP.GT_filtered.vcf.gz > Pf7.02.vcf.qSNP.AF_AC_AN.txt
+#+end_src
