@@ -22,13 +22,3 @@ The extent of multiple merger genealogies in /Plasmodium/ has yet to be explored
 
 In summary, characterizing genetic variation in /P. falciparum/ is highly important for evalutating the efficacy of control measures and drug interventions, as genetically diverse population have a greater reservoir of alleles, which can selection can act on. In addition to quantifying the levels of genetic variation, the structure of the parasite population can inform us about the levels of gene flow and outcrossing, which in turn allow alleles to spread between (sub-)populations. General multiple merger coalescents can allow research on /Plasmodium/ population genetics to incorperate special life-history traits and improve inferences and interpretations of parasite evolution.
 
-* Discussion of the U-shaped SFS :noexport:
-- gene flow can lead to u-shaped SFS without invoking any directional selection.
-- sweepstake reproduction
-- misorientation of anchestral and derived alleles. (improve polarisation with other outgroups. Vivax might yield more SNPs, multiple sequences of P.reichenowi to avoid incomplete lineage sorting.)
-- biased gene conversion (relevant in Plasmodium, considering extremely high AT content?)
-  (might be interesting to calculate the sfs for subset of sites excluding AT bias.)
-- directional selection at multiple loci as a cause of u-shaped SFS. And background selection?
-- temporally variable selection (makes sense for a pathogen)
-- reproductive strategies (i.e. sweepstakes reproduction) and multiple merger events.
-

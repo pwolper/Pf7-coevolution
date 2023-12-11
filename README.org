@@ -6,14 +6,6 @@
 #+SETUPFILE: report/beamer.setup
 #+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
-* Tasks :noexport:
-** TODO Combine scaled sfs image
-** TODO write abstract
-** TODO Copy relevant code used to appendix
-- mummer and admixture. maybe dapc?
-** TODO review report
-- proofreading
-
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
 Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\

@@ -7,11 +7,10 @@
 #+SETUPFILE: ~/.doom.d/setup-files/bigblow_inline.theme
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
-#+OPTIONS: ^:nil p:t
 
 #+begin_src latex
 \begin{abstract}
-This report presents insights on the genetic diversity and population structure of the malaria-causing parasite /Plasmodium falciparum/ using whole-genome SNP data from various African countries. We confirm previous knowledge of high admixture and limited population substructure between African countries. Interestingly, we find chromosome 11, to exhobit higher signatures of isolation-by-distance than chromosome 2. Additionally we calculate the unfolded site-frequency spectrum (SFS) for both chromosomes and show it to be U-shaped. We provide some discussion on evolutionary mechanisms leading this U-shaped SFS in /P. facliparum/ and emphasize how population genetics, particularly multiple-merger coalescents, can be applied to understand the evolutionary dynamics of P. falciparum in the future, contributing to better malaria control and drug intervention strategies.
+This report presents insights on the genetic diversity and population structure of the malaria-causing parasite /Plasmodium falciparum/ using whole-genome SNP data from various African countries. We confirm previous knowledge of high admixture and limited population substructure between African countries. Our /de novo/ clustering analysis generally confirms this. Interestingly, we find chromosome 11, to exhibit higher signatures of isolation-by-distance than chromosome 2. Additionally we calculate the unfolded site-frequency spectrum (SFS) for both chromosomes and show it to be U-shaped. We provide some discussion on evolutionary mechanisms leading this U-shaped SFS in /P. falciparum/ and emphasize how population genetics, particularly multiple-merger coalescents, can be applied to understand the evolutionary dynamics of P. falciparum in the future, contributing to better malaria control and drug intervention strategies.
 \end{abstract}
 #+end_src
 
@@ -32,7 +31,6 @@ This report presents insights on the genetic diversity and population structure 
 
 * Appendix
 #+LATEX: \appendix
-
 ** Figures
 #+name: admix_Kmeans
 #+caption: Admixture analyis of /P. falciparum samples, sorted by /de novo/ clusters, identified using K-means.
@@ -46,7 +44,14 @@ This report presents insights on the genetic diversity and population structure 
 #+attr_html: :width 700px :align center
 [[./figures/sfs_unfolded_chr2_gambian_samples_unlabeled.png]]
 
+#+name: nucmer_coverage
+#+caption: Mapping coverage of /P. reichenowi/ PrCDC aligned to the  /P. falciparum/ Pf3D7 reference genome (/Pf7/).
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 400px :align center
+[[./figures/Pf7_PrCDC_nucmer.png]]
+
 ** Code used
+The complete code used for this report can be found on the git repository: https://github.com/pwolper/Pf7-coevolution
 *** Filtering
 Downloaded VCF files where filtered and reindexed.
 #+begin_src bash
@@ -77,12 +82,16 @@ Pf7.snp.gl <- vcfR2genlight(Pf7.snp)
 pop(Pf7.snp.gl) <- Pf7.metadata$Country
 ploidy(Pf7.snp.gl) <- 1
 
+clust <- find.clusters(Pf7.snp.gl, max.n.clust = 30) #de novo cluster inference
+dapc <- dapc(Pf7.snp.gl, n.pca = 3, n.da = 3)
 #+end_src
 *** ADMIXTURE
 Before converting the vcf files were converted to .bed files using /plink2/, we had to rename the chromosome from Pf3D7_x_v3 to x. We used a names.txt file according to the bcftools documentation.
 
 #+begin_src bash
-plink2
+plink2 --vcf ../vcf/chr11/Pf3D7_11_v3.afr_samples.qSNP.GT_filtered.renamed.vcf.gz --make-bed \
+    --allow-extra-chr -out Pf3D7_11_v3.afr_samples.qSNP.GT_filtered.renamed
+
 #+end_src
 
 The admixture analysis was performed with the following options:
@@ -93,6 +102,15 @@ for K in {2..10}; do
 
 *** Unfolded SFS
 The genome sequence of the outgroup /P. reichenowi/ was aligned to the /P. falciparum/ reference sequence Pf7 using the following code:
+#+begin_src bash
+nucmer --mum -p chr11/Pf7_PrCDC ../Pf7/seqs/Pf3D7_11_v3.fasta ../P.reichenowi/embl.PrCDC/PrCDC_11_v3.fasta
+
+show-coords -c -l -r -T chr11/Pf7_PrCDC.delta > chr11/Pf7_PrCDC_coords.txt
+
+show-snps -T chr11/Pf7_PrCDC.delta > chr11/Pf7_PrCDC_SNPs.txt
+
+awk 'NR>3 && $2 !~ /\./ && $3 !~ /\./ {print}' chr11/Pf7_PrCDC_SNPs.txt > chr11/Pf7_PrCDC_11_SNPs_formatted.txt
+#+end_src
 
 SNP frequencies and counts were extracted with the following code:
 #+begin_src bash
