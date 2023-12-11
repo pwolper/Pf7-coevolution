@@ -3,7 +3,6 @@
 #+SETUPFILE: ~/.doom.d/setup-files/latex.setup
 #+LATEX_HEADER: \addbibresource{~/biblio/pop-gen.bib}
 
-* Diversity Statistics
 Across both chromosomes analyzed, we found that diversity statisic, such as \theta_{W}, \theta_{pi}, the number of segregating sites S and Tajima's D to vary quite a lot (Fig. [[div_stats_chr2]] and [[div_stats_chr11]]), as is to be expect from different regions of the genome. Interestingly, we found overall very low values of Tajima's D across all samples (Fig. [[div_stats_chr2]]A and [[div_stats_chr11]]A). When comparing the nucleotide diversity measure of Watterson, \theta_{W} to an estimate of recombination events Hudson-Kaplan-RM, we find a higher diversity for windows with more recombination events (Fig. [[div_stats_chr2]]E and [[div_stats_chr11]]E). This is expected under linked selection, where selection between linked loci will drag down polymorphism. Less linked regions with higher recombination frequencies, therefore are estimated to show more polymorphism. At high recombination rates, this effect, \theta_{W} values flatten out, because polymorphism ultimately is constrained by mutation.
 
 # #+LATEX: \begin{figure}[!htb]
@@ -27,7 +26,6 @@ Across both chromosomes analyzed, we found that diversity statisic, such as \the
 # #+LATEX: \end{minipage}
 # #+LATEX: \end{figure}
 
-* Population Structure
 We conducted two parallel approaches to investigate possible population structure in our /P. falciparum/ samples, discriminant of principle components (dapc) and bayesian structure analysis using the software ADMIXTURE. We first chose to analyze if population structure follows the sampled locations, using these as our a priori labels. Generally we found high levels of admixture between populations, although we could observe some signals of geographic structuring (Fig. [[Pop_Struct_country_chr2]] and [[Pop_Struct_country_chr11]]). Specifically, the Gambian samples showed the most differentiation in the admixture analysis for the other locations. While the distruct plots of te structure analysis show similar low, but present population structure for both chromosomes, it is noteworthy, that chromosome 2 seems to have much less population structure than chromosome 11, as can be seen from the dapc (Fig. [[Pop_Struct_country_chr2]]B) and (Fig. [[Pop_Struct_country_chr11]]B).
 
 #+name: Pop_Struct_country_chr2
@@ -56,8 +54,6 @@ Next, we were interested in possible other causes of population structure in afr
 #+attr_html: :width 700px :align center
 [[./figures/dapc_Kmeans_chr11.png]]
 
-
-* Site-frequency spectrum
 In order to allow for more detailed inferences about the demographic history of the population and evolutionary forces such as selection we calculated the a polarized site frequency spectrum (SFS), for both chromosomes (Fig. [[SFS_unfolded]]). The SFS we found, both had a U-shaped character, with an excess of singletons compared the the neutral expectation and increased high-frequency alleles. Because hidden population can influence the shape of the SFS, when samples from different populations are pooled together ([[cite:&lapierre-2016-impac-selec]]), we calculated the SFS for samples from Gambia as well, as Gambia was the most distinct country from the others (Fig. [[SFS_gambia]]). We found the U-shape in the Gambian SFS as well, which indicates the discovered U-shape is not due to unidentified substructuring of the sampled parasites.
 
 #+name: SFS_unfolded
