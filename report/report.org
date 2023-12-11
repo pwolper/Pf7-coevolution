@@ -10,7 +10,7 @@
 
 #+begin_src latex
 \begin{abstract}
-This report presents insights on the genetic diversity and population structure of the malaria-causing parasite /Plasmodium falciparum/ using whole-genome SNP data from various African countries. We confirm previous knowledge of high admixture and limited population substructure between African countries. Our /de novo/ clustering analysis generally confirms this. Interestingly, we find chromosome 11, to exhibit higher signatures of isolation-by-distance than chromosome 2. Additionally, we calculate the unfolded site-frequency spectrum (SFS) for both chromosomes and show it to be U-shaped. We provide some discussion on evolutionary mechanisms leading this U-shaped SFS in /P. falciparum/ and emphasize how population genetics, particularly multiple-merger coalescents, can be applied to understand the evolutionary dynamics of /P. falciparum/ in the future, contributing to better malaria control and drug intervention strategies.
+This report presents insights on the genetic diversity and population structure of the malaria-causing parasite \emph{Plasmodium falciparum} using whole-genome SNP data from various African countries. We confirm previous knowledge of high admixture and limited population substructure between African countries. Our \emph{de novo} clustering analysis generally confirms this. Interestingly, we find chromosome 11, to exhibit higher signatures of isolation-by-distance than chromosome 2. Additionally, we calculate the unfolded site-frequency spectrum (SFS) for both chromosomes and show it to be U-shaped. We provide some discussion on evolutionary mechanisms leading this U-shaped SFS in \emph{P. falciparum} and emphasize how population genetics, particularly multiple-merger coalescents, can be applied to understand the evolutionary dynamics of \emph{P. falciparum} in the future, contributing to better malaria control and drug intervention strategies.
 \end{abstract}
 #+end_src
 
@@ -38,6 +38,8 @@ This report presents insights on the genetic diversity and population structure 
 #+attr_html: :width 500px :align center
 [[./figures/admixture_Kmeans_groups.png]]
 
+#+LATEX: \vspace{1cm}
+
 #+name: SFS_gambia
 #+caption: Unfolded site frequency spectrum of Gambian /P. falciparum/ samples.
 #+attr_latex: :width 0.9\textwidth :center t :float nil
@@ -45,19 +47,20 @@ This report presents insights on the genetic diversity and population structure 
 [[./figures/sfs_unfolded_chr2_gambian_samples_unlabeled.png]]
 
 #+name: nucmer_coverage_chr2
-#+caption: Mapping coverage of /P. reichenowi/ PrCDC aligned to the  /P. falciparum/ Pf3D7 reference genome (/Pf7/).
+#+caption: Mapping coverage of /P. reichenowi/ PrCDC aligned to the  /P. falciparum/ Pf3D7 reference genome (/Pf7/), chromosome 2.
 #+attr_latex: :width 0.6\textwidth :center t : float nil
 #+attr_html: :width 400px :align center
 [[./figures/Pf7_PrCDC_nucmer_chr2.png]]
 
 #+name: nucmer_coverage_chr11
-#+caption: Mapping coverage of /P. reichenowi/ PrCDC aligned to the  /P. falciparum/ Pf3D7 reference genome (/Pf7/).
+#+caption: Mapping coverage of /P. reichenowi/ PrCDC aligned to the  /P. falciparum/ Pf3D7 reference genome (/Pf7/), chromosome 11.
 #+attr_latex: :width 0.6\textwidth :center t : float nil
 #+attr_html: :width 400px :align center
 [[./figures/Pf7_PrCDC_nucmer_chr11.png]]
 
 ** Code used
-The complete code used for this report can be found on the git repository: https://github.com/pwolper/Pf7-coevolution
+The complete code used for this report can be found in the git repository:\\
+https://github.com/pwolper/Pf7-coevolution
 
 *** Filtering
 Downloaded VCF files where filtered and reindexed.
@@ -79,7 +82,7 @@ bcftools filter -S . -e 'GT=="het"' chr2/Pf3D7_02_v3.afr_samples.qSNP.vcf.gz\
 #+end_src
 
 *** DAPC
-In order to run the dapc on our vcf files we used the R package /vcfR/ (*citation*) to read in the file and convert it to a genlight object. Subsequently, we read in a vector of country membership and set haploidy. The dapc is conducted according to guideslines stated in [[cite:&thia-2022-guidel-stand]].
+In order to run the dapc on our vcf files we used the R package /vcfR/ ([[cite:&knaus-2017-vcfr]]) to read in the file and convert it to a genlight object. Subsequently, we read in a vector of country membership and set haploidy. The dapc is conducted according to guideslines stated in [[cite:&thia-2022-guidel-stand]].
 
 #+begin_src R
 Pf7.snp <- read.vcfR(vcf_path, verbose = TRUE)

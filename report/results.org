@@ -44,13 +44,13 @@ Next, we were interested in possible other causes of population structure in afr
 
 #+name: dapc_corr_chr2
 #+caption: DAPC analysis of nine population clusters inferred /de novo/ with a K-means algorithm, chromosome 2. (A) Individuals colored according to assigned clusters. (B) Individuals colored by their sample location. (C) Individuals are colored by the sampled year.
-#+attr_latex: :width 0.8\textwidth :center t
+#+attr_latex: :width 0.9\textwidth :center t
 #+attr_html: :width 700px :align center
 [[./figures/dapc_Kmeans_chr2.png]]
 
 #+name: dapc_corr_chr11
 #+caption: DAPC analysis of nine population clusters inferred /de novo/ with a K-means algorithm, chromosome 2. (A) Individuals colored according to assigned clusters. (B) Individuals colored by their sample location. (C) Individuals are colored by the sampled year.
-#+attr_latex: :width 0.8\textwidth :center t
+#+attr_latex: :width 0.9\textwidth :center t
 #+attr_html: :width 700px :align center
 [[./figures/dapc_Kmeans_chr11.png]]
 
