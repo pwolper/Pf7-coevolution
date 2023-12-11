@@ -35,10 +35,20 @@ This report presents insights on the genetic diversity and population structure 
 
 ** Figures
 #+name: admix_Kmeans
+<<<<<<< HEAD
 #+caption: Admixture analysis for both chromosomes with individuals sorted by Kmeans clustering memebrships
+=======
+#+caption: Admixture analyis of /P. falciparum samples, sorted by /de novo/ clusters, identified using K-means.
+>>>>>>> 1c45297a8f8b603700d5db607bd1a94978e7d354
 #+attr_latex: :width 1\textwidth :center t
 #+attr_html: :width 800px :align center
 [[./figures/admixture_Kmeans_groups.png]]
+
+#+name: SFS_gambia
+#+caption: Unfolded site frequency spectrum of Gambian /P. falciparum/ samples.
+#+attr_latex: :width 1\textwidth :center t
+#+attr_html: :width 700px :align center
+[[./figures/sfs_unfolded_chr2_gambian_samples_unlabeled.png]]
 
 ** Code used
 *** Filtering
