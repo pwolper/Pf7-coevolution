@@ -64,4 +64,4 @@ In order to allow for more detailed inferences about the demographic history of 
 #+caption:
 #+attr_latex: :width 0.6\textwidth :center t
 #+attr_html: :width 700px :align center
-[[./figures/sfs_unfolded.png]]
+[[./figures/sfs_unfolded_scaled.png]]
