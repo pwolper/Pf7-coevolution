@@ -3,13 +3,13 @@
 #+SUBTITLE: Population genetic analysis of Plasmodium falciparum in Africa
 
 #+STARTUP: showstars
-#+SETUPFILE: report/beamer.setup
-#+latex_header: \mode<beamer>{\usetheme{Madrid}}
 
 * Overview
 Population Structure: admixture/structure and dapc analysis \\
 Diversity stats: Diversity and Tajima's D and estimation of recombination events. \\
 SFS: Calaculation of the unfolded sfs by polarizing some snp with P. reichenowi outgroup. \\
+
+*Final report can be found in [[./report/report.pdf]]!*
 
 * Data
 vcf files downloaded from: "ftp://ngs.sanger.ac.uk/production/malaria/Resource/34/Pf7_vcf/"
@@ -56,7 +56,6 @@ bcftools query -f '%POS %REF %ALT %AF %AC %AN\n' Pf3D7_02_v3.afr_samples.qSNP.GT
 https://wellcomeopenresearch.org/articles/7-136/v1
 
 * Pf7 populations :noexport:
-[[./data/Pf7/sample_ids/plots/afr_samples_years.png]]
 ** Kenya
 https://www.malariagen.net/apps/pf7/countries/KE
 - 285 samples from the Year = 2010-2014 & QC.pass = "True" at the locations Kilifi and Kisumu.
@@ -108,17 +107,6 @@ use dapc tutorial to run dapc with k-1 retained components to avaoid overfitting
 
 - Maybe: What signatures do the /Pfsa/ loci show, when accounting for their demography? What about compared to genes under positive selection?
 
-* Population genetic stats
-** Results
-- D_{Taj} seems to be very low (< -2.5) for most regions of chr2 and chr11. Compare with P.vivax (-2) and P.falciparum antigenic genes (1.5-2). Can we confirm these values for chr2 (/Msp4/ , /Sera5/, /Sera8/)?
-
-* Discussion
-** Tajima's D peaks?
-How can we interpret the values of D_Taj?
-
-- Nucelotide diversity:
-- virtual absence of synonymous polymorphisms in genes not invovlved in disease or drug resistance ([[cite:&rich-2000-popul-struc]]).
-  - What classifies these genes? Coevolutionary aspects? A high generation of sequence variants? By what mechanisms.
 * Reading list
 
 Citations and PDF files can be found in the /~/biblio/ directory.

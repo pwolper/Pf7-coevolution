@@ -1,0 +1,35 @@
+(TeX-add-style-hook
+ "full_report"
+ (lambda ()
+   (LaTeX-add-bibitems
+    "rich-2000-popul-struc"
+    "donnelly-2001-eviden-recen"
+    "nderu-2019-genet-diver"
+    "anderson-2000-micros-marker"
+    "fay-2000-hitch-under"
+    "videvall-2018-plasm-paras"
+    "nikbakht-2014-evolut-genom"
+    "bustamante-2001-direc-selec"
+    "naung-2022-global-diver"
+    "mobegi-2014-genom-wide"
+    "nwakanma-2013-chang-malar"
+    "tellier-2014-coales"
+    "world2022world"
+    "mu-2005-recom-hotsp"
+    "li-2013-coales-tree"
+    "freund-2023-inter-pervas"
+    "huerta-sanchez-2008-popul-genet"
+    "marchi-2020-gene-flow"
+    "lapierre-2016-impac-selec"
+    "pouyet-2018-backg-selec"
+    "baudry-2003-effec-misor"
+    "MalariaGEN-2023-pf7"
+    "danecek-2021-twelv-years"
+    "pfeifer-2014-popgen"
+    "jombart-2010-discr-analy"
+    "thia-2022-guidel-stand"
+    "alexander-2009-fast-model"
+    "marcais-2018-mummer"
+    "knaus-2017-vcfr"))
+ '(or :bibtex :latex))
+
