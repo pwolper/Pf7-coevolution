@@ -33,7 +33,7 @@ This report presents insights on the genetic diversity and population structure 
 #+LATEX: \appendix
 
 #+name: admix_Kmeans
-#+caption: Admixture analyis of /P. falciparum/ samples, sorted by /de novo/ clusters, identified using K-means.
+#+caption: Admixture analyis of /P. falciparum/ samples, sorted by /de novo/ clusters, identified using K-means. (A) Chromosome 2 and (B) 11.
 #+attr_latex: :width 0.9\textwidth :center t :float nil
 #+attr_html: :width 500px :align center
 [[./figures/admixture_Kmeans_groups.png]]
@@ -58,7 +58,7 @@ This report presents insights on the genetic diversity and population structure 
 #+attr_html: :width 400px :align center
 [[./figures/Pf7_PrCDC_nucmer_chr11.png]]
 
-** Code used
+** Code
 The complete code used for this report can be found in the git repository:\\
 https://github.com/pwolper/Pf7-coevolution
 
@@ -103,7 +103,6 @@ plink2 --vcf ../vcf/chr11/Pf3D7_11_v3.afr_samples.qSNP.GT_filtered.renamed.vcf.g
     --make-bed \
     --allow-extra-chr \
     -out Pf3D7_11_v3.afr_samples.qSNP.GT_filtered.renamed
-
 #+end_src
 
 The admixture analysis was performed with the following options:
